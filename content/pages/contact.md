@@ -1,33 +1,20 @@
 ---
 title: General enquiries
 sections:
-  - type: hero_section
-    title: Get in touch
-    subtitle: Have a question? Send us a note using the form below and we will be in touch soon.
+  - type: cta_section
+    title: Let's Build Great Software
+    content: Contact us today and let us help you build that next great software turning disruption into opportunity.
     align: center
     padding_top: medium
     padding_bottom: medium
     background_color: none
   - type: form_section
-    content: >-
-      ## Billing
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-      fringilla, fringilla.
-
-      ## Privacy
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-      fringilla, fringilla.
-    content_align: left
-    form_position: right
+    form_position: center
     form_width: fifty
     form_layout: stacked
     enable_card: true
     form_id: contact-form
-    form_action: /thank-you
+    # form_action: /api/contact
     form_fields:
       - input_type: text
         name: name
@@ -43,6 +30,7 @@ sections:
         name: message
         label: Message
         default_value: Your message
+        is_required: true
       - input_type: checkbox
         name: consent
         label: >-
@@ -54,6 +42,44 @@ sections:
     padding_top: medium
     padding_bottom: medium
     background_color: primary
+  - type: grid_section
+    title: What's Next?
+    grid_items:
+      - title: Post Project Requirements
+        title_align: center
+        content: >-
+          Our team will analyze project requirements and select the most apt developers best suited for tech stack.
+        content_align: center
+        image: images/classic/number-1.jpg
+        image_alt: First Connect
+        image_position: top
+        image_align: center
+        image_has_padding: true
+      - title: Discuss Project Details
+        title_align: center
+        content: >-
+          Our team will reach out to discuss project related queries and to offer the best solution for given business scenario.
+        content_align: center
+        image: images/classic/number-2.jpg
+        image_alt: Requirement Analysis
+        image_position: top
+        image_align: center
+        image_has_padding: true
+      - title: Review Engagement Terms
+        title_align: center
+        content: >-
+          Based on the details provided, you can choose the engagement model & timelines for project execution.
+        content_align: center
+        image: images/classic/number-3.jpg
+        image_alt: Final Project Estimate
+        image_position: top
+        image_align: center
+        image_has_padding: true
+    grid_cols: three
+    grid_gap_horiz: medium
+    grid_gap_vert: small
+    align: center
+    background_color: none
   - type: grid_section
     title: Our Offices
     grid_items:

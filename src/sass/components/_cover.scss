@@ -3,6 +3,7 @@
  */
 .has-cover {
 	position: relative;
+	background-color: black;
 }
 
 .cover-img {
@@ -12,4 +13,5 @@
 	position: absolute;
 	right: 0;
 	top: 0;
+	opacity: 0.4;
 }

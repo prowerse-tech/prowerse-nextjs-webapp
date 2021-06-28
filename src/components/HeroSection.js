@@ -36,7 +36,7 @@ export default class HeroSection extends React.Component {
                     'has-border': hasBorder,
                     'has-cover': backgroundImage,
                     'bg-none': backgroundColor === 'none',
-                    'bg-primary': backgroundColor === 'primary',
+                    // 'bg-primary': backgroundColor === 'primary',
                     'bg-secondary': backgroundColor === 'secondary',
                     'pt-4': paddingTop === 'small',
                     'pt-6': paddingTop === 'medium' || paddingTop === 'large',

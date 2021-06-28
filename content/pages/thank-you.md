@@ -1,9 +1,9 @@
 ---
 title: Thank You
 sections:
-  - type: hero_section
+  - type: cta_section
     title: Thank You!
-    subtitle: >-
+    content: >-
       Thank you for contacting us. We will get back in touch with you soon. Have
       a great day!
     actions:

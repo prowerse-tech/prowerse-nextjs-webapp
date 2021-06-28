@@ -56,7 +56,13 @@ h6 {
 }
 
 h1 {
-	font-size: 2.66667em;
+	// font-size: 2.66667em;
+	// font: 50px/1.1em 'opensans-regular', sans-serif;
+	font-size: 90px;
+    // letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+	font-family: 'Segoe UI', sans-serif;
+	text-align: center;
 }
 
 h2 {
@@ -209,7 +215,9 @@ figcaption {
 
 @include media-breakpoint-down(sm) {
 	h1 {
-		font-size: 2.22222em;
+		font-size: 40px;
+		font-family: 'Segoe UI', sans-serif;
+		text-align: center;
 	}
 
 	h2 {

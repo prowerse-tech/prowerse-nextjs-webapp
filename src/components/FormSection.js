@@ -36,6 +36,33 @@ export default class FormSection extends React.Component {
         const formHoneypotName = formId + '-bot-field';
         const isHorizontal = content && (formPosition === 'left' || formPosition === 'right');
 
+        const handleSubmit = (e) => { 
+            e.preventDefault()
+            console.log('Sending')
+          const data = {
+              name,
+              email,
+              message
+            }
+            console.log(data)
+          fetch('/api/contact', {
+              method: 'POST',
+              headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(data)
+            }).then((res) => {
+              console.log('Response received')
+              if (res.status === 200) {
+                console.log('Response succeeded!')
+              }
+              else {
+                  console.log("else")
+              }
+            })
+          }
+
         return (
             <section
                 id={sectionId}
@@ -144,7 +171,7 @@ export default class FormSection extends React.Component {
                                             'ml-xs-1': formLayout === 'inline'
                                         })}
                                     >
-                                        <button type="submit" className="btn btn--primary">{submitLabel}</button>
+                                        <button type="submit" className="btn btn--primary" onClick={handleSubmit}>{submitLabel}</button>
                                     </div>
                                 </div>
                             </form>

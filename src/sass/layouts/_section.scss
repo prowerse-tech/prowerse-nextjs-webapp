@@ -33,22 +33,28 @@
 
 // Hero section
 .hero__title {
-	text-align: center;
-	// font: 50px/1.1em 'opensans-regular', segoe-ui;
-    margin: 0 auto 18px auto;
-	font-size: 50px;
+    margin: 0 auto 24px auto;
+	font-family: 'Segoe UI', sans-serif;
+    color: #fff;
 }
 
 .hero__subtitle {
-	font-size: 28px;
-	text-align: center;
+	font-size: 38px;
+    text-align: center;
+    line-height: 36px;
+    margin-bottom: 6px;
+    color: #FF7F50;
+	margin-top: 1.11111em;
 }
 
 .hero__copy {
 	&:not(:first-child) {
 		margin-top: 1.11111em;
 		text-align: center;
-		color: #000000;
+		font-family: 'Segoe UI', sans-serif;
+		font-size: 23px;
+		color: azure;
+		width: 100%;
 	}
 }
 
@@ -81,6 +87,7 @@
 
 .item__actions {
 	margin-top: 1em;
+	color: #000000;
 }
 
 // Blog section
@@ -116,9 +123,8 @@
 
 // CTA section
 @include media-breakpoint-up(lg) {
-	.cta__copy,
-	.cta__actions {
-		font-size: 1.11111em;
+	.cta__copy {
+		font-size: 1.4em;
 	}
 }
 
