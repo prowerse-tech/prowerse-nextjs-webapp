@@ -1,0 +1,17 @@
+/**
+ * Cover
+ */
+.has-cover {
+	position: relative;
+	background-color: black;
+}
+
+.cover-img {
+	background-position: center center;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: 0.4;
+}

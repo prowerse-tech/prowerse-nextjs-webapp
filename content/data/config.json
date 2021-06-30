@@ -1,0 +1,137 @@
+{
+    "title": "Stackbit DIY Theme",
+    "path_prefix": "/",
+    "layout_type": "boxed",
+    "style": "classic",
+    "palette": "coral",
+    "mode": "light",
+    "base_font": "segoe-ui",
+    "header": {
+        "title": "Prowerse",
+        "logo": "images/classic/prowerse.png",
+        "logo_alt": "Prowerse Logo",
+        "has_primary_nav": true,
+        "primary_nav_links": [
+
+        ],
+        "has_secondary_nav": true,
+        "secondary_nav_links": [
+            {
+                "label": "Home",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Services",
+                "url": "/services",
+                "style": "link"
+            },
+            {
+                "label": "Testimonials",
+                "url": "/testimonials",
+                "style": "link"
+            },
+            {
+                "label": "Blog",
+                "url": "/blog",
+                "style": "link"
+            },
+            {
+                "label": "Contact",
+                "url": "/contact",
+                "style": "link"
+            }
+        ]
+    },
+    "footer": {
+        "logo": "images/classic/prowerse.png",
+        "logo_alt": "DIY logo",
+        "has_primary_nav": true,
+        "primary_nav_title": "Company",
+        "primary_nav_links": [
+            {
+                "label": "About",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Services",
+                "url": "/services",
+                "style": "link"
+            },
+            {
+                "label": "Style Guide",
+                "url": "/style-guide",
+                "style": "link"
+            }
+        ],
+        "has_secondary_nav": true,
+        "secondary_nav_title": "Blog",
+        "secondary_nav_links": [
+            {
+                "label": "News",
+                "url": "/blog/category/news",
+                "style": "link"
+            },
+            {
+                "label": "General",
+                "url": "/blog/category/general",
+                "style": "link"
+            },
+            {
+                "label": "Tutorials",
+                "url": "/blog/category/tutorials",
+                "style": "link"
+            }
+        ],
+        "has_tertiary_nav": true,
+        "tertiary_nav_title": "Legal",
+        "tertiary_nav_links": [
+            {
+                "label": "Terms & Conditions",
+                "url": "/terms-conditions",
+                "style": "link"
+            },
+            {
+                "label": "Privacy Policy",
+                "url": "/privacy-policy",
+                "style": "link"
+            }
+        ],
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/company/prowerse/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "linkedin",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "label": "GitHub",
+                "url": "http://github.com/prowerse",
+                "style": "link",
+                "has_icon": true,
+                "icon": "github",
+                "icon_position": "center",
+                "new_window": true
+            } 
+        ],
+        "content": "&copy; Copyright. @Prowerse Tech LLP "
+    },
+    "announcement": {
+        "has_anncmnt": true,
+        "anncmnt_content": "Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**",
+        "anncmnt_align": "left",
+        "anncmnt_is_home_only": true,
+        "anncmnt_has_close": true,
+        "anncmnt_id": "new-features"
+    }
+}
