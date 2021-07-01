@@ -59,7 +59,7 @@ export default class Body extends React.Component {
         const font = _.get(config, 'base_font', 'sans-serif');
         const palette = _.get(config, 'palette', 'blue');
         const mode = _.get(config, 'mode', 'light');
-        const favicon = _.get(config, 'favicon');
+        // const favicon = _.get(config, 'favicon');
         const domain = _.trim(_.get(config, 'domain', ''), '/');
         const seo = _.get(page, 'seo');
         const seoTitle = _.get(seo, 'title');
@@ -98,7 +98,7 @@ export default class Body extends React.Component {
                     {!_.isEmpty(seoRobots) && <meta name="robots" content={seoRobots} />}
                     {seoExtra}
                     {this.renderFontUrl(style, font)}
-                    {favicon && <link rel="icon" href={withPrefix(favicon)} />}
+                    <link rel="icon" href="/images/classic/favicon.svg" />
                     <body className={classNames(`layout-${layoutType}`, `style-${style}`, `palette-${palette}`, `mode-${mode}`, `font-${font}`)} />
                 </Helmet>
                 <div id="site-wrap" className="site">
