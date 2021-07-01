@@ -3,25 +3,27 @@
 export default function handler(req, res) {
   require('dotenv').config()
   
-  const nodemailer = require('nodemailer')
+  const nodemailer = require('nodemailer');
   const transporter = nodemailer.createTransport({
+    service: "Office365",
+    sendMail: true,
     host: "smtp.office365.com",
     port: 587,
-    secureConnection: false,
     auth: {
-      user: 'niraj.paghadar@prowerse.com',
+      user: process.env.user,
       pass: process.env.pass,
     },
+    secure: false,
     tls: {
       ciphers: 'SSLv3'
     }
   })
   const mailData = {
     from: req.body.email,
-    to: 'niraj.paghadar@prowerse.com',
+    to: process.env.user,
     subject: `Message From ${req.body.name}`,
     text: req.body.message + " | Sent from: " + req.body.email,
-    html: `<div>${req.body.message}</div><p>Sent from:
+    html: `<div>${req.body.name} <br/> <br/> ${req.body.message}</div><p>Sent from:
     ${req.body.email}</p>`
   }
   transporter.sendMail(mailData, function (err, info) {
@@ -30,5 +32,5 @@ export default function handler(req, res) {
     else
       console.log(info)
   })
-  res.status(200)
+  res.status(200).json({status: 'Ok'})
 }

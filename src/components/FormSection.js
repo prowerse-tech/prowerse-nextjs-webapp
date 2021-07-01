@@ -1,5 +1,5 @@
-import React from 'react';
-import _ from 'lodash';
+import React, { useState } from 'react';
+import _, { map, rearg } from 'lodash';
 
 import { classNames, markdownify } from '../utils';
 import SectionBackground from './SectionBackground';
@@ -36,22 +36,21 @@ export default class FormSection extends React.Component {
         const formHoneypotName = formId + '-bot-field';
         const isHorizontal = content && (formPosition === 'left' || formPosition === 'right');
 
+        
         const handleSubmit = (e) => { 
             e.preventDefault()
             console.log('Sending')
-          const data = {
-              name,
-              email,
-              message
-            }
-            console.log(data)
           fetch('/api/contact', {
               method: 'POST',
               headers: {
-                'Accept': 'application/json, text/plain, */*',
+                'Accept': 'application/json',
                 'Content-Type': 'application/json'
               },
-              body: JSON.stringify(data)
+              body: JSON.stringify({
+                  name: e.target.name.value,
+                  email: e.target.email.value,
+                  message: e.target.message.value
+              })
             }).then((res) => {
               console.log('Response received')
               if (res.status === 200) {
@@ -60,6 +59,7 @@ export default class FormSection extends React.Component {
               else {
                   console.log("else")
               }
+              location.replace("/");
             })
           }
 
@@ -130,6 +130,8 @@ export default class FormSection extends React.Component {
                                 {...(formAction ? ({ action: formAction }) : null)}
                                 method="POST"
                                 data-netlify="true"
+                                onSubmit={handleSubmit}
+                                onChange={this.handleChange}
                                 data-netlify-honeypot={formHoneypotName}
                                 className={classNames({
                                     'form-inline': formLayout === 'inline',
@@ -171,7 +173,7 @@ export default class FormSection extends React.Component {
                                             'ml-xs-1': formLayout === 'inline'
                                         })}
                                     >
-                                        <button type="submit" className="btn btn--primary" onClick={handleSubmit}>{submitLabel}</button>
+                                        <button type="submit" className="btn btn--primary">{submitLabel}</button>
                                     </div>
                                 </div>
                             </form>
