@@ -1,9 +1,9 @@
 ---
 title: Patrick Chera
 sections:
-  - type: hero_section
-    title: Patrick Chera
-    subtitle: Blog Posts
+  - type: features_section
+    title: Patrick Chera Blog Posts
+    # subtitle: Patrick Chera Blog Posts
     align: center
     padding_top: medium
     padding_bottom: none

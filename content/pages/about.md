@@ -2,12 +2,12 @@
 title: About
 sections:
   - type: features_section
-    title: About
+    # title: About
     features:
       - title: About Prowerse
         content: >-
           Prowerse believes in a personalized approach to every customer. The selection of development practice is tailored to customer's specific business needs. Be it classical methodologies, such as Waterfall or Prototype development, or modern approaches like Agile, Kanban, Lean or Extreme Programming, Prowerse ensures a timely delivery of the project.
-        image: images/about-us.jpg
+        image: images/about-us-1.jpg
         image_alt: People in conversation in the office lounge area
         media_position: right
         media_width: thirty-three

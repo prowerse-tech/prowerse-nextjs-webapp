@@ -21,6 +21,19 @@ sections:
         icon: github
         icon_position: center
         new_window: true
+      - label: Email
+        url: mailto:info@prowerse.com
+        style: link
+        has_icon: true
+        icon: email
+        icon_position: center
+        new_window: true
+      - label: Phone
+        url: tel:+91-9537485017
+        style: link
+        has_icon: true
+        icon: phone
+        icon_position: center
     actions_align: center
     background_image: images/classic/banner.jpg
     image_alt: Hero section placeholder image
@@ -33,7 +46,7 @@ sections:
     title: Software Product Development
     grid_items:
       - title: Enterprise Applications
-        title_align: center
+        title_align: left
         content: >-
           Enterprise Applications are large-scale software packages that support business processes, information flows, reporting, and data analytics in complex organizations. Prowerse focuses on Simplicity, Maintainability, Reusability, Decoupling of Technology and Functionality. Prowerse's proven approach of breaking large-scale application in to the small .....
         content_align: left
@@ -45,13 +58,13 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        # image: images/classic/enterpriseapplication.jpg
-        # image_alt: Enterprise Applications Image
-        # image_position: top
-        # image_align: center
-        # image_has_padding: true
+        image: images/classic/enterpriseapplication.jpg
+        image_alt: Enterprise Applications Image
+        image_position: top
+        image_align: center
+        image_has_padding: true
       - title: Mobile Applications
-        title_align: center
+        title_align: left
         content: >-
           Prowerse brings to life product ideas of native, cross-platform, and hybrid mobile applications, targeting smartphones and tablets. Be it e-commerce experience or geo-tracking of users, Prowerse has delivered such examples with ease of use. Prowerse can participate from concept screen sketching till seamless deployments of Apps to the respective app stores.
         content_align: left
@@ -63,13 +76,13 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        # image: images/classic/mobileapplication.jpg
-        # image_alt: Mobile Applications Image
-        # image_position: top
-        # image_align: center
-        # image_has_padding: true
+        image: images/classic/mobileapplication.jpg
+        image_alt: Mobile Applications Image
+        image_position: top
+        image_align: center
+        image_has_padding: true
       - title: Web Applications
-        title_align: center
+        title_align: left
         content: >-
           Prowerse provides flexible and seamless website development services. Prowerse's approach to design attractive and customer-friendly web designs has helped many businesses to enlarge digital footprint. Prowerse is proud of excellent team of designers & developers, which can collaborate with you during the journey of concept to website hosting.
         content_align: left
@@ -81,11 +94,11 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        # image: images/classic/webapplication.jpg
-        # image_alt: Web Applications Image
-        # image_position: top
-        # image_align: center
-        # image_has_padding: true
+        image: images/classic/webapplication.jpg
+        image_alt: Web Applications Image
+        image_position: top
+        image_align: center
+        image_has_padding: true
     grid_cols: three
     grid_gap_horiz: medium
     grid_gap_vert: small
@@ -95,7 +108,7 @@ sections:
     title: Software Development Outsourcing
     grid_items:
       - title: Staff Augmentation
-        title_align: center
+        title_align: left
         content: >-
           Fill in the skill gap of in-house resources with the best Prowerse offshore talents assigned to projects full-time and managed by you directly. Prowerse provides staff augmentation services to speed up development and optimize development costs.
         content_align: left
@@ -107,13 +120,13 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        # image: images/classic/staffaugmentation.jpg
-        # image_alt: Staff Augmentation Image
-        # image_position: top
-        # image_align: center
-        # image_has_padding: true
+        image: images/classic/staffaugmentation.jpg
+        image_alt: Staff Augmentation Image
+        image_position: top
+        image_align: center
+        image_has_padding: true
       - title: Dedicated Team
-        title_align: center
+        title_align: left
         content: >-
           Expand your software development capabilities and minimize management efforts with a dedicated Prowerse development team managed by a PM from Prowerse who regularly reports to you and collaborates on all important decisions in the project.
         content_align: left
@@ -125,11 +138,11 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        # image: images/classic/dedicatedteam.jpg
-        # image_alt: Dedicated Team Image
-        # image_position: top
-        # image_align: center
-        # image_has_padding: true
+        image: images/classic/dedicatedteam.jpg
+        image_alt: Dedicated Team Image
+        image_position: top
+        image_align: center
+        image_has_padding: true
     grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: small

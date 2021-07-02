@@ -18,7 +18,7 @@ sections:
 
 
           **Angelique, MD, Marketing Agency from Australia**
-        image: images/testimonial-2.png
+        image: images/testimonial-2.jpg
         image_alt: People in conversation in the office lounge area
         media_position: left
         media_width: thirty-three
