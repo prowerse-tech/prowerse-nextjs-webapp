@@ -69,7 +69,7 @@ export default class Post extends React.Component {
                                     )}
                                     <span className="post__date"><time dateTime={dateTimeAttr}>{formattedDate}</time></span>
                                 </div>
-                                <h1 className="post__title mt-0">{title}</h1>
+                                <h2 className="post__title mt-0">{title}</h2>
                                 {subtitle && <p className="post__subtitle">{subtitle}</p>}
                                 {author && <BlogPostAuthor author={author} data={data} containerClass={'post__byline'} avatarSize={'medium'} />}
                             </header>

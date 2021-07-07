@@ -1,5 +1,5 @@
 {
-    "title": "Stackbit DIY Theme",
+    "title": "Prowerse Website",
     "path_prefix": "/",
     "layout_type": "boxed",
     "style": "classic",
@@ -50,7 +50,7 @@
     },
     "footer": {
         "logo": "images/classic/prowerse.svg",
-        "logo_alt": "DIY logo",
+        "logo_alt": "Prowerse logo",
         "has_primary_nav": true,
         "primary_nav_title": "Company",
         "primary_nav_links": [

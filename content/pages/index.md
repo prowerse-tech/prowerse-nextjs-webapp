@@ -58,7 +58,7 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        image: images/classic/enterpriseapplication.jpg
+        image: images/classic/enterpriseapplication.png
         image_alt: Enterprise Applications Image
         image_position: top
         image_align: center
@@ -76,7 +76,7 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        image: images/classic/mobileapplication.jpg
+        image: images/classic/mobileapplication.png
         image_alt: Mobile Applications Image
         image_position: top
         image_align: center
@@ -94,7 +94,7 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        image: images/classic/webapplication.jpg
+        image: images/classic/webapplication.png
         image_alt: Web Applications Image
         image_position: top
         image_align: center
@@ -120,7 +120,7 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        image: images/classic/staffaugmentation.jpg
+        image: images/classic/staffaugmentation.png
         image_alt: Staff Augmentation Image
         image_position: top
         image_align: center
@@ -138,7 +138,7 @@ sections:
             icon: arrow-right
             icon_position: center
         actions_align: left
-        image: images/classic/dedicatedteam.jpg
+        image: images/classic/dedicatedteam.png
         image_alt: Dedicated Team Image
         image_position: top
         image_align: center
