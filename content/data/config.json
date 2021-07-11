@@ -1,5 +1,5 @@
 {
-    "title": "Stackbit DIY Theme",
+    "title": "Prowerse Website",
     "path_prefix": "/",
     "layout_type": "boxed",
     "style": "classic",
@@ -50,7 +50,7 @@
     },
     "footer": {
         "logo": "images/classic/prowerse.svg",
-        "logo_alt": "DIY logo",
+        "logo_alt": "Prowerse logo",
         "has_primary_nav": true,
         "primary_nav_title": "Company",
         "primary_nav_links": [
@@ -65,41 +65,13 @@
                 "style": "link"
             },
             {
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link"
-            }
-        ],
-        "has_secondary_nav": true,
-        "secondary_nav_title": "Blog",
-        "secondary_nav_links": [
-            {
-                "label": "News",
-                "url": "/blog/category/news",
+                "label": "Blog",
+                "url": "/blog",
                 "style": "link"
             },
             {
-                "label": "General",
-                "url": "/blog/category/general",
-                "style": "link"
-            },
-            {
-                "label": "Tutorials",
-                "url": "/blog/category/tutorials",
-                "style": "link"
-            }
-        ],
-        "has_tertiary_nav": true,
-        "tertiary_nav_title": "Legal",
-        "tertiary_nav_links": [
-            {
-                "label": "Terms & Conditions",
-                "url": "/terms-conditions",
-                "style": "link"
-            },
-            {
-                "label": "Privacy Policy",
-                "url": "/privacy-policy",
+                "label": "Contact",
+                "url": "/contact",
                 "style": "link"
             }
         ],
@@ -122,16 +94,25 @@
                 "icon": "github",
                 "icon_position": "center",
                 "new_window": true
+            },
+            {
+                "label": "Email",
+                "url": "mailto:info@prowerse.com",
+                "style": "link",
+                "has_icon": true,
+                "icon": "email",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "label": "Phone",
+                "url": "tel:+91-9537485017",
+                "style": "link",
+                "has_icon": true,
+                "icon": "phone",
+                "icon_position": "center"
             } 
         ],
         "content": "&copy; Copyright. @Prowerse Tech LLP "
-    },
-    "announcement": {
-        "has_anncmnt": true,
-        "anncmnt_content": "Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**",
-        "anncmnt_align": "left",
-        "anncmnt_is_home_only": true,
-        "anncmnt_has_close": true,
-        "anncmnt_id": "new-features"
     }
 }

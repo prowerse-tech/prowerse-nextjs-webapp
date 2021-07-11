@@ -31,7 +31,7 @@ export default class ActionIcon extends React.Component {
         }
 
         return (
-            <Link href={withPrefix(url)} {...attrs} className={classes}>
+            <Link href={(url)} {...attrs} className={classes}>
                 <Icon icon={icon} />
                 <span className="sr-only">{label}</span>
             </Link>

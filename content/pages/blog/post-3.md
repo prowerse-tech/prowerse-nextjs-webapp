@@ -1,48 +1,46 @@
 ---
-title: The importance of effective product engineering strategy
+title: 'The importance of effective product engineering strategy'
 subtitle: >-
-  In a constantly changing digital canvas, products experience unique challenges before they become reality. Product Engineering makes sure that a business idea becomes reality. From the conceptualization to sustained customer happiness. Product Engineering services makes sure that all cogs are in place for digital product execution.   
+  In a constantly changing digital canvas, products experience unique challenges before they become reality. Product Engineering makes sure that a business idea becomes reality. From the conceptualization to sustained customer happiness. Product Engineering services makes sure that all cogs are in place for digital product execution.
+date: '2021-07-06'
 author: content/data/team/patrick-chera.yaml
-excerpt: >-
-  In a constantly changing digital canvas, products experience unique challenges before they become reality. Product Engineering makes sure that a business idea becomes reality. From the conceptualization to sustained customer happiness. Product Engineering services makes sure that all cogs are in place for digital product execution. 
 thumb_image: images/classic/blog-post-1.png
-thumb_image_alt: Blog Post 1 placeholder image
+thumb_image_alt: Patrick Chera Blog image
 image: images/classic/blog-post-1.png
-image_alt: Blog Post 1 placeholder image
-image_position: top
+image_alt: Post 2 placeholder image
+image_position: left
 seo:
-  title: The importance of effective product engineering strategy
-  description: 'Quis est, qui non oderit libidinosam, protervam adolescentiam'
+  title: 'The importance of effective product engineering strategy'
+  description: Quae diligentissime contra Aristonem dicuntur a Chryippo
   extra:
     - name: 'og:type'
       value: article
       keyName: property
     - name: 'og:title'
-      value: Cur Ipse Pythagoras Et Aegyptum Lustravit
+      value: 'Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
       keyName: property
     - name: 'og:description'
-      value: 'Quis est, qui non oderit libidinosam, protervam adolescentiam'
+      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
       keyName: property
     - name: 'og:image'
-      value: images/classic/post-3.png
+      value: images/classic/post-2.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Cur Ipse Pythagoras Et Aegyptum Lustravit
+      value: 'Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
     - name: 'twitter:description'
-      value: 'Quis est, qui non oderit libidinosam, protervam adolescentiam'
+      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
     - name: 'twitter:image'
-      value: images/classic/post-3.png
+      value: images/classic/blog-post-1.png
       relativeUrl: true
 layout: post
 ---
 
+### Digital Product Engineering can be briefly staged in four major phases on product journey.
 
-<blockquote>Digital Product Engineering can be briefly staged in four major phases on product journey.</blockquote>
-
-### 1. Think
+  ### 1. Think
 
 It is very essential to define core pain areas which the product is trying to resolve. Research to get to know whom you are designing for, what are the users trying to achieve, what are pain points and how to fix it. Direct interaction with users, surveys & complains of competitors are key methods to find out pain areas. This phase usually ends up with pile of problems, struggling areas & challenges faced by users. One can easily create ultra large problem definition out of it. Next, it is to churn data of inputs to figure out the most obvious & generic problems faced by all users. Thus, removing all clutters & moving inch closer to achieve Minimum Viable Product definition. Next, it is to prepare rough draft of MVP. Up next, UX prototype gets ready. This has user journey through the system. Many times, a complete set of wireframes can be designed. 
 
@@ -60,4 +58,4 @@ Product need to reinvent itself every few years to stay competitive, which resul
 
 Prowerse Advantage 
 
-Prowerse team has some exceptional product engineering talents with proven industry experience. We are out to make your digital products a lot better #RightFirstTime.  
+Prowerse team has some exceptional product engineering talents with proven industry experience. We are out to make your digital products a lot better #RightFirstTime.
