@@ -78,7 +78,7 @@ h4 {
 }
 
 h5 {
-	font-size: 1.11111em;
+	font-size: 1.66667em;
 }
 
 h6 {
@@ -215,7 +215,7 @@ figcaption {
 
 @include media-breakpoint-down(sm) {
 	h1 {
-		font-size: 40px;
+		font-size: 35px;
 		font-family: 'Segoe UI', sans-serif;
 		text-align: center;
 	}

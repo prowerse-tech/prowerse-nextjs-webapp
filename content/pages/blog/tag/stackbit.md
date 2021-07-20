@@ -34,7 +34,7 @@ sections:
       - input_type: email
         name: email
         label: Email
-        default_value: niraj.paghadar@prowerse.com
+        default_value: Your email address
         is_required: true
     submit_label: Subscribe
     padding_top: medium

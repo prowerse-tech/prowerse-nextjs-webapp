@@ -51,7 +51,7 @@ sections:
   - type: grid_section
     title: TechStacks
     grid_items:
-      - title: Cloud Ops
+      - title: CloudOps
         title_align: center
         content: >-
           Amazon Web Services, Microsoft Azure, Google Cloud Platform
@@ -76,10 +76,15 @@ sections:
         content: >-
           Bootstrap, Materialize, Semantic, PureCSS, FluentUI
         content_align: center
+      - title: UX
+        title_align: center
+        content: >-
+          Sketch, InVision, Figma, Adobe Suite, Balsamiq
+        content_align: center
       - title: Databases
         title_align: center
         content: >-
-          MSSQL, MYSQL, MongoDB, Redis, Cassandra, Azure CosmosDB, AWS DynamoDB
+          MSSQL, MySQL, MongoDB, Redis, Cassandra, Azure CosmosDB, AWS DynamoDB
         content_align: center
       - title: DevOps
         title_align: center
@@ -91,7 +96,12 @@ sections:
         content: >-
           Azure ML, LUIS, BOT Framework, TensorFlow
         content_align: center
-    grid_cols: four
+      - title: Validation
+        title_align: center
+        content: >-
+          Selenium, Katalon, Cucumber, Sauce Labs, Cross Browser Testing, Appium, JMeter, SoapUI
+        content_align: center
+    grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: small
     align: center

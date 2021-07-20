@@ -35,7 +35,7 @@
 .hero__title {
     margin: 0 auto 24px auto;
 	font-family: 'Segoe UI', sans-serif;
-    color: #fff;
+    color: #FF7F50;
 }
 
 .hero__subtitle {
@@ -43,13 +43,13 @@
     text-align: center;
     line-height: 36px;
     margin-bottom: 6px;
-    color: #FF7F50;
-	margin-top: 1.11111em;
+    color: #FFF;
+	margin-top: 1.5em;
 }
 
 .hero__copy {
 	&:not(:first-child) {
-		margin-top: 1.11111em;
+		margin-top: 1.66667em;
 		text-align: center;
 		font-family: 'Segoe UI', sans-serif;
 		font-size: 23px;
@@ -64,10 +64,23 @@
 	}
 }
 
+.mapstyles {
+	width: 97%;
+	height: 90%;
+	margin: 1175px 0px;
+}
+
 @include media-breakpoint-up(lg) {
 	.hero__body {
 		font-size: 1.11111rem;
 	}
+}
+
+
+.mapstyles {
+	width: '100%';
+height: '100%';
+margin: '1175px 0';
 }
 
 // Features section
