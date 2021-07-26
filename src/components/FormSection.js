@@ -1,11 +1,45 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import _, { map, rearg } from 'lodash';
 
 import { classNames, markdownify } from '../utils';
 import SectionBackground from './SectionBackground';
 import FormField from './FormField';
+import Map from './Map';
+// import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+// import  { Map, TileLayer, Marker, Popup } from 'react-leaflet';
+// import 'leaflet/dist/leaflet.css';
 
-export default class FormSection extends React.Component {
+class FormSection extends React.Component {
+    // constructor(props) {
+    //     super(props);
+    
+    //     this.state = {
+    //       locations: [{latitude: 23.1942647, longitude: 72.6063777},
+    //               {latitude: 51.5004728, longitude: -0.421755},
+    //               {latitude: 40.7585566, longitude: -74.0535681}]
+    //     }
+    //   }
+
+    //   displayMarkers = () => {
+    //     return this.state.locations.map((location, index) => {
+    //       return <Marker key={index} id={index} position={{
+    //        lat: location.latitude,
+    //        lng: location.longitude
+    //      }}
+    //      onClick={() => console.log("You clicked me!")} />
+    //     })
+    //   }
+
+
+    // constructor() {
+    //     super();
+    //     this.state = {
+    //       lat: 23.1942647,
+    //       lng: 72.6063777,
+    //       zoom: 1,
+    //     };
+    //   }
+
     render() {
         const section = _.get(this.props, 'section');
         const sectionId = _.get(section, 'section_id');
@@ -36,6 +70,16 @@ export default class FormSection extends React.Component {
         const formHoneypotName = formId + '-bot-field';
         const isHorizontal = content && (formPosition === 'left' || formPosition === 'right');
 
+        const mapStyles = {
+            width: '97%',
+            height: '90%',
+            margin: '1475px 0',
+            // padding: '10px'
+          };
+
+
+        // const position = [51.505, -0.09];
+        // const position = [this.state.lat, this.state.lng];
         
         const handleSubmit = (e) => { 
             e.preventDefault()
@@ -174,9 +218,30 @@ export default class FormSection extends React.Component {
                                         })}
                                     >
                                         <button type="submit" className="btn btn--primary">{submitLabel}</button>
+                                        {/* <Map /> */}
+                                        {/* <Map center={position} zoom={this.state.zoom}>
+                                            <TileLayer url='https://api.maptiler.com/maps/basic/256/{z}/{x}/{y}.png?key=cLadhsxO3z0w9gXzQ3Xa'
+                                            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'>
+                                            </TileLayer>
+                                            <Marker position={position}>
+                                            <Popup>
+                                                <span>A pretty CSS3 popup. <br/> Easily customizable.</span>
+                                            </Popup>
+                                            </Marker>
+                                        </Map> */}
                                     </div>
                                 </div>
                             </form>
+                            <div>
+                            </div>
+                            {/* <Map
+          google={this.props.google}
+          zoom={2}
+          style={mapStyles}
+          initialCenter={{ lat: 23.1942647, lng: 72.6063777 }}
+        >
+          {this.displayMarkers()}
+        </Map> */}
                         </div>
                     </div>
                 </div>
@@ -184,3 +249,9 @@ export default class FormSection extends React.Component {
         );
     }
 }
+
+// export default GoogleApiWrapper({
+//     apiKey: 'AIzaSyCAp-t_WKWx0sfpOM5_-5yeC9g-ZcrkWcI'
+//   })(FormSection);
+
+export default FormSection;

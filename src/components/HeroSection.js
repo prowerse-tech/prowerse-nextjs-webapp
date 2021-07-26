@@ -97,6 +97,7 @@ export default class HeroSection extends React.Component {
                                         <SectionActions actions={actions} />
                                     </div>
                                 )}
+                                {/* <div class="header__numbers"><div class="wrap container-fluid d-flex w-100" id="js-header-numbers"><div class="header__number"> <strong class="heading-4 heading-ld-4 font-regular font-sd-bold color-white"> 150+ </strong> <span class="paragraph-3 font-default color-white"> completed projects </span></div><div class="header__number"> <strong class="heading-4 heading-ld-4 font-regular font-sd-bold color-white"> 1485 </strong> <span class="paragraph-3 font-default color-white"> custom emojis on Slack </span></div><div class="header__number"> <strong class="heading-4 heading-ld-4 font-regular font-sd-bold color-white"> 2500+ </strong> <span class="paragraph-3 font-default color-white"> fans of our tech meetup </span></div><div class="header__number"> <strong class="heading-4 heading-ld-4 font-regular font-sd-bold color-white"> 0 </strong> <span class="paragraph-3 font-default color-white"> boring tasks </span></div></div></div> */}
                             </div>
                         )}
                     </div>

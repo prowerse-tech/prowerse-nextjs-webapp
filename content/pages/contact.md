@@ -2,7 +2,7 @@
 title: General enquiries
 sections:
   - type: cta_section
-    title: Let's Build Great Software
+    title: Let's Build Great Products
     content: Contact us today and let us help you build that next great software turning disruption into opportunity.
     align: center
     padding_top: medium
@@ -45,12 +45,12 @@ sections:
   - type: grid_section
     title: What's Next?
     grid_items:
-      - title: Post Project Requirements
+      - title: Share Requirements
         title_align: center
         content: >-
           Our team will analyze project requirements and select the most apt developers best suited for tech stack.
         content_align: center
-        image: images/classic/number-1.jpg
+        image: images/classic/number-1.png
         image_alt: First Connect
         image_position: top
         image_align: center
@@ -60,7 +60,7 @@ sections:
         content: >-
           Our team will reach out to discuss project related queries and to offer the best solution for given business scenario.
         content_align: center
-        image: images/classic/number-2.jpg
+        image: images/classic/number-2.png
         image_alt: Requirement Analysis
         image_position: top
         image_align: center
@@ -70,12 +70,22 @@ sections:
         content: >-
           Based on the details provided, you can choose the engagement model & timelines for project execution.
         content_align: center
-        image: images/classic/number-3.jpg
+        image: images/classic/number-3.png
         image_alt: Final Project Estimate
         image_position: top
         image_align: center
         image_has_padding: true
-    grid_cols: three
+      - title: Let's create another success-story
+        title_align: center
+        content: >-
+          We mutually agree on a timeline and costing, define milestones and move forward to creating another success-story
+        content_align: center
+        image: images/classic/number-4.png
+        image_alt: Final Project Estimate
+        image_position: top
+        image_align: center
+        image_has_padding: true
+    grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: small
     align: center

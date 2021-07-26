@@ -2,8 +2,8 @@
 title: Home
 sections:
   - type: hero_section
-    title: Software Development. Delivered.
-    subtitle: "#RightFirstTime"
+    title: "#RightFirstTime"
+    subtitle: Software Development. Delivered.
     content: >-
       The development of reliable and scalable software solutions for any OS, browser and device. Reduced implementation costs and timely delivery with organized development process, modern methodologies, competencies in cutting-edge technologies, and a rich pool of developers.
     actions:
@@ -148,6 +148,34 @@ sections:
     grid_gap_vert: small
     align: center
     background_color: none
+  - type: grid_section
+    title: Our Success Story
+    grid_items:
+      - content: >-
+          years of industry experience 
+        content_align: center
+        title: 15
+        title_align: center
+      - content: >-
+          client retention rate
+        content_align: center
+        title: 92%
+        title_align: center
+      - content: >-
+          projects executed
+        content_align: center
+        title: 500+
+        title_align: center
+      - content: >-
+          reduction in your IT budget
+        content_align: center
+        title: 40-60%
+        title_align: center
+    grid_cols: four
+    grid_gap_horiz: medium
+    grid_gap_vert: large
+    align: center
+    background_color: secondary
   - type: blog_feed_section
     title: Blog Posts
     actions:
@@ -169,7 +197,7 @@ sections:
     has_border: false
     background_color: none
   - type: cta_section
-    title: Let's Build Great Software
+    title: Let's Build Great Products
     content: >-
       Let's connect on how we can assist you build your dream with high performance business applications suited for today's digital environment.
     actions:

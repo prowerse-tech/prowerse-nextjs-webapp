@@ -6,6 +6,7 @@ import BlogFeedSection from './BlogFeedSection';
 import BlogPostAuthor from './BlogPostAuthor';
 import BlogPostCategories from './BlogPostCategories';
 import BlogPostTags from './BlogPostTags';
+import Careers from './Career';
 import CtaSection from './CtaSection';
 import FeaturesSection from './FeaturesSection';
 import Footer from './Footer';
@@ -32,6 +33,7 @@ export {
     BlogPostAuthor,
     BlogPostCategories,
     BlogPostTags,
+    Careers,
     CtaSection,
     FeaturesSection,
     Footer,
@@ -59,6 +61,7 @@ export default {
     BlogPostAuthor,
     BlogPostCategories,
     BlogPostTags,
+    Careers,
     CtaSection,
     FeaturesSection,
     Footer,

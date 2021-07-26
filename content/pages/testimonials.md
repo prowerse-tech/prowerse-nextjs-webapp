@@ -5,21 +5,21 @@ sections:
     title: Testimonials
     features:
       - content: >-
-          The initial expectations set were too hard to believe and sounded like a sales pitch. The journey thereafter was fun-filled and more ups than downs. At the end, we got what we asked for. A well-cooked and tested interface through using Angular, node. We'll look forward to repeating success with Prowerse on more opportunities.
+          DevOps is their forte. Bring what you got. AWS, Azure, GCP. Strong technical acumen. In other terms, it's like a tennis player with qualities of Fed, Rafa and Novak. CTO, Sports event management firm, Prague, Czechia
 
 
-          **Vicente, CIO, A product development company from Spain**
+          **Rafa and Novak. CTO, Sports event management firm, Prague, Czechia**
         image: images/testimonial-1.png
-        image_alt: People in conversation in the office lounge area
+        image_alt: Testimonial-1
         media_position: right
         media_width: thirty-three
       - content: >-
-          On time delivery and importantly at agreed costs. It was a simple task but I know a few out there that would have screwed it. Was also good to have single delivery spoc even after having Prowerse work on the mobile and web parts. Delighted to say the least.
+          Prowerse is best suited for an emerging brands eying quality deliveries at optimum costs. Glad we found them. Can't speak higher of any other brand.
 
 
-          **Angelique, MD, Marketing Agency from Australia**
+          **Diana, Event Management firm from Durban, SA**
         image: images/testimonial-2.jpg
-        image_alt: People in conversation in the office lounge area
+        image_alt: Testimonial-2
         media_position: left
         media_width: thirty-three
     feature_padding_vert: small

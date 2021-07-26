@@ -17,7 +17,8 @@ export default class GridItem extends React.Component {
         const titleClasses = classNames('item__title', {
             'h3': sectionColumns === 'two',
             'h4': sectionColumns === 'three',
-            'h5': sectionColumns === 'four',
+            // 'h5': sectionColumns === 'four',
+            'text-left': titleAlignX === 'left',
             'text-center': titleAlignX === 'center',
             'text-right': titleAlignX === 'right'
         });
@@ -129,7 +130,7 @@ export default class GridItem extends React.Component {
                                     })}
                                 >
                                     {title && (
-                                        sectionTitle ? <h3 className={titleClasses}>{title}</h3>
+                                        sectionTitle ? <h2 className={titleClasses}>{title}</h2>
                                             : <h2 className={titleClasses}>{title}</h2>
                                     )}
                                     {subtitle && (

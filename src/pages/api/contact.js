@@ -19,12 +19,10 @@ export default function handler(req, res) {
     }
   })
   const mailData = {
-    from: req.body.email,
-    to: process.env.user,
+    from: process.env.user,
+    to: process.env.receiver,
     subject: `Message From ${req.body.name}`,
-    text: req.body.message + " | Sent from: " + req.body.email,
-    html: `<div>${req.body.name} <br/> <br/> ${req.body.message}</div><p>Sent from:
-    ${req.body.email}</p>`
+    html: `<div> Hello Team, <br/> Following inquiry has been received on Prowerse.com <br/> <br/> Name : ${req.body.name} <br/> E-mail : ${req.body.email} <br/> Message : ${req.body.message}</div>`
   }
   transporter.sendMail(mailData, function (err, info) {
     if(err)

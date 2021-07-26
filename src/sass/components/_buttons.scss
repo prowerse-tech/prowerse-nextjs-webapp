@@ -65,6 +65,7 @@
 .btn-group {
 	align-items: center;
 	display: flex;
+	float: none;
 	flex-wrap: wrap;
 	color: #FFF;
 
@@ -148,6 +149,12 @@
 			&.palette-#{$color-suffix} {
 				.btn--primary {
 					background-color: $value;
+				}
+				.btn--secondary {
+					background-image: url('/images/classic/linkedin.jpg');
+					height: 55px;
+					width: 270px;
+					border-radius: 0%;
 				}
 			}
 		}
