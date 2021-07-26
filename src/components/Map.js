@@ -1,9 +1,11 @@
 import React  from 'react';
-import OpenLayers from './OpenLayers';
+// import OpenLayers from './OpenLayers';
 
 class Map extends React.Component {
 
     render() {
+
+        var OpenLayers = require('./OpenLayers.js');
 
           var lat1 = 23.19421944652721;
           var lon1 = 72.60818781565484;	
@@ -36,11 +38,9 @@ class Map extends React.Component {
 
         return (
             <div>
-
             </div>
         );
     }
 }
-
 
 export default Map;

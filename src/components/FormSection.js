@@ -218,7 +218,7 @@ class FormSection extends React.Component {
                                         })}
                                     >
                                         <button type="submit" className="btn btn--primary">{submitLabel}</button>
-                                        <Map />
+                                        {/* <Map /> */}
                                         {/* <Map center={position} zoom={this.state.zoom}>
                                             <TileLayer url='https://api.maptiler.com/maps/basic/256/{z}/{x}/{y}.png?key=cLadhsxO3z0w9gXzQ3Xa'
                                             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'>

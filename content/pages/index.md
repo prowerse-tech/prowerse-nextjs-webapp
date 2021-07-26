@@ -152,24 +152,24 @@ sections:
     title: Our Success Story
     grid_items:
       - content: >-
-          Successfull Clients
+          years of industry experience 
         content_align: center
-        title: 10+
+        title: 15
         title_align: center
       - content: >-
-          Successfull Clients
+          client retention rate
         content_align: center
-        title: 10+
+        title: 92%
         title_align: center
       - content: >-
-          Successfull Clients
+          projects executed
         content_align: center
-        title: 10+
+        title: 500+
         title_align: center
       - content: >-
-          Successfull Clients
+          reduction in your IT budget
         content_align: center
-        title: 10+
+        title: 40-60%
         title_align: center
     grid_cols: four
     grid_gap_horiz: medium
@@ -197,7 +197,7 @@ sections:
     has_border: false
     background_color: none
   - type: cta_section
-    title: Let's Build Great Software
+    title: Let's Build Great Products
     content: >-
       Let's connect on how we can assist you build your dream with high performance business applications suited for today's digital environment.
     actions:

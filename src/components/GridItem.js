@@ -130,7 +130,7 @@ export default class GridItem extends React.Component {
                                     })}
                                 >
                                     {title && (
-                                        sectionTitle ? <h1 className={titleClasses}>{title}</h1>
+                                        sectionTitle ? <h2 className={titleClasses}>{title}</h2>
                                             : <h2 className={titleClasses}>{title}</h2>
                                     )}
                                     {subtitle && (
