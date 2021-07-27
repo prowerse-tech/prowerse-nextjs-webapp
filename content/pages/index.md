@@ -152,22 +152,22 @@ sections:
     title: Our Success Story
     grid_items:
       - content: >-
-          years of industry experience 
+          Years of Industry Experience 
         content_align: center
         title: 15
         title_align: center
       - content: >-
-          client retention rate
+          Client Retention Rate
         content_align: center
         title: 92%
         title_align: center
       - content: >-
-          projects executed
+          Projects Executed
         content_align: center
         title: 500+
         title_align: center
       - content: >-
-          reduction in your IT budget
+          Reduction In Your IT Budget
         content_align: center
         title: 40-60%
         title_align: center
@@ -211,27 +211,27 @@ sections:
     background_color: secondary
 seo:
   title: Prowerse. Technology Consulting, Delievery, Outsourcing
-  description: The preview of the DIY theme
+  description: Prowerse. Technology Consulting, Delievery, Outsourcing
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit DIY Theme
+      value: Prowerse. Technology Consulting, Delievery, Outsourcing
       keyName: property
     - name: 'og:description'
-      value: The preview of the DIY theme
+      value: Prowerse. Technology Consulting, Delievery, Outsourcing
       keyName: property
     - name: 'og:image'
-      value: images/diy-preview.png
+      value: images/classic/favicon.svg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit DIY Theme
+      value: Prowerse. Technology Consulting, Delievery, Outsourcing
     - name: 'twitter:description'
-      value: The preview of the DIY theme
+      value: Prowerse. Technology Consulting, Delievery, Outsourcing
     - name: 'twitter:image'
       value: images/diy-preview.png
       relativeUrl: true

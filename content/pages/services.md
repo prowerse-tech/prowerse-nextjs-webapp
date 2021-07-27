@@ -108,16 +108,16 @@ sections:
     background_color: none
 seo:
   title: Prowerse Services
-  description: Prowerse Services
+  description: Prowerse. Technology Consulting, Delievery, Outsourcing
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit DIY Theme
+      value: Prowerse Services
       keyName: property
     - name: 'og:description'
-      value: The preview of the DIY theme
+      value: Prowerse. Technology Consulting, Delievery, Outsourcing
       keyName: property
     - name: 'og:image'
       value: images/diy-preview.png
@@ -126,9 +126,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit DIY Theme
+      value: Prowerse Services
     - name: 'twitter:description'
-      value: The preview of the DIY theme
+      value: Prowerse. Technology Consulting, Delievery, Outsourcing
     - name: 'twitter:image'
       value: images/diy-preview.png
       relativeUrl: true
