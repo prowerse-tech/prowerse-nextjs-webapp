@@ -7,7 +7,7 @@ author: content/data/team/patrick-chera.yaml
 thumb_image: images/classic/blog-post-1.png
 thumb_image_alt: Patrick Chera Blog image
 image: images/classic/blog-post-1.png
-image_alt: Post 2 placeholder image
+image_alt: Post 1 placeholder image
 image_position: left
 seo:
   title: 'The importance of effective product engineering strategy'
