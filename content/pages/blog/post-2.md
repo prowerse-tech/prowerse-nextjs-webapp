@@ -14,26 +14,26 @@ seo:
   description: Quae diligentissime contra Aristonem dicuntur a Chryippo
   extra:
     - name: 'og:type'
-      value: article
+      value: website
       keyName: property
     - name: 'og:title'
-      value: 'Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
+      value: Blog Post-2
       keyName: property
     - name: 'og:description'
-      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+      value: This is the 2ng blog page
       keyName: property
     - name: 'og:image'
-      value: images/classic/post-2.png
+      value: images/classic/blog-post-2.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: 'Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
+      value: Blog Post-2
     - name: 'twitter:description'
-      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+      value: This is the 2nd blog post
     - name: 'twitter:image'
-      value: images/classic/blog-post-1.png
+      value: images/classic/blog-post-2.png
       relativeUrl: true
 layout: post
 ---
