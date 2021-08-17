@@ -5,10 +5,10 @@ sections:
     title: Testimonials
     features:
       - content: >-
-          DevOps is their forte. Bring what you got. AWS, Azure, GCP. Strong technical acumen. In other terms, it's like a tennis player with qualities of Fed, Rafa and Novak. CTO, Sports event management firm, Prague, Czechia
+          DevOps is their forte. Bring what you got. AWS, Azure, GCP. Strong technical acumen. In other terms, it's like a tennis player with qualities of Fed, Rafa and Novak.
 
 
-          **Rafa and Novak. CTO, Sports event management firm, Prague, Czechia**
+          **CTO, Sports event management firm, Prague, Czechia**
         image: images/testimonial-1.png
         image_alt: Testimonial-1
         media_position: right
