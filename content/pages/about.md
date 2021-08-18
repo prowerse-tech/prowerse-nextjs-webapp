@@ -40,20 +40,6 @@ sections:
   - type: grid_section
     title: Meet The Team
     grid_items:
-      - title: Robin Abrol
-        subtitle: Head of Strategic Alliances
-        title_align: center
-        actions:
-          - label: Linkedin
-            url: "https://www.linkedin.com/in/robin-abrol-0963471b5/"
-            style: link
-            has_icon: true
-            icon: linkedin
-            icon_position: center
-            new_window: true
-        actions_align: center
-        image: images/robin-abrol.jpeg
-        image_position: top
       - title: Harry Roy
         subtitle: Lead Business Manager
         title_align: center
