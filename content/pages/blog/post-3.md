@@ -1,9 +1,9 @@
 ---
 title: Hybrid Cloud - What, Why & How?
 date: '2021-08-06'
-author: content/data/team/patrick-chera.yaml
+author: content/data/team/pradyuman-zala.yaml
 thumb_image: images/classic/blog-post-3.png
-thumb_image_alt: Patrick Chera Blog image
+thumb_image_alt: Pradyuman Zala Blog image
 image: images/classic/blog-post-3.png
 image_alt: Post 3 placeholder image
 image_position: right

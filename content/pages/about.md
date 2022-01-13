@@ -40,47 +40,47 @@ sections:
   - type: grid_section
     title: Meet The Team
     grid_items:
-      - title: Robin Abrol
-        subtitle: Head of Strategic Alliances
+      # - title: Robin Abrol
+      #   subtitle: Head of Strategic Alliances
+      #   title_align: center
+      #   actions:
+      #     - label: Linkedin
+      #       url: "https://www.linkedin.com/in/robin-abrol-0963471b5/"
+      #       style: link
+      #       has_icon: true
+      #       icon: linkedin
+      #       icon_position: center
+      #       new_window: true
+      #   actions_align: center
+      #   image: images/robin-abrol.jpeg
+      #   image_position: top
+      - title: 
+        subtitle: 
+        title_align: 
+        actions:
+          - label: 
+            url: 
+            style: 
+            has_icon: 
+            icon: 
+            icon_position: 
+            new_window: 
+        actions_align: 
+        image: 
+        image_position: 
+      - title: Pradyuman Zala
+        subtitle: Founder & Technology Evangelist
         title_align: center
         actions:
           - label: Linkedin
-            url: "https://www.linkedin.com/in/robin-abrol-0963471b5/"
+            url: "https://www.linkedin.com/in/zalaps/"
             style: link
             has_icon: true
             icon: linkedin
             icon_position: center
             new_window: true
         actions_align: center
-        image: images/robin-abrol.jpeg
-        image_position: top
-      - title: Harry Roy
-        subtitle: Lead Business Manager
-        title_align: center
-        actions:
-          - label: Linkedin
-            url: "https://www.linkedin.com/in/harry-roy-4321931b6/"
-            style: link
-            has_icon: true
-            icon: linkedin
-            icon_position: center
-            new_window: true
-        actions_align: center
-        image: images/harry-roy.png
-        image_position: top
-      - title: Patrick Chera
-        subtitle: Principal Consultant
-        title_align: center
-        actions:
-          - label: Linkedin
-            url: "https://www.linkedin.com/in/patrick-chera/"
-            style: link
-            has_icon: true
-            icon: linkedin
-            icon_position: center
-            new_window: true
-        actions_align: center
-        image: images/patrick-chera.jpg
+        image: images/pradyuman-zala.jpg
         image_position: top
     grid_cols: three
     align: center

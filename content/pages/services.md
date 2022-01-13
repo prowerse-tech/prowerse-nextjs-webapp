@@ -51,25 +51,35 @@ sections:
   - type: grid_section
     title: TechStacks
     grid_items:
+      - title: BlockChain
+        title_align: center
+        content: >-
+          Web3, Ether, WASM, Bluzelle, Polkadot, Whisper, MetaMask
+        content_align: center
+      - title: AI/ML
+        title_align: center
+        content: >-
+          Azure ML, LUIS, BOT Framework, TensorFlow
+        content_align: center
       - title: CloudOps
         title_align: center
         content: >-
           Amazon Web Services, Microsoft Azure, Google Cloud Platform
         content_align: center
-      - title: Backends
+      - title: DevOps
         title_align: center
         content: >-
-          Microsoft .Net & .Net Core, Java, PHP, Node.js, Python
-        content_align: center
-      - title: Frontends
-        title_align: center
-        content: >-
-          Angular, React, Vue, ASP.NET
+          Azure Pipelines, TeamCity, Kubernetes, Jenkins, Docker
         content_align: center
       - title: Mobility
         title_align: center
         content: >-
           iOS, Android, React Native, Xamarin, Flutter, Ionic
+        content_align: center
+      - title: Frontends
+        title_align: center
+        content: >-
+          PWA, Angular, React, Vue, ASP.NET
         content_align: center
       - title: UI Bundles
         title_align: center
@@ -81,20 +91,15 @@ sections:
         content: >-
           Sketch, InVision, Figma, Adobe Suite, Balsamiq
         content_align: center
+      - title: Backends
+        title_align: center
+        content: >-
+          Microsoft .Net & .Net Core, Java, PHP, Node.js, Python
+        content_align: center
       - title: Databases
         title_align: center
         content: >-
           MSSQL, MySQL, MongoDB, Redis, Cassandra, Azure CosmosDB, AWS DynamoDB
-        content_align: center
-      - title: DevOps
-        title_align: center
-        content: >-
-          Azure Pipelines, TeamCity, Kubernetes, Jenkins, Docker
-        content_align: center
-      - title: AI/ML
-        title_align: center
-        content: >-
-          Azure ML, LUIS, BOT Framework, TensorFlow
         content_align: center
       - title: Validation
         title_align: center
