@@ -3,9 +3,9 @@ title: 'The importance of effective product engineering strategy'
 subtitle: >-
   In a constantly changing digital canvas, products experience unique challenges before they become reality. Product Engineering makes sure that a business idea becomes reality. From the conceptualization to sustained customer happiness. Product Engineering services makes sure that all cogs are in place for digital product execution.
 date: '2021-07-06'
-author: content/data/team/patrick-chera.yaml
+author: content/data/team/pradyuman-zala.yaml
 thumb_image: images/classic/blog-post-1.png
-thumb_image_alt: Patrick Chera Blog image
+thumb_image_alt: Pradyuman Zala Blog image
 image: images/classic/blog-post-1.png
 image_alt: Post 1 placeholder image
 image_position: left
