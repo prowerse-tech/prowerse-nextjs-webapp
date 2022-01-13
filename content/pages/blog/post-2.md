@@ -3,9 +3,9 @@ title: Infrastructure As Code and it's Relevance
 subtitle: >-
   Infrastructure as Code (IaC) provisions infrastructure through code instead of handling with manual efforts. IaC results into configuration files which contains infrastructure specifications. In the times of containerization, it is very essentials that same environment is provisioned every time.
 date: '2021-07-29'
-author: content/data/team/patrick-chera.yaml
+author: content/data/team/pradyuman-zala.yaml
 thumb_image: images/classic/blog-post-2.png
-thumb_image_alt: Patrick Chera Blog image
+thumb_image_alt: Pradyuman Zala Blog image
 image: images/classic/blog-post-2.png
 image_alt: Post 2 placeholder image
 image_position: right

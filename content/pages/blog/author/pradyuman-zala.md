@@ -1,8 +1,8 @@
 ---
-title: Patrick Chera
+title: Pradyuman Zala
 sections:
   - type: features_section
-    title: Patrick Chera Blog Posts
+    title: Pradyuman Zala Blog Posts
     align: center
     padding_top: medium
     padding_bottom: none
@@ -11,7 +11,7 @@ sections:
     blog_feed_cols: three
     enable_cards: true
     show_recent: false
-    author: content/data/team/patrick-chera.yaml
+    author: content/data/team/pradyuman-zala.yaml
     show_date: true
     show_categories: true
     show_author: true
@@ -21,14 +21,14 @@ sections:
     padding_bottom: large
     has_border: true
 seo:
-  title: Posts by Patrick Chera
+  title: Posts by Pradyuman Zala
   description: This is the author archive page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Posts by Patrick Chera
+      value: Posts by Pradyuman Zala
       keyName: property
     - name: 'og:description'
       value: This is the author archive page
@@ -40,7 +40,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Posts by Patrick Chera
+      value: Posts by Pradyuman Zala
     - name: 'twitter:description'
       value: This is the author archive page
     - name: 'twitter:image'
