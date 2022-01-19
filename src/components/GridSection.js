@@ -57,7 +57,7 @@ export default class GridSection extends React.Component {
                 {!_.isEmpty(gridItems) && (
                     <div className="container">
                         <div
-                            className={classNames('grid', {
+                            className={classNames('grid', 'justify-center', {
                                 'grid-gap-small': gridGapX === 'small',
                                 'grid-gap-large': gridGapX === 'large'
                             })}

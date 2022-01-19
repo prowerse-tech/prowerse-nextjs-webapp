@@ -5,6 +5,10 @@
 	@include make-grid();
 }
 
+.justify-center {
+	justify-content: center;
+}
+
 .cell,
 [class*="cell-"] {
 	@include make-cell-default();
