@@ -40,20 +40,6 @@ sections:
   - type: grid_section
     title: Meet The Team
     grid_items:
-      - title: 
-        subtitle: 
-        title_align: 
-        actions:
-          - label: 
-            url: 
-            style: 
-            has_icon: 
-            icon: 
-            icon_position: 
-            new_window: 
-        actions_align: 
-        image: 
-        image_position: 
       - title: Pradyuman Zala
         subtitle: Founder & Technology Evangelist
         title_align: center
