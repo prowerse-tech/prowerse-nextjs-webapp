@@ -1,8 +1,8 @@
 ---
 title: Full-Stack Developer
-thumb_image: images/job/fullstack1.png
+thumb_image: images/job/fullstack.png
 thumb_image_alt: Full-Stack Developer image
-image: images/job/fullstack1.png
+image: images/job/fullstack.png
 image_alt: Full-Stack Developer placeholder image
 image_position: right
 seo:
@@ -18,7 +18,7 @@ seo:
       value: This is the Full-Stack Developer post
       keyName: property
     - name: 'og:image'
-      value: images/job/fullstack1.png
+      value: images/job/fullstack.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -28,7 +28,7 @@ seo:
     - name: 'twitter:description'
       value: This is the Full-Stack Developer post
     - name: 'twitter:image'
-      value: images/job/fullstack1.png
+      value: images/job/fullstack.png
       relativeUrl: true
 layout: page
 ---

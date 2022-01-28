@@ -1,8 +1,8 @@
 ---
 title: DevOps Engineer
-thumb_image: images/job/devops1.png
+thumb_image: images/job/devops.png
 thumb_image_alt: DevOps Engineer image
-image: images/job/devops1.png
+image: images/job/devops.png
 image_alt: DevOps Engineer placeholder image
 image_position: right
 seo:
@@ -18,7 +18,7 @@ seo:
       value: This is the DevOps Engineer post
       keyName: property
     - name: 'og:image'
-      value: images/job/devops1.png
+      value: images/job/devops.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -28,7 +28,7 @@ seo:
     - name: 'twitter:description'
       value: This is the DevOps Engineer post
     - name: 'twitter:image'
-      value: images/job/devops1.png
+      value: images/job/devops.png
       relativeUrl: true
 layout: page
 ---
