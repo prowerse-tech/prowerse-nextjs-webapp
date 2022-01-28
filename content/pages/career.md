@@ -25,15 +25,66 @@ sections:
         image_alt: Sales
         media_position: right
         media_width: fifty
-      - title: >-
-          Join our global community where respect and teamwork fuel big ideas for the future of technology excellence!
-        align: center
-        actions:
-          - label: 
-            url: https://www.linkedin.com/company/prowerse/jobs/
-            style: secondary
-            new_window: true
+      # - title: >-
+      #     Join our global community where respect and teamwork fuel big ideas for the future of technology excellence!
+      #   align: center
+      #   actions:
+      #     - label: 
+      #       url: https://www.linkedin.com/company/prowerse/jobs/
+      #       style: secondary
+      #       new_window: true
     feature_padding_vert: large
+    align: center
+    background_color: none
+  - type: grid_section
+    title: Job Openings
+    grid_items:
+      - title: Python Developer
+        title_align: left
+        content: 
+        content_align: left
+        actions:
+          - label: View Job
+            url: /python
+            style: primary
+        actions_align: center
+        image: images/job/python.png
+        image_alt: Python Developer Image
+        image_position: top
+        image_align: center
+        image_has_padding: true
+      - title: Full-Stack Developer
+        title_align: left
+        content: 
+        content_align: left
+        actions:
+          - label: View Job
+            url: /fullstack
+            style: primary
+        actions_align: center
+        image: images/job/fullstack.png
+        image_alt: Full-Stack Developer Image
+        image_position: top
+        image_align: center
+        image_has_padding: true
+      - title: DevOps Engineer
+        title_align: left
+        content: 
+        content_align: left
+        actions:
+          - label: View Job
+            url: /devops
+            style: primary
+        actions_align: center
+        image: images/job/devops.png
+        image_alt: DevOps Engineer Image
+        image_position: top
+        image_align: center
+        image_has_padding: true
+    enable_cards: true
+    grid_cols: three
+    grid_gap_horiz: medium
+    grid_gap_vert: small
     align: center
     background_color: none
 seo:
