@@ -81,6 +81,7 @@ export default class GridItem extends React.Component {
                                 <div
                                     className={classNames('item__media', {
                                         'card__media': isCard,
+                                        'job__media': isCard,
                                         'card__media--fill': isCard && !hasImagePadding,
                                         'card__media--top': isCard && imagePosition === 'top',
                                         'card__media--bottom': isCard && imagePosition === 'bottom',
