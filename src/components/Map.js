@@ -1,9 +1,7 @@
 import React  from 'react';
-// import OpenLayers from './OpenLayers';
 
 class Map extends React.Component {
     render() {
-
         var OpenLayers = require('./OpenLayers.js');
 
           var lat1 = 23.19421944652721;

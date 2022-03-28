@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 import {getData, Link, withPrefix, classNames} from '../utils';
 
-export default class BlogPostAuthor extends React.Component {    
+export default class BlogPostAuthor extends React.Component {
     render() {
         const data = _.get(this.props, 'data');
         const authorRef = _.get(this.props, 'author');
