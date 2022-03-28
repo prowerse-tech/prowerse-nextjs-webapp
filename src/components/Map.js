@@ -2,13 +2,6 @@ import React  from 'react';
 // import OpenLayers from './OpenLayers';
 
 class Map extends React.Component {
-
-    componentDidMount() {
-        const script = document.createElement('script');
-        script.src = 'http://js.hs-scripts.com/8492701.js';
-        document.body.appendChild(script);
-    }
-    
     render() {
 
         var OpenLayers = require('./OpenLayers.js');

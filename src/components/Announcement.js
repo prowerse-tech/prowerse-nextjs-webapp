@@ -27,10 +27,6 @@ export default class Announcement extends React.Component {
                 }
             }
         }
-
-        const script = document.createElement('script');
-        script.src = 'http://js.hs-scripts.com/8492701.js';
-        document.body.appendChild(script);
     }
 
     handleAnncmntClose() {

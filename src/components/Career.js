@@ -7,13 +7,6 @@ import SectionBackground from './SectionBackground';
 import ActionIcon from './ActionIcon';
 
 export default class HeroSection extends React.Component {
-
-    componentDidMount() {
-        const script = document.createElement('script');
-        script.src = 'http://js.hs-scripts.com/8492701.js';
-        document.body.appendChild(script);
-    }
-    
     render() {
         const section = _.get(this.props, 'section');
         const sectionId = _.get(section, 'section_id');

@@ -4,12 +4,6 @@ import _ from 'lodash';
 import { getData, Link, withPrefix } from '../utils';
 
 export default class BlogPostTags extends React.Component {
-    componentDidMount() {
-        const script = document.createElement('script');
-        script.src = 'http://js.hs-scripts.com/8492701.js';
-        document.body.appendChild(script);
-    }
-    
     renderTag(tagRef, index, data) {
         const tag = getData(data, tagRef);
         if (!tag) {

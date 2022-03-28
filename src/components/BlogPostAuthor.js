@@ -3,13 +3,7 @@ import _ from 'lodash';
 
 import {getData, Link, withPrefix, classNames} from '../utils';
 
-export default class BlogPostAuthor extends React.Component {
-    componentDidMount() {
-        const script = document.createElement('script');
-        script.src = 'http://js.hs-scripts.com/8492701.js';
-        document.body.appendChild(script);
-    }
-    
+export default class BlogPostAuthor extends React.Component {    
     render() {
         const data = _.get(this.props, 'data');
         const authorRef = _.get(this.props, 'author');

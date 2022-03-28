@@ -4,12 +4,6 @@ import _ from 'lodash';
 import { withPrefix } from '../utils';
 
 export default class SectionBackground extends React.Component {
-    componentDidMount() {
-        const script = document.createElement('script');
-        script.src = 'http://js.hs-scripts.com/8492701.js';
-        document.body.appendChild(script);
-    }
-    
     render() {
         const section = _.get(this.props, 'section');
         const backgroundImage = _.get(section, 'background_image');

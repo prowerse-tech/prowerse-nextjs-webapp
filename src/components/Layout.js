@@ -16,10 +16,6 @@ export default class Body extends React.Component {
 
     componentDidMount() {
         this.handleVideoEmbeds();
-
-        const script = document.createElement('script');
-        script.src = 'http://js.hs-scripts.com/8492701.js';
-        document.body.appendChild(script);
     }
 
     componentDidUpdate() {
