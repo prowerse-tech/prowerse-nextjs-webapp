@@ -6,13 +6,12 @@ import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-up
 import pageLayouts from '../layouts';
 
 class Page extends React.Component {
-
     componentDidMount() {
         const script = document.createElement('script');
         script.src = 'http://js.hs-scripts.com/8492701.js';
         document.body.appendChild(script);
     }
-    
+     
     render() {
         const modelName = _.get(this.props, 'page.__metadata.modelName');
         const PageLayout = pageLayouts[modelName];
