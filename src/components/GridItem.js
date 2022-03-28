@@ -5,6 +5,12 @@ import { classNames, withPrefix, markdownify } from '../utils';
 import SectionActions from './SectionActions';
 
 export default class GridItem extends React.Component {
+    componentDidMount() {
+        const script = document.createElement('script');
+        script.src = 'http://js.hs-scripts.com/8492701.js';
+        document.body.appendChild(script);
+    }
+    
     render() {
         const section = _.get(this.props, 'section');
         const sectionTitle = _.get(section, 'title');

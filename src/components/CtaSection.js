@@ -6,6 +6,12 @@ import SectionActions from './SectionActions';
 import SectionBackground from './SectionBackground';
 
 export default class CtaSection extends React.Component {
+    componentDidMount() {
+        const script = document.createElement('script');
+        script.src = 'http://js.hs-scripts.com/8492701.js';
+        document.body.appendChild(script);
+    }
+    
     render() {
         const section = _.get(this.props, 'section');
         const sectionId = _.get(section, 'section_id');

@@ -5,6 +5,12 @@ import { Link, withPrefix, classNames } from '../utils';
 import Icon from './Icon';
 
 export default class ActionIcon extends React.Component {
+    componentDidMount() {
+        const script = document.createElement('script');
+        script.src = 'http://js.hs-scripts.com/8492701.js';
+        document.body.appendChild(script);
+    }
+    
     render() {
         const action = _.get(this.props, 'action');
         const hasIcon = _.get(action, 'has_icon');

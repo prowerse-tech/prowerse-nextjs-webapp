@@ -9,6 +9,12 @@ import BlogPostCategories from './BlogPostCategories';
 import BlogPostAuthor from './BlogPostAuthor';
 
 export default class BlogFeedSection extends React.Component {
+    componentDidMount() {
+        const script = document.createElement('script');
+        script.src = 'http://js.hs-scripts.com/8492701.js';
+        document.body.appendChild(script);
+    }
+    
     renderBlogFeedItemFilter(post, data, section) {
         const sectionAuthorRef = _.get(section, 'author');
         const sectionCategoryRef = _.get(section, 'category');

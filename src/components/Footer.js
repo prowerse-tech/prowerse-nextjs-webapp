@@ -22,6 +22,12 @@ export default class Footer extends React.Component {
         )
     }
 
+    componentDidMount() {
+        const script = document.createElement('script');
+        script.src = 'http://js.hs-scripts.com/8492701.js';
+        document.body.appendChild(script);
+    }
+
     render() {
         const config = _.get(this.props, 'config');
         const footer = _.get(config, 'footer');

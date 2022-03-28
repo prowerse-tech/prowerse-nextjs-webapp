@@ -2,6 +2,12 @@ import React , { useState } from 'react';
 import _ from 'lodash';
 
 export default class FormField extends React.Component {
+    componentDidMount() {
+        const script = document.createElement('script');
+        script.src = 'http://js.hs-scripts.com/8492701.js';
+        document.body.appendChild(script);
+    }
+    
     render() {
         const field = _.get(this.props, 'field');
         const inputType = _.get(field, 'input_type');

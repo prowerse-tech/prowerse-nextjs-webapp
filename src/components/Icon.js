@@ -2,6 +2,12 @@ import React from 'react';
 import _ from 'lodash';
 
 export default class Icon extends React.Component {
+    componentDidMount() {
+        const script = document.createElement('script');
+        script.src = 'http://js.hs-scripts.com/8492701.js';
+        document.body.appendChild(script);
+    }
+    
     render() {
         const icon = _.get(this.props, 'icon');
         switch (icon) {

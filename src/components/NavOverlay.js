@@ -13,6 +13,10 @@ export default class NavOverlay extends React.Component {
     componentDidMount() {
         window.addEventListener('resize', this.handleWindowResize, true);
         Router.events.on('routeChangeStart', this.handleRouteChange);
+
+        const script = document.createElement('script');
+        script.src = 'http://js.hs-scripts.com/8492701.js';
+        document.body.appendChild(script);
     }
 
     componentWillUnmount() {

@@ -39,6 +39,11 @@ class FormSection extends React.Component {
     //       zoom: 1,
     //     };
     //   }
+    componentDidMount() {
+        const script = document.createElement('script');
+        script.src = 'http://js.hs-scripts.com/8492701.js';
+        document.body.appendChild(script);
+    }
 
     render() {
         const section = _.get(this.props, 'section');
