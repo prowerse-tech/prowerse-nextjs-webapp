@@ -95,13 +95,13 @@ sections:
     grid_items:
       - title: India
         content: >-
-          A-502 Satyamev Royal<br/> TP-9 Sargasan<br/> Gandhinagar - 382421<br/>
+          401, D and C Dynasty<br/>  CG Road,<br/>  Stadium Cross Rd, <br/> Ahmedabad, <br/>Gujarat 380009<br/>
           [Phone](tel:+91-9537485017)<br/>
           [Email](mailto:info@prowerse.com)
         content_align: left
         actions:
           - label: Get Directions
-            url: 'https://www.google.com/maps/search/A-502+Satyamev+Royal+TP-9+Sargasan+Gandhinagar+-+382421/@23.1942647,72.6063777,17z/data=!3m1!4b1'
+            url: 'https://www.google.co.in/maps/place/Prowerse/@23.0419532,72.5453409,14z/data=!4m6!3m5!1s0x395c2985ee155555:0x7f4b353f9d5a755a!8m2!3d23.0389321!4d72.563301!16s%2Fg%2F11ngmktn3p?entry=ttu'
             style: link
             has_icon: true
             icon: arrow-right
