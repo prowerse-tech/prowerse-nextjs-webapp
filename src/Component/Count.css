@@ -1,0 +1,20 @@
+/* .Count {
+    padding: 2rem;
+    margin: 1rem;
+
+    border-radius: 2em;
+    box-shadow: 1px 2px 2px #0D3B66;
+    background-color: #FAF0CA;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #0D3B66;
+} */
+.Count h3{
+    font-size: 38px;
+    display: block;
+    font-weight: 700;
+    color: #111111;
+}
