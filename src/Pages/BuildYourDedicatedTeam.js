@@ -232,55 +232,9 @@ function BuildYourDedicatedTeam() {
             <h2>Pay As You Go</h2>
           </div>
           <div className="sub-section-title">
-            <p>
-              {/* Hire dedicated developers from our team at a reasonable price,
-              customized 100% as per your requirements. We offer world-class
-              development skills with a strong inhouse team of 300+ dedicated
-              web, mobile app and software developers. */}
-            </p>
+            <p></p>
           </div>
-          {/* <div className="row">
-            <div
-              className="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div className="icon-box">
-                <div className="icon">
-                  <i className="bx bx-file"></i>
-                </div>
-                <h4>8 hours/day</h4>
-                <h4>5 days/weeks</h4>
-              </div>
-            </div>
 
-            <div
-              className="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div className="icon-box">
-                <div className="icon">
-                  <p>full time</p>
-                </div>
-                <h4>4 hours/day</h4>
-                <h4>5 days/weeks</h4>
-              </div>
-            </div>
-
-            <div
-              className="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-            >
-              <div className="icon-box">
-                <div className="icon">
-                  <i className="bx bx-layer"></i>
-                </div>
-                <h4>Starts with 40 hours</h4>
-              </div>
-            </div>
-          </div> */}
           <div className="row" style={{ marginTop: '20px' }}>
             <div className="col-12 mt-5 "></div>
             <div
@@ -320,7 +274,7 @@ function BuildYourDedicatedTeam() {
                 </div>
 
                 <h5 className="text-center d-block text-dark hr-text">
-                  8 hours/day{' '}
+                  4 hours/day{' '}
                 </h5>
                 <h5 className="text-center d-block text-dark hr-text">
                   5 days/weeks

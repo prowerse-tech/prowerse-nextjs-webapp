@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../../Pages/Footer'
 import { Link } from 'react-router-dom'
 
 function JobDescription() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <section id="hero-blog" className="d-flex align-items-center">

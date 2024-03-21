@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../../Pages/Footer'
 import { Link } from 'react-router-dom'
 
 function Post2() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <section className="d-flex align-items-center"></section>
