@@ -1,6 +1,5 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useState, useRef } from 'react'
 import Footer from './Footer'
-import { Link } from 'react-router-dom'
 import ReCAPTCHA from 'react-google-recaptcha'
 import AWS from 'aws-sdk'
 
@@ -12,7 +11,7 @@ AWS.config.update({
 
 function PostResume() {
   const recaptcha = useRef(null)
-  const [toEmail, setToEmail] = useState(process.env.REACT_APP_SOURCE)
+  const toEmail = useState(process.env.REACT_APP_SOURCE)
   const [name, setName] = useState('') // State for name field
   const [email, setEmail] = useState('') // State for email field
   const [phoneNumber, setPhoneNumber] = useState('') // State for phone number field
