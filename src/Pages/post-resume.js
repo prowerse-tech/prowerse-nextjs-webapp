@@ -1,30 +1,30 @@
-import React, { useEffect, useState, useRef } from "react";
-import Footer from "./Footer";
-import { Link } from "react-router-dom";
-import ReCAPTCHA from "react-google-recaptcha";
-import AWS from "aws-sdk";
+import React, { useEffect, useState, useRef } from 'react'
+import Footer from './Footer'
+import { Link } from 'react-router-dom'
+import ReCAPTCHA from 'react-google-recaptcha'
+import AWS from 'aws-sdk'
 
 AWS.config.update({
   accessKeyId: process.env.REACT_APP_ACCESS_KEY_ID,
   secretAccessKey: process.env.REACT_APP_SECRET_ACCESS_KEY,
   region: process.env.REACT_APP_REGION, // Change to your desired AWS region
-});
+})
 
 function PostResume() {
-  const recaptcha = useRef(null);
-  const [toEmail, setToEmail] = useState(process.env.REACT_APP_SOURCE);
-  const [name, setName] = useState(""); // State for name field
-  const [email, setEmail] = useState(""); // State for email field
-  const [phoneNumber, setPhoneNumber] = useState(""); // State for phone number field
-  const [experience, setExperience] = useState(""); // State for experience field
-  const ses = new AWS.SES({ apiVersion: process.env.REACT_APP_API_VERSION });
+  const recaptcha = useRef(null)
+  const [toEmail, setToEmail] = useState(process.env.REACT_APP_SOURCE)
+  const [name, setName] = useState('') // State for name field
+  const [email, setEmail] = useState('') // State for email field
+  const [phoneNumber, setPhoneNumber] = useState('') // State for phone number field
+  const [experience, setExperience] = useState('') // State for experience field
+  const ses = new AWS.SES({ apiVersion: process.env.REACT_APP_API_VERSION })
 
   const SubmitResume = (event) => {
-    event.preventDefault();
-    const captchaValue = recaptcha.current.getValue();
+    event.preventDefault()
+    const captchaValue = recaptcha.current.getValue()
 
     if (!captchaValue) {
-      alert("Please verify the reCAPTCHA!");
+      alert('Please verify the reCAPTCHA!')
     } else {
       // make form submission
       const emailBody = `
@@ -32,7 +32,7 @@ function PostResume() {
       Email: ${email}
       Phone Number: ${phoneNumber}
       Experience: ${experience}
-      `;
+      `
       const params = {
         Source: process.env.REACT_APP_SOURCE, // Replace with your verified email address in AWS SES
         Destination: {
@@ -40,32 +40,32 @@ function PostResume() {
         },
         Message: {
           Subject: {
-            Data: "RESUME APPLICATION FORM",
-            Charset: "UTF-8",
+            Data: 'RESUME APPLICATION FORM',
+            Charset: 'UTF-8',
           },
           Body: {
             Text: {
               Data: emailBody,
-              Charset: "UTF-8",
+              Charset: 'UTF-8',
             },
           },
         },
-      };
+      }
 
       ses.sendEmail(params, (err, data) => {
         if (err) {
-          alert("Failed to send email. Please try again later.");
+          alert('Failed to send email. Please try again later.')
         } else {
-          alert("Your message has been sent. Thank you!");
+          alert('Your message has been sent. Thank you!')
           // Reset form fields after successful sending
-          setName("");
-          setEmail("");
-          setPhoneNumber("");
-          setExperience("");
+          setName('')
+          setEmail('')
+          setPhoneNumber('')
+          setExperience('')
         }
-      });
+      })
     }
-  };
+  }
 
   return (
     <>
@@ -186,6 +186,6 @@ function PostResume() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default PostResume;
+export default PostResume

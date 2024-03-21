@@ -1,6 +1,6 @@
-import React from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function JobDescription() {
   return (
@@ -46,11 +46,11 @@ function JobDescription() {
                     join our team. We are especially interested in candidates
                     who can demonstrate an aptitude for problem solving and
                     critical thinking. The team works on wide variety of crypto
-                    solutions and algorithms.{" "}
+                    solutions and algorithms.{' '}
                   </p>
                   <p>
                     Ultimately, you’ll be contributing to development of crypto
-                    product for decentralized economy.{" "}
+                    product for decentralized economy.{' '}
                   </p>
                   <h3>RESPONSIBILITIES</h3>
                   <p>
@@ -58,7 +58,7 @@ function JobDescription() {
                       <li>Write effective, scalable code.</li>
                       <li>
                         Develop back-end components to improve responsiveness
-                        and overall performance.{" "}
+                        and overall performance.{' '}
                       </li>
                       <li>Integrate user-facing elements into applications.</li>
                       <li>Test and debug programs.</li>
@@ -83,22 +83,22 @@ function JobDescription() {
                       </li>
                       <li>
                         Understanding of core concepts in data structures,
-                        algorithms.{" "}
+                        algorithms.{' '}
                       </li>
                       <li>
                         Be fluent with best practices related to software
-                        testing, peer code reviews, continuous integration etc.{" "}
+                        testing, peer code reviews, continuous integration etc.{' '}
                       </li>
                       <li>
                         Familiarity with front-end technologies (like JavaScript
-                        and HTML5).{" "}
+                        and HTML5).{' '}
                       </li>
                       <li>Good problem-solving skills. </li>
                     </ul>
                   </p>
                 </div>
                 <div class="contact-bar">
-                  {" "}
+                  {' '}
                   <div class="contact-bttn">
                     <Link to="/post-resume">Apply Now</Link>
                   </div>
@@ -113,7 +113,7 @@ function JobDescription() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>
@@ -149,6 +149,6 @@ function JobDescription() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default JobDescription;
+export default JobDescription

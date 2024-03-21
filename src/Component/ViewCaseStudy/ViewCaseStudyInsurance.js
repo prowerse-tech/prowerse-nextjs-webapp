@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React, { useEffect } from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function ViewCaseStudyInsurance() {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <>
@@ -21,7 +21,7 @@ function ViewCaseStudyInsurance() {
             <div className="col-lg-8 entries">
               <article className="entry entry-single">
                 <h4 className="entry-title">
-                  <span style={{ color: "#ff8050" }}>
+                  <span style={{ color: '#ff8050' }}>
                     FOR AN INSURANCE MAJOR WITH BUSINESS SPREAD ACROSS APAC, UK,
                     EUROPE
                   </span>
@@ -29,7 +29,7 @@ function ViewCaseStudyInsurance() {
 
                 <div className="entry-content">
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>CLIENT PROFILE</span>
+                    <span style={{ color: '#ff8050' }}>CLIENT PROFILE</span>
                   </h3>
                   <p>
                     <b>
@@ -43,7 +43,7 @@ function ViewCaseStudyInsurance() {
                     to various customer needs around the world.
                   </p>
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>BUSINESS SCENARIO</span>
+                    <span style={{ color: '#ff8050' }}>BUSINESS SCENARIO</span>
                   </h3>
 
                   <p>
@@ -69,7 +69,7 @@ function ViewCaseStudyInsurance() {
                     </li>
                   </ul>
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>PROWERSE APPROACH</span>
+                    <span style={{ color: '#ff8050' }}>PROWERSE APPROACH</span>
                   </h3>
                   <ul>
                     <li>
@@ -104,7 +104,7 @@ function ViewCaseStudyInsurance() {
 
                 <div
                   className="widgetContainer"
-                  style={{ padding: "5px", color: "white" }}
+                  style={{ padding: '5px', color: 'white' }}
                 >
                   <h3 className="sidebar-title">
                     <div className="contact-bar">
@@ -137,7 +137,7 @@ function ViewCaseStudyInsurance() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>TO KNOW MORE ABOUT OUR CLIENT</h3>
@@ -157,28 +157,28 @@ function ViewCaseStudyInsurance() {
                 {/* <!-- End sidebar search formn--> */}
 
                 <h3 className="sidebar-title">
-                  <span style={{ color: "#ff8050" }}>TOOLS & TECHNOLOGIES</span>
+                  <span style={{ color: '#ff8050' }}>TOOLS & TECHNOLOGIES</span>
                 </h3>
                 <div className="sidebar-item categories">
                   <p>
-                    <span style={{ fontWeight: "bold" }}>Tools:</span> Salenium
+                    <span style={{ fontWeight: 'bold' }}>Tools:</span> Salenium
                     for Automation Testing, Cucumber for BDD
                   </p>
                   <p>
-                    <span style={{ fontWeight: "bold" }}>Technologies:</span>{" "}
+                    <span style={{ fontWeight: 'bold' }}>Technologies:</span>{' '}
                     Microsoft .NET, Python, AWS, SQL Server, Wordpress
                   </p>
                   <p>
-                    <span style={{ fontWeight: "bold" }}>
-                      Project Management Methodology:{" "}
-                    </span>{" "}
+                    <span style={{ fontWeight: 'bold' }}>
+                      Project Management Methodology:{' '}
+                    </span>{' '}
                     Kanban in Open Project
                   </p>
                 </div>
                 {/* <!-- End sidebar categories--> */}
 
                 <h3 className="sidebar-title">
-                  <span style={{ color: "#ff8050" }}>CLIENT REVIEWS</span>
+                  <span style={{ color: '#ff8050' }}>CLIENT REVIEWS</span>
                 </h3>
                 <div className="sidebar-item recent-posts">
                   <p>
@@ -205,6 +205,6 @@ function ViewCaseStudyInsurance() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default ViewCaseStudyInsurance;
+export default ViewCaseStudyInsurance

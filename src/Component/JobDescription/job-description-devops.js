@@ -1,6 +1,6 @@
-import React from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function JobDescription() {
   return (
@@ -49,7 +49,7 @@ function JobDescription() {
                     identifying production issues and implementing integrations
                     that meet our customers' needs. If you have a solid
                     background in software engineering and are familiar with
-                    Python, we’d love to speak with you.{" "}
+                    Python, we’d love to speak with you.{' '}
                   </p>
                   <h3>RESPONSIBILITIES</h3>
                   <p>
@@ -60,7 +60,7 @@ function JobDescription() {
                       </li>
                       <li>
                         Building and setting up new development tools and
-                        infrastructure.{" "}
+                        infrastructure.{' '}
                       </li>
                       <li>
                         Working on ways to automate and improve development and
@@ -72,7 +72,7 @@ function JobDescription() {
                       </li>
                       <li>Deploy updates and fixes.</li>
                       <li>
-                        Perform root cause analysis for production errors.{" "}
+                        Perform root cause analysis for production errors.{' '}
                       </li>
                       <li>
                         Develop scripts to automate infrastructure provision.
@@ -90,13 +90,13 @@ function JobDescription() {
                       <li>GitOps – GitHub, GitLab, BitBucket.</li>
                       <li>
                         CI/CD – Jenkins, Circle CI, Travis CI, TeamCity, Azure
-                        DevOps.{" "}
+                        DevOps.{' '}
                       </li>
                       <li>Containerization – Docker, Swarm, Kubernetes.</li>
                       <li>Provisioning – Terraform.</li>
                       <li>CloudOps – Azure, AWS, GCP.</li>
                       <li>
-                        Observability – Prometheus, Grafana, GrayLog, ELK .{" "}
+                        Observability – Prometheus, Grafana, GrayLog, ELK .{' '}
                       </li>
                     </ul>
                   </p>
@@ -105,14 +105,14 @@ function JobDescription() {
                     <ul>
                       <li>Graduate / Postgraduate in Technology sector. </li>
                       <li>
-                        Proven experience as a DevOps Engineer or similar role.{" "}
+                        Proven experience as a DevOps Engineer or similar role.{' '}
                       </li>
                       <li>Effective communication and teamwork skills.</li>
                     </ul>
                   </p>
                 </div>
                 <div class="contact-bar">
-                  {" "}
+                  {' '}
                   <div class="contact-bttn">
                     <Link to="/post-resume">Apply Now</Link>
                   </div>
@@ -125,7 +125,7 @@ function JobDescription() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>
@@ -138,9 +138,8 @@ function JobDescription() {
                         <li>50+ Experts</li>
                         <li>Flexible Engagement</li>
                         <li>NDA Protection</li>
-                        
+
                         <li>24X7 Support</li>
-                        
                       </ul>
                       <div class="contact-bttn">
                         <Link to="/contact">Let's Talk</Link>
@@ -163,6 +162,6 @@ function JobDescription() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default JobDescription;
+export default JobDescription

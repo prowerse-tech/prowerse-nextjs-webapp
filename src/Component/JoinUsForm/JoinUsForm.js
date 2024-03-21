@@ -1,29 +1,29 @@
-import React, { useState, useRef } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
-import AWS from "aws-sdk";
+import React, { useState, useRef } from 'react'
+import ReCAPTCHA from 'react-google-recaptcha'
+import AWS from 'aws-sdk'
 
 AWS.config.update({
   accessKeyId: process.env.REACT_APP_ACCESS_KEY_ID,
   secretAccessKey: process.env.REACT_APP_SECRET_ACCESS_KEY,
   region: process.env.REACT_APP_REGION, // Change to your desired AWS region
-});
+})
 
 function JoinUsForm() {
-  const recaptcha = useRef(null);
-  const [toEmail, setToEmail] = useState(process.env.REACT_APP_SOURCE);
-  const [name, setName] = useState(""); // State for name field
-  const [email, setEmail] = useState(""); // State for email field
-  const [phoneNumber, setPhoneNumber] = useState(""); // State for phone number field
-  const [experience, setExperience] = useState(""); // State for experience field
+  const recaptcha = useRef(null)
+  const [toEmail, setToEmail] = useState(process.env.REACT_APP_SOURCE)
+  const [name, setName] = useState('') // State for name field
+  const [email, setEmail] = useState('') // State for email field
+  const [phoneNumber, setPhoneNumber] = useState('') // State for phone number field
+  const [experience, setExperience] = useState('') // State for experience field
 
-  const ses = new AWS.SES({ apiVersion: process.env.REACT_APP_API_VERSION });
+  const ses = new AWS.SES({ apiVersion: process.env.REACT_APP_API_VERSION })
 
   const SubmitResume = (event) => {
-    event.preventDefault();
-    const captchaValue = recaptcha.current.getValue();
+    event.preventDefault()
+    const captchaValue = recaptcha.current.getValue()
 
     if (!captchaValue) {
-      alert("Please verify the reCAPTCHA!");
+      alert('Please verify the reCAPTCHA!')
     } else {
       // make form submission
       const emailBody = `
@@ -31,7 +31,7 @@ function JoinUsForm() {
       Email: ${email}
       Phone Number: ${phoneNumber}
       Experience: ${experience}
-      `;
+      `
       const params = {
         Source: process.env.REACT_APP_SOURCE, // Replace with your verified email address in AWS SES
         Destination: {
@@ -39,32 +39,32 @@ function JoinUsForm() {
         },
         Message: {
           Subject: {
-            Data: "JOIN US FORM",
-            Charset: "UTF-8",
+            Data: 'JOIN US FORM',
+            Charset: 'UTF-8',
           },
           Body: {
             Text: {
               Data: emailBody,
-              Charset: "UTF-8",
+              Charset: 'UTF-8',
             },
           },
         },
-      };
+      }
       // alert("Your message has been sent. Thank you!");
       ses.sendEmail(params, (err, data) => {
         if (err) {
-          alert("Failed to send email. Please try again later.");
+          alert('Failed to send email. Please try again later.')
         } else {
-          alert("Your message has been sent. Thank you!");
+          alert('Your message has been sent. Thank you!')
           // Reset form fields after successful sending
-          setName("");
-          setEmail("");
-          setPhoneNumber("");
-          setExperience("");
+          setName('')
+          setEmail('')
+          setPhoneNumber('')
+          setExperience('')
         }
-      });
+      })
     }
-  };
+  }
 
   return (
     <>
@@ -164,6 +164,6 @@ function JoinUsForm() {
       {/* <!-- ======= Footer ======= --> */}
       {/* <Footer /> */}
     </>
-  );
+  )
 }
-export default JoinUsForm;
+export default JoinUsForm

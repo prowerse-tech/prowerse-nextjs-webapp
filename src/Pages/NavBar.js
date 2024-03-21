@@ -1,21 +1,21 @@
-import React, { useState } from "react";
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import React, { useState } from 'react'
+import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMenuOpenFull, setIsMenuOpenFull] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpenFull, setIsMenuOpenFull] = useState(false)
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-    setIsMenuOpenFull(!isMenuOpenFull);
-  };
- 
+    setIsMenuOpen(!isMenuOpen)
+    setIsMenuOpenFull(!isMenuOpenFull)
+  }
+
   return (
     <>
       <header
         id="header"
         className={`fixed-top d-flex align-items-center  ${
-          isMenuOpen ? "header-scrolled" : ""
+          isMenuOpen ? 'header-scrolled' : ''
         }`}
       >
         <div className="container d-flex align-items-center">
@@ -25,7 +25,7 @@ export default function Navbar() {
           <nav
             id="navbar"
             className={`navbar order-last order-lg-0 ${
-              isMenuOpen ? "navbar-mobile" : ""
+              isMenuOpen ? 'navbar-mobile' : ''
             }`}
           >
             {isMenuOpen ? (
@@ -99,7 +99,7 @@ export default function Navbar() {
 
             <i
               className={`bi mobile-nav-toggle ${
-                isMenuOpen ? "bi-x" : "bi-list"
+                isMenuOpen ? 'bi-x' : 'bi-list'
               }`}
               onClick={toggleMenu}
               // className="bi bi-list mobile-nav-toggle"
@@ -111,29 +111,29 @@ export default function Navbar() {
         </div>
       </header>
     </>
-  );
+  )
 }
 
 function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to);
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 
   return (
-    <li className={isActive ? "active" : ""}>
+    <li className={isActive ? 'active' : ''}>
       <Link to={to} {...props}>
         {children}
       </Link>
     </li>
-  );
+  )
 }
 
 function CustomLinkDropDown({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to);
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 
   return (
-    <Link to={to} {...props} className={isActive ? "active" : ""}>
+    <Link to={to} {...props} className={isActive ? 'active' : ''}>
       {children}
     </Link>
-  );
+  )
 }

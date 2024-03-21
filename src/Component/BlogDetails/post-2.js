@@ -1,12 +1,11 @@
-import React from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function Post2() {
   return (
     <>
-      <section className="d-flex align-items-center">
-      </section>
+      <section className="d-flex align-items-center"></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
       <section id="blog" class="blog">
@@ -34,7 +33,7 @@ function Post2() {
                       <i className="bi bi-person"></i> Pradyuman Zala
                     </li>
                     <li className="d-flex align-items-center">
-                      <i className="bi bi-clock"></i>{" "}
+                      <i className="bi bi-clock"></i>{' '}
                       <time datetime="2020-01-01">Sept 17, 2023</time>
                     </li>
                   </ul>
@@ -87,7 +86,7 @@ function Post2() {
                   <p>IaC can be achieved with different ways.</p>
 
                   <p>
-                    A <span style={{ fontWeight: "bold" }}>Declarative</span>{" "}
+                    A <span style={{ fontWeight: 'bold' }}>Declarative</span>{' '}
                     approach maintains the desired state of the system,
                     including resources required. Here list of the current state
                     of system objects is maintained. This makes infrastructure
@@ -95,15 +94,15 @@ function Post2() {
                   </p>
 
                   <p>
-                    An <span style={{ fontWeight: "bold" }}>Imperative</span>{" "}
+                    An <span style={{ fontWeight: 'bold' }}>Imperative</span>{' '}
                     approach defines the commands needed to achieve the desired
                     configuration. These commands are also required to be
                     executed in the correct order.
                   </p>
                   <p>
-                    <span style={{ textDecoration: "underline" }}>
+                    <span style={{ textDecoration: 'underline' }}>
                       Which one is better?
-                    </span>{" "}
+                    </span>{' '}
                     Majority IaC tools will automatically provision the desired
                     infrastructure. This is declarative approach. If changes are
                     made to the desired state, IaC tool will apply those
@@ -111,7 +110,7 @@ function Post2() {
                     identify how those changes should be applied.
                   </p>
                   <p>
-                    <span style={{ fontWeight: "bold" }}>Benefits</span> - With
+                    <span style={{ fontWeight: 'bold' }}>Benefits</span> - With
                     advancement in cloud computing, the number of infrastructure
                     components has increased significantly. Agile practices &
                     quest of being early in market results in delivery of
@@ -135,7 +134,7 @@ function Post2() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>
@@ -177,10 +176,7 @@ function Post2() {
                 <h3 className="sidebar-title">Recent Posts</h3>
                 <div className="sidebar-item recent-posts">
                   <div className="post-item clearfix">
-                    <img
-                      src="assets/img/blog/blog-1.png"
-                      alt=""
-                    />
+                    <img src="assets/img/blog/blog-1.png" alt="" />
                     <h4>
                       <Link to="/blog-product">
                         The importance of effective product engineering strategy
@@ -190,10 +186,7 @@ function Post2() {
                   </div>
 
                   <div className="post-item clearfix">
-                    <img
-                      src="assets/img/blog/blog-2.png"
-                      alt=""
-                    />
+                    <img src="assets/img/blog/blog-2.png" alt="" />
                     <h4>
                       <Link to="/blog-infra">
                         Infrastructure As Code and it's Relevance
@@ -203,10 +196,7 @@ function Post2() {
                   </div>
 
                   <div className="post-item clearfix">
-                    <img
-                      src="assets/img/blog/blog-3.png"
-                      alt=""
-                    />
+                    <img src="assets/img/blog/blog-3.png" alt="" />
                     <h4>
                       <Link to="/blog-cloud">
                         Hybrid Cloud - What, Why & How?
@@ -228,6 +218,6 @@ function Post2() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default Post2;
+export default Post2

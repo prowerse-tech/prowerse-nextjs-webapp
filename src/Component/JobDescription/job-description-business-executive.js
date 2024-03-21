@@ -1,6 +1,6 @@
-import React from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function JobDescription() {
   return (
@@ -51,7 +51,7 @@ function JobDescription() {
                       </li>
                       <li>
                         Understand customer needs and requirements and achieve
-                        set quote of approaches and qualified leads.{" "}
+                        set quote of approaches and qualified leads.{' '}
                       </li>
                       <li>
                         Involve Prowerse management for further development and
@@ -68,7 +68,7 @@ function JobDescription() {
                       <li>
                         Maintain and expand your database of prospects within
                         assigned territories and effectively documenting them on
-                        CRM.{" "}
+                        CRM.{' '}
                       </li>
                       <li>Team with channel partners to build pipeline.</li>
                       <li>
@@ -87,7 +87,7 @@ function JobDescription() {
                       </li>
                       <li>
                         Proficient with corporate productivity and web
-                        presentation tools.{" "}
+                        presentation tools.{' '}
                       </li>
                       <li>Experience working with HubSpot or similar CRM.</li>
                       <li>
@@ -102,7 +102,7 @@ function JobDescription() {
                   </p>
                 </div>
                 <div class="contact-bar">
-                  {" "}
+                  {' '}
                   <div class="contact-bttn">
                     <Link to="/post-resume">Apply Now</Link>
                   </div>
@@ -115,7 +115,7 @@ function JobDescription() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>
@@ -128,9 +128,8 @@ function JobDescription() {
                         <li>50+ Experts</li>
                         <li>Flexible Engagement</li>
                         <li>NDA Protection</li>
-                   
+
                         <li>24X7 Support</li>
-                       
                       </ul>
                       <div class="contact-bttn">
                         <Link to="/contact">Let's Talk</Link>
@@ -151,6 +150,6 @@ function JobDescription() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default JobDescription;
+export default JobDescription

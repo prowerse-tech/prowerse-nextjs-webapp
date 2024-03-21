@@ -1,36 +1,35 @@
-import React, { useEffect, useState } from "react";
-import Footer from "./Footer";
-import { Link } from "react-router-dom";
-// import Count from "../Component/Count";
-import JoinUsForm from "./../Component/JoinUsForm/JoinUsForm";
+import React, { useEffect, useState } from 'react'
+import Footer from './Footer'
+import { Link } from 'react-router-dom'
+import JoinUsForm from './../Component/JoinUsForm/JoinUsForm'
 
 function Careers() {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  const [currentSlide, setCurrentSlide] = useState(0);
+    window.scrollTo(0, 0)
+  }, [])
+  const [currentSlide, setCurrentSlide] = useState(0)
   const images = [
     [
-      "assets/img/portfolio/portfolio-1.jpg",
-      "assets/img/portfolio/portfolio-2.jpg",
-      "assets/img/portfolio/portfolio-3.jpg",
+      'assets/img/portfolio/portfolio-1.jpg',
+      'assets/img/portfolio/portfolio-2.jpg',
+      'assets/img/portfolio/portfolio-3.jpg',
     ],
     [
-      "assets/img/portfolio/portfolio-4.jpg",
-      "assets/img/portfolio/portfolio-5.jpg",
-      "assets/img/portfolio/portfolio-6.jpeg",
+      'assets/img/portfolio/portfolio-4.jpg',
+      'assets/img/portfolio/portfolio-5.jpg',
+      'assets/img/portfolio/portfolio-6.jpeg',
     ],
-  ];
+  ]
 
-  const totalSlides = images.length;
+  const totalSlides = images.length
 
   const nextSlide = () => {
-    setCurrentSlide(currentSlide === totalSlides - 1 ? 0 : currentSlide + 1);
-  };
+    setCurrentSlide(currentSlide === totalSlides - 1 ? 0 : currentSlide + 1)
+  }
 
   const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? totalSlides - 1 : currentSlide - 1);
-  };
+    setCurrentSlide(currentSlide === 0 ? totalSlides - 1 : currentSlide - 1)
+  }
 
   return (
     <>
@@ -73,7 +72,7 @@ function Careers() {
               className="row portfolio-container"
               data-aos="fade-up"
               data-aos-delay="200"
-              style={{ marginTop: "20px" }}
+              style={{ marginTop: '20px' }}
             >
               <div className="carousel">
                 <button className="prev" onClick={prevSlide}>
@@ -87,7 +86,7 @@ function Careers() {
                     <div
                       key={index}
                       className={
-                        index === currentSlide ? "slide active" : "slide"
+                        index === currentSlide ? 'slide active' : 'slide'
                       }
                     >
                       {imageGroup.map((image, subIndex) => (
@@ -111,7 +110,7 @@ function Careers() {
               <h2>Find Your Place</h2>
             </div>
 
-            <div className="row" style={{ marginTop: "20px" }}>
+            <div className="row" style={{ marginTop: '20px' }}>
               <div className="job-list__wrapper mb-6"></div>
               <div className="col-md-6">
                 <Link
@@ -270,6 +269,6 @@ function Careers() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default Careers;
+export default Careers

@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import Footer from "./Footer";
-import { Link } from "react-router-dom";
+import React, { useEffect } from 'react'
+import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 function Service() {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <section id="service-about" className="d-flex align-items-center">
@@ -22,7 +22,7 @@ function Service() {
               </h5>
               <br />
               <h5>
-                {" "}
+                {' '}
                 Whether it's troubleshooting challenges or envisioning future
                 enhancements, we're your partners in navigating the
                 ever-evolving landscape of technology.
@@ -105,7 +105,7 @@ function Service() {
       <section
         id="services"
         className="services "
-        style={{ padding: "0px 0px" }}
+        style={{ padding: '0px 0px' }}
       >
         <div className="container" data-aos="fade-up">
           <div className="row">
@@ -159,7 +159,7 @@ function Service() {
                 </div>
 
                 <p className="service-fill techstack">
-                  {" "}
+                  {' '}
                   Microsoft .Net & .Net Core, Java, PHP, Node.js, Python
                 </p>
               </div>
@@ -351,6 +351,6 @@ function Service() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default Service;
+export default Service

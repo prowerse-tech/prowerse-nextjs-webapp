@@ -1,32 +1,32 @@
-import React, { useEffect, useState, useRef } from "react";
-import Footer from "./Footer";
-import { Link } from "react-router-dom";
-import Clock from "../Component/Clock";
-import AWS from "aws-sdk";
-import ReCAPTCHA from "react-google-recaptcha";
+import React, { useEffect, useState, useRef } from 'react'
+import Footer from './Footer'
+import { Link } from 'react-router-dom'
+import Clock from '../Component/Clock'
+import AWS from 'aws-sdk'
+import ReCAPTCHA from 'react-google-recaptcha'
 
 AWS.config.update({
   accessKeyId: process.env.REACT_APP_ACCESS_KEY_ID,
   secretAccessKey: process.env.REACT_APP_SECRET_ACCESS_KEY,
   region: process.env.REACT_APP_REGION, // Change to your desired AWS region
-});
+})
 function ContactUS() {
-  const recaptcha = useRef(null);
-  const ses = new AWS.SES({ apiVersion: process.env.REACT_APP_API_VERSION });
+  const recaptcha = useRef(null)
+  const ses = new AWS.SES({ apiVersion: process.env.REACT_APP_API_VERSION })
   const [contactData, setContactData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  })
   const handleChangeForm = (event, eventName) => {
-    setContactData({ ...contactData, [eventName]: event.target.value });
-  };
-  console.log(process.env.REACT_APP_SOURCE);
+    setContactData({ ...contactData, [eventName]: event.target.value })
+  }
+  console.log(process.env.REACT_APP_SOURCE)
   const SendMail = () => {
-    const captchaValue = recaptcha.current.getValue();
+    const captchaValue = recaptcha.current.getValue()
     if (!captchaValue) {
-      alert("Please verify the reCAPTCHA!");
+      alert('Please verify the reCAPTCHA!')
     } else {
       const params = {
         Destination: {
@@ -39,51 +39,51 @@ function ContactUS() {
             },
           },
           Subject: {
-            Data: "Contact From",
+            Data: 'Contact From',
           },
         },
         Source: process.env.REACT_APP_SOURCE, // Replace with your verified email address in AWS SES
-      };
+      }
       ses.sendEmail(params, (err, data) => {
         if (err) {
-          alert("Failed to send email. Please try again later.");
+          alert('Failed to send email. Please try again later.')
         } else {
-          alert("Your message has been sent. Thank you!");
+          alert('Your message has been sent. Thank you!')
         }
-      });
+      })
     }
-  };
+  }
   const [time, setTime] = useState({
     india: new Date(),
     uk: new Date(),
     usa: new Date(),
-  });
+  })
 
   const setClock = () => {
-    const indiaTime = new Date();
+    const indiaTime = new Date()
     const ukTime = new Date(
-      indiaTime.toLocaleString("en-US", { timeZone: "Europe/London" })
-    );
+      indiaTime.toLocaleString('en-US', { timeZone: 'Europe/London' }),
+    )
     const usaTime = new Date(
-      indiaTime.toLocaleString("en-US", { timeZone: "America/New_York" })
-    );
-    setTime({ india: indiaTime, uk: ukTime, usa: usaTime });
-  };
+      indiaTime.toLocaleString('en-US', { timeZone: 'America/New_York' }),
+    )
+    setTime({ india: indiaTime, uk: ukTime, usa: usaTime })
+  }
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setClock();
-    }, 1000);
+      setClock()
+    }, 1000)
 
     return () => {
-      clearInterval(intervalId);
-    };
-  }, []);
+      clearInterval(intervalId)
+    }
+  }, [])
 
-  const { india, uk, usa } = time;
+  const { india, uk, usa } = time
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <section id="hero-contact" className="d-flex align-items-center">
@@ -165,7 +165,7 @@ function ContactUS() {
                       id="name"
                       placeholder="Your Name"
                       required
-                      onChange={(event) => handleChangeForm(event, "name")}
+                      onChange={(event) => handleChangeForm(event, 'name')}
                     />
                   </div>
                   <div className="col form-group">
@@ -176,7 +176,7 @@ function ContactUS() {
                       id="email"
                       placeholder="Your Email"
                       required
-                      onChange={(event) => handleChangeForm(event, "email")}
+                      onChange={(event) => handleChangeForm(event, 'email')}
                     />
                   </div>
                 </div>
@@ -188,7 +188,7 @@ function ContactUS() {
                     id="subject"
                     placeholder="Subject"
                     required
-                    onChange={(event) => handleChangeForm(event, "subject")}
+                    onChange={(event) => handleChangeForm(event, 'subject')}
                   />
                 </div>
                 <div className="form-group">
@@ -198,7 +198,7 @@ function ContactUS() {
                     rows="3"
                     placeholder="Message"
                     required
-                    onChange={(event) => handleChangeForm(event, "message")}
+                    onChange={(event) => handleChangeForm(event, 'message')}
                   ></textarea>
                 </div>
                 <div className="col form-group">
@@ -228,7 +228,7 @@ function ContactUS() {
             {/* <p>Software Development Outsourcing</p> */}
           </div>
 
-          <div className="row" style={{ marginTop: "20px" }}>
+          <div className="row" style={{ marginTop: '20px' }}>
             {/* card-first */}
             <div className="col-md-4 ">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
@@ -243,14 +243,14 @@ function ContactUS() {
                   <b className="service-fill">Phone:-</b>
                   <span className="service-fill">+91-9537485017</span>
                   <br />
-                  <b className="service-fill">Email:-</b>{" "}
+                  <b className="service-fill">Email:-</b>{' '}
                   <span className="service-fill">inquiry@prowerse.com</span>
                   <br />
                   <Link
                     to="https://www.google.co.in/maps/place/Prowerse/@23.0419532,72.5453409,14z/data=!4m6!3m5!1s0x395c2985ee155555:0x7f4b353f9d5a755a!8m2!3d23.0389321!4d72.563301!16s%2Fg%2F11ngmktn3p?entry=ttu"
                     target="_blank"
                   >
-                    {" "}
+                    {' '}
                     <b className="service-fill">Get Direction</b>
                   </Link>
                   <Clock
@@ -272,7 +272,7 @@ function ContactUS() {
                 </h4>
                 <p
                   className="service-fill"
-                  style={{ textAlign: "center", marginLeft: 0 }}
+                  style={{ textAlign: 'center', marginLeft: 0 }}
                 >
                   11 Black Rod Close Hayes
                   <br /> London <br /> UB3 4QJ
@@ -300,7 +300,7 @@ function ContactUS() {
                 </h4>
                 <p
                   className="service-fill"
-                  style={{ textAlign: "center", marginLeft: 0 }}
+                  style={{ textAlign: 'center', marginLeft: 0 }}
                 >
                   643 Liberty Avenue
                   <br /> Jersey City <br />
@@ -329,6 +329,6 @@ function ContactUS() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default ContactUS;
+export default ContactUS

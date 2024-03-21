@@ -1,12 +1,11 @@
-import React from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function Post3() {
   return (
     <>
-      <section  className="d-flex align-items-center">
-      </section>
+      <section className="d-flex align-items-center"></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
       <section id="blog" class="blog">
@@ -32,7 +31,7 @@ function Post3() {
                       <i className="bi bi-person"></i> Pradyuman Zala
                     </li>
                     <li className="d-flex align-items-center">
-                      <i className="bi bi-clock"></i>{" "}
+                      <i className="bi bi-clock"></i>{' '}
                       <time datetime="2020-01-01">Oct 25, 20224</time>
                     </li>
                   </ul>
@@ -116,20 +115,20 @@ function Post3() {
                   </p>
 
                   <p>
-                    1.{" "}
-                    <span style={{ color: "#ff8050", fontStyle: "italic" }}>
+                    1.{' '}
+                    <span style={{ color: '#ff8050', fontStyle: 'italic' }}>
                       Public Cloud:
-                    </span>{" "}
+                    </span>{' '}
                     A public cloud is a cloud service run by an independent
                     company with multiple data centers. Public clouds usually
                     offer 'slice' of infrastructure from much bigger
                     infrastructure. AWS, Azure, GCP are popular Public Clouds.
                   </p>
                   <p>
-                    2.{" "}
-                    <span style={{ color: "#ff8050", fontStyle: "italic" }}>
+                    2.{' '}
+                    <span style={{ color: '#ff8050', fontStyle: 'italic' }}>
                       Hosted Private Cloud:
-                    </span>{" "}
+                    </span>{' '}
                     In contrast to Public Cloud, HPCs don't ger 'slice' of
                     infra. Instead, they get the whole fruit. Usually, complete
                     infrastructure is reserved for one customer. There are
@@ -137,20 +136,20 @@ function Post3() {
                     private cloud.
                   </p>
                   <p>
-                    3.{" "}
-                    <span style={{ color: "#ff8050", fontStyle: "italic" }}>
+                    3.{' '}
+                    <span style={{ color: '#ff8050', fontStyle: 'italic' }}>
                       On-premises Private Cloud:
-                    </span>{" "}
+                    </span>{' '}
                     These are like HPCs. Only difference here is that owner of
                     infrastructure maintains it by themselves in private
                     instance of Data Centre. Usually, financial data sets are a
                     best case for these types of clouds.
                   </p>
                   <p>
-                    4.{" "}
-                    <span style={{ color: "#ff8050", fontStyle: "italic" }}>
+                    4.{' '}
+                    <span style={{ color: '#ff8050', fontStyle: 'italic' }}>
                       On-premises Non-cloud:
-                    </span>{" "}
+                    </span>{' '}
                     This is the model used by legacy systems. Owner of
                     infrastructure buys software licenses, installs, and
                     maintains hardware in private data center computers.
@@ -164,7 +163,7 @@ function Post3() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>
@@ -207,10 +206,7 @@ function Post3() {
                 <h3 className="sidebar-title">Recent Posts</h3>
                 <div className="sidebar-item recent-posts">
                   <div className="post-item clearfix">
-                    <img
-                      src="assets/img/blog/blog-1.png"
-                      alt=""
-                    />
+                    <img src="assets/img/blog/blog-1.png" alt="" />
                     <h4>
                       <Link to="/blog-product">
                         The importance of effective product engineering strategy
@@ -220,10 +216,7 @@ function Post3() {
                   </div>
 
                   <div className="post-item clearfix">
-                    <img
-                      src="assets/img/blog/blog-2.png"
-                      alt=""
-                    />
+                    <img src="assets/img/blog/blog-2.png" alt="" />
                     <h4>
                       <Link to="/blog-infra">
                         Infrastructure As Code and it's Relevance
@@ -233,10 +226,7 @@ function Post3() {
                   </div>
 
                   <div className="post-item clearfix">
-                    <img
-                      src="assets/img/blog/blog-3.png"
-                      alt=""
-                    />
+                    <img src="assets/img/blog/blog-3.png" alt="" />
                     <h4>
                       <Link to="/blog-cloud">
                         Hybrid Cloud - What, Why & How?
@@ -260,6 +250,6 @@ function Post3() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default Post3;
+export default Post3

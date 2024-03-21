@@ -1,12 +1,11 @@
-import React from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function Post1() {
   return (
     <>
-      <section  className="d-flex align-items-center">
-      </section>
+      <section className="d-flex align-items-center"></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
       <section id="blog" class="blog">
@@ -34,7 +33,7 @@ function Post1() {
                       <i className="bi bi-person"></i> Pradyuman Zala
                     </li>
                     <li className="d-flex align-items-center">
-                      <i className="bi bi-clock"></i>{" "}
+                      <i className="bi bi-clock"></i>{' '}
                       <time datetime="2020-01-01">Jan 3, 2024</time>
                     </li>
                   </ul>
@@ -148,8 +147,8 @@ function Post1() {
                   <p>
                     Prowerse team has some exceptional product engineering
                     talents with proven industry experience. We are out to make
-                    your digital products a lot better{" "}
-                    <span style={{ color: "#ff8050" }}>#RightFirstTime</span>.
+                    your digital products a lot better{' '}
+                    <span style={{ color: '#ff8050' }}>#RightFirstTime</span>.
                   </p>
                 </div>
               </article>
@@ -158,7 +157,7 @@ function Post1() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>
@@ -201,10 +200,7 @@ function Post1() {
                 <h3 className="sidebar-title">Recent Posts</h3>
                 <div className="sidebar-item recent-posts">
                   <div className="post-item clearfix">
-                    <img
-                      src="assets/img/blog/blog-1.png"
-                      alt=""
-                    />
+                    <img src="assets/img/blog/blog-1.png" alt="" />
                     <h4>
                       <Link to="/blog-product">
                         The importance of effective product engineering strategy
@@ -214,10 +210,7 @@ function Post1() {
                   </div>
 
                   <div className="post-item clearfix">
-                    <img
-                      src="assets/img/blog/blog-2.png"
-                      alt=""
-                    />
+                    <img src="assets/img/blog/blog-2.png" alt="" />
                     <h4>
                       <Link to="/blog-infra">
                         Infrastructure As Code and it's Relevance
@@ -227,10 +220,7 @@ function Post1() {
                   </div>
 
                   <div className="post-item clearfix">
-                    <img
-                      src="assets/img/blog/blog-3.png"
-                      alt=""
-                    />
+                    <img src="assets/img/blog/blog-3.png" alt="" />
                     <h4>
                       <Link to="/blog-cloud">
                         Hybrid Cloud - What, Why & How?
@@ -252,6 +242,6 @@ function Post1() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default Post1;
+export default Post1

@@ -1,30 +1,31 @@
-import React, { useEffect } from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React, { useEffect } from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function ViewCaseStudy() {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
 
   const handleDownload = () => {
     // Replace 'your-pdf-file.pdf' with the actual path or URL of your PDF file
     const pdfUrl =
-      "/assets/img/casestudies/Prowerse Case Study_DevOps-Infra.pdf";
+      '/assets/img/casestudies/Prowerse Case Study_DevOps-Infra.pdf'
 
     // Trigger download
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.setAttribute("download", "Prowerse Case Study_DevOps-Infra.pdf"); // You can specify the filename here
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+    const link = document.createElement('a')
+    link.href = pdfUrl
+    link.setAttribute('download', 'Prowerse Case Study_DevOps-Infra.pdf') // You can specify the filename here
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
   return (
     <>
-      <section id="hero-casestudy" className="d-flex align-items-center">
-       
-      </section>
+      <section
+        id="hero-casestudy"
+        className="d-flex align-items-center"
+      ></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
       <section id="blog" class="blog">
@@ -33,7 +34,7 @@ function ViewCaseStudy() {
             <div className="col-lg-8 entries">
               <article className="entry entry-single">
                 <h4 className="entry-title">
-                  <span style={{ color: "#ff8050" }}>
+                  <span style={{ color: '#ff8050' }}>
                     FOR A BLOCKCHAIN SOLUTION COMPANY WITH THE VISION OF
                     INTRODUCING THE WORLD’S FIRST DATA CURRENCY
                   </span>
@@ -41,7 +42,7 @@ function ViewCaseStudy() {
 
                 <div className="entry-content">
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>CLIENT PROFILE</span>
+                    <span style={{ color: '#ff8050' }}>CLIENT PROFILE</span>
                   </h3>
                   <p>
                     <b>
@@ -55,7 +56,7 @@ function ViewCaseStudy() {
                     shaping the future of Web3.
                   </p>
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>BUSINESS SCENARIO</span>
+                    <span style={{ color: '#ff8050' }}>BUSINESS SCENARIO</span>
                   </h3>
 
                   <p>
@@ -84,7 +85,7 @@ function ViewCaseStudy() {
                   </ul>
 
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>PROWERSE APPROACH</span>
+                    <span style={{ color: '#ff8050' }}>PROWERSE APPROACH</span>
                   </h3>
                   <ul>
                     <li>
@@ -118,7 +119,7 @@ function ViewCaseStudy() {
                 </div>
                 <div
                   className="widgetContainer"
-                  style={{ padding: "5px", color: "white" }}
+                  style={{ padding: '5px', color: 'white' }}
                 >
                   <h3 className="sidebar-title">
                     <div className="contact-bar">
@@ -146,9 +147,8 @@ function ViewCaseStudy() {
                     </li>
                   </ul>
                 </div>
-                
               </article>
-              
+
               {/* <!-- End blog author bio --> */}
             </div>
             {/* <!-- End blog entries list --> */}
@@ -156,7 +156,7 @@ function ViewCaseStudy() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" className="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div className="textwidget">
                     <div className="contact-bar">
                       <h3>TO KNOW MORE ABOUT OUR CLIENT</h3>
@@ -172,29 +172,27 @@ function ViewCaseStudy() {
                   </div>
                 </div>
                 {/* <h3 className="sidebar-title">Search</h3> */}
-                <div className="sidebar-item search-form">
-                 
-                </div>
+                <div className="sidebar-item search-form"></div>
                 {/* <!-- End sidebar search formn--> */}
 
                 <h3 className="sidebar-title">
-                  <span style={{ color: "#ff8050" }}>TOOLS & TECHNOLOGIES</span>
+                  <span style={{ color: '#ff8050' }}>TOOLS & TECHNOLOGIES</span>
                 </h3>
                 <div className="sidebar-item categories">
                   <p>
-                    <span style={{ fontWeight: "bold" }}>Tools:</span> Selenium
+                    <span style={{ fontWeight: 'bold' }}>Tools:</span> Selenium
                     for Automation Testing, Jenkins, Gitlab, JMeter, Cypress,
                     Github
                   </p>
                   <p>
-                    <span style={{ fontWeight: "bold" }}>Technologies:</span>{" "}
+                    <span style={{ fontWeight: 'bold' }}>Technologies:</span>{' '}
                     Terraform, AWS, Google Cloud Platform, Azure
                   </p>
                 </div>
                 {/* <!-- End sidebar categories--> */}
 
                 <h3 className="sidebar-title">
-                  <span style={{ color: "#ff8050" }}>CLIENT REVIEWS</span>
+                  <span style={{ color: '#ff8050' }}>CLIENT REVIEWS</span>
                 </h3>
                 <div className="sidebar-item recent-posts">
                   <p>
@@ -207,7 +205,6 @@ function ViewCaseStudy() {
                 </div>
                 {/* <!-- End sidebar recent posts--> */}
 
-               
                 {/* <!-- End sidebar tags--> */}
               </div>
               {/* <!-- End sidebar --> */}
@@ -221,6 +218,6 @@ function ViewCaseStudy() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default ViewCaseStudy;
+export default ViewCaseStudy

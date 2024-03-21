@@ -1,52 +1,52 @@
-import React, { useState, useEffect } from "react";
-import Footer from "./Footer";
-import { Link } from "react-router-dom";
-import Count from "../Component/Count";
-import Counter from "../Component/Counter";
+import React, { useState, useEffect } from 'react'
+import Footer from './Footer'
+import { Link } from 'react-router-dom'
+import Count from '../Component/Count'
+import Counter from '../Component/Counter'
 const Home = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   const data = {
     counts: [
       {
-        id: "001",
-        label: "Years of Industry Experience",
-        number: "15",
-        duration: "5",
-        type: "+",
-        icon: "bi bi-emoji-smile",
+        id: '001',
+        label: 'Years of Industry Experience',
+        number: '15',
+        duration: '5',
+        type: '+',
+        icon: 'bi bi-emoji-smile',
       },
       {
-        id: "002",
-        label: "Client Retention Rate",
-        number: "92",
-        duration: "5",
-        type: "%",
-        icon: "bi bi-journal-richtext",
+        id: '002',
+        label: 'Client Retention Rate',
+        number: '92',
+        duration: '5',
+        type: '%',
+        icon: 'bi bi-journal-richtext',
       },
       {
-        id: "003",
-        label: "Projects Executed",
-        number: "200",
-        duration: "5",
-        type: "+",
-        icon: "bi bi-headset",
+        id: '003',
+        label: 'Projects Executed',
+        number: '200',
+        duration: '5',
+        type: '+',
+        icon: 'bi bi-headset',
       },
     ],
-  };
+  }
   const datawithdash = {
     counts: [
       {
-        id: "004",
-        label: "Reduction In Your IT Budgets",
-        number: "50 - 70",
-        duration: "5",
-        type: "%",
-        icon: "bi bi-people",
+        id: '004',
+        label: 'Reduction In Your IT Budgets',
+        number: '50 - 70',
+        duration: '5',
+        type: '%',
+        icon: 'bi bi-people',
       },
     ],
-  };
+  }
   return (
     <>
       {/* <!-- ======= Hero Section ======= --> */}
@@ -219,7 +219,7 @@ const Home = () => {
             </div>
             <ul
               className="nav nav-tabs row d-flex"
-              style={{ marginTop: "44px" }}
+              style={{ marginTop: '44px' }}
             >
               <li className="nav-item col-3">
                 <a
@@ -407,14 +407,14 @@ const Home = () => {
                   <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                     <ul>
                       <li>
-                        <i className="ri-check-double-line"></i>We tailor{" "}
+                        <i className="ri-check-double-line"></i>We tailor{' '}
                         <b>personalized engagement plans</b>, ensuring that our
                         offerings accurately fit your needs and business
                         objectives.
                       </li>
 
                       <li>
-                        <i className="ri-check-double-line"></i>We go beyond{" "}
+                        <i className="ri-check-double-line"></i>We go beyond{' '}
                         <b>one-size-fits-all practices</b> and delve into the
                         intricacies of your requirements to meet your expected
                         service standards.
@@ -424,7 +424,7 @@ const Home = () => {
                         </div>
                         <div>
                           Working with a start-up or small business is different
-                          from working with an enterprise.{" "}
+                          from working with an enterprise.{' '}
                         </div>
                         <div>
                           Refining an idea into an MVP/prototype or rapid
@@ -464,14 +464,14 @@ const Home = () => {
                   <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                     <ul>
                       <li>
-                        <i className="ri-check-double-line"></i>{" "}
+                        <i className="ri-check-double-line"></i>{' '}
                         <b>Strong core team</b> with deep knowledge and
                         experience in their respective domains.
                       </li>
                       <br />
                       <br />
                       <li>
-                        <i className="ri-check-double-line"></i>{" "}
+                        <i className="ri-check-double-line"></i>{' '}
                         <b>State-of-the-art tools and techniques:</b> Our choice
                         of relevant tools, techniques, processes, and talent is
                         done keeping superior performance and efficiency in
@@ -483,13 +483,13 @@ const Home = () => {
                         <i className="ri-check-double-line"></i> Our
                         collaborative ethos implies that we share in both wins
                         and hurdles, and are reachable beyond any SLAs, giving
-                        you the assurance that{" "}
+                        you the assurance that{' '}
                         <b>"we are there whenever you need someone"</b>.
                       </li>
                       <br />
                       <br />
                       <li>
-                        <i className="ri-check-double-line"></i> With a{" "}
+                        <i className="ri-check-double-line"></i> With a{' '}
                         <b>vision of mutual growth</b>, our people bring a
                         proactive mindset, actively seeking opportunities to add
                         value and innovate.
@@ -529,7 +529,7 @@ const Home = () => {
                   <div className="dashed-circle project-requirment"></div>
                   <div className="figcaption">
                     <h4 className="heading">
-                      {" "}
+                      {' '}
                       SHARE YOUR PROJECT &amp; REQUIREMENTS
                     </h4>
                     <p className="sub-title-area">
@@ -594,7 +594,7 @@ const Home = () => {
             </div>
             <div className="sub-section-title"></div>
 
-            <div className="row" style={{ marginTop: "44px" }}>
+            <div className="row" style={{ marginTop: '44px' }}>
               <div
                 className="case-studies-banner row mr0 aos-init aos-animate"
                 data-aos="fade-up"
@@ -611,7 +611,7 @@ const Home = () => {
                         DOMAIN - <span>Crypto</span>
                       </p>
                       <Link to="/blockchain" className="red-btn circle-btn">
-                        View Case Study{" "}
+                        View Case Study{' '}
                       </Link>
                     </div>
                   </div>
@@ -629,8 +629,8 @@ const Home = () => {
                         DOMAIN - <span>Healthcare</span>
                       </p>
                       <Link to="/healthcare" className="red-btn circle-btn">
-                        {" "}
-                        View Case Study{" "}
+                        {' '}
+                        View Case Study{' '}
                       </Link>
                     </div>
                   </div>
@@ -654,8 +654,8 @@ const Home = () => {
                         to="/health-wealth-fitness"
                         className="red-btn circle-btn"
                       >
-                        {" "}
-                        View Case Study{" "}
+                        {' '}
+                        View Case Study{' '}
                       </Link>
                     </div>
                   </div>
@@ -677,8 +677,8 @@ const Home = () => {
                       </p>
 
                       <Link to="/insurance" className="red-btn circle-btn">
-                        {" "}
-                        View Case Study{" "}
+                        {' '}
+                        View Case Study{' '}
                       </Link>
                     </div>
                   </div>
@@ -710,7 +710,7 @@ const Home = () => {
                   </p>
                   <p>
                     <h6>
-                      {" "}
+                      {' '}
                       Product company in Health, Fitness & Nutrition domain,
                       Norway
                     </h6>
@@ -1032,6 +1032,6 @@ const Home = () => {
 
       <Footer />
     </>
-  );
-};
-export default Home;
+  )
+}
+export default Home

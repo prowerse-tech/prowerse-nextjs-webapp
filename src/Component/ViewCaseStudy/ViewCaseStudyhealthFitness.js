@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React, { useEffect } from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function ViewCaseStudy() {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <>
@@ -21,14 +21,14 @@ function ViewCaseStudy() {
             <div className="col-lg-8 entries">
               <article className="entry entry-single">
                 <h4 className="entry-title">
-                  <span style={{ color: "#ff8050" }}>
+                  <span style={{ color: '#ff8050' }}>
                     FOR A PRODUCT COMPANY IN HEALTH, WELLNESS & FITNESS DOMAIN
                   </span>
                 </h4>
 
                 <div className="entry-content">
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>CLIENT PROFILE</span>
+                    <span style={{ color: '#ff8050' }}>CLIENT PROFILE</span>
                   </h3>
                   <p>
                     <b>
@@ -44,7 +44,7 @@ function ViewCaseStudy() {
                     for health professionals to enrol & offer services.
                   </p>
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>BUSINESS SCENARIO</span>
+                    <span style={{ color: '#ff8050' }}>BUSINESS SCENARIO</span>
                   </h3>
 
                   <p>
@@ -65,7 +65,7 @@ function ViewCaseStudy() {
                     </li>
                   </ul>
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>PROWERSE APPROACH</span>
+                    <span style={{ color: '#ff8050' }}>PROWERSE APPROACH</span>
                   </h3>
                   <ul>
                     <li>
@@ -101,7 +101,7 @@ function ViewCaseStudy() {
 
                 <div
                   className="widgetContainer"
-                  style={{ padding: "5px", color: "white" }}
+                  style={{ padding: '5px', color: 'white' }}
                 >
                   <h3 className="sidebar-title">
                     <div className="contact-bar">
@@ -133,7 +133,7 @@ function ViewCaseStudy() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>TO KNOW MORE ABOUT OUR CLIENT</h3>
@@ -153,22 +153,22 @@ function ViewCaseStudy() {
                 {/* <!-- End sidebar search formn--> */}
 
                 <h3 className="sidebar-title">
-                  <span style={{ color: "#ff8050" }}>TOOLS & TECHNOLOGIES</span>
+                  <span style={{ color: '#ff8050' }}>TOOLS & TECHNOLOGIES</span>
                 </h3>
                 <div className="sidebar-item categories">
                   <p>
-                    <span style={{ fontWeight: "bold" }}>Tools:</span> VS Code,
+                    <span style={{ fontWeight: 'bold' }}>Tools:</span> VS Code,
                     Jenkins
                   </p>
                   <p>
-                    <span style={{ fontWeight: "bold" }}>Technologies:</span>{" "}
+                    <span style={{ fontWeight: 'bold' }}>Technologies:</span>{' '}
                     React Native, ReactJS, HTML, AWS, MySql
                   </p>
                 </div>
                 {/* <!-- End sidebar categories--> */}
 
                 <h3 className="sidebar-title">
-                  <span style={{ color: "#ff8050" }}>CLIENT REVIEWS</span>
+                  <span style={{ color: '#ff8050' }}>CLIENT REVIEWS</span>
                 </h3>
                 <div className="sidebar-item recent-posts">
                   <p>
@@ -192,6 +192,6 @@ function ViewCaseStudy() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default ViewCaseStudy;
+export default ViewCaseStudy

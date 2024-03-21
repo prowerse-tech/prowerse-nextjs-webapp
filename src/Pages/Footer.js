@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -30,26 +30,26 @@ function Footer() {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
+                    <i className="bx bx-chevron-right"></i>{' '}
                     <Link to="/">About Us</Link>
                   </li>
                   <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
+                    <i className="bx bx-chevron-right"></i>{' '}
                     <Link to="/service">Services</Link>
                   </li>
                   <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
+                    <i className="bx bx-chevron-right"></i>{' '}
                     <Link to="/build-your-dedicated-team">
                       Build Your Dedicated Team
                     </Link>
                   </li>
 
                   <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
+                    <i className="bx bx-chevron-right"></i>{' '}
                     <Link to="/careers">Careers</Link>
                   </li>
                   <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
+                    <i className="bx bx-chevron-right"></i>{' '}
                     <Link to="/contact">Let's Talk</Link>
                   </li>
                 </ul>
@@ -58,7 +58,7 @@ function Footer() {
               <div className="col-lg-3 col-md-6 footer-newsletter">
                 <h4>Follow Us:</h4>
                 <p>
-                  {" "}
+                  {' '}
                   <div className="social-links ">
                     <Link
                       to="https://www.linkedin.com/company/prowerse/mycompany/"
@@ -84,7 +84,7 @@ function Footer() {
         <div className="container d-md-flex py-4">
           <div className="me-md-auto text-center text-md-start">
             <div className="copyright">
-              &copy; Copyright{" "}
+              &copy; Copyright{' '}
               <strong>
                 <span>Prowerse</span>
               </strong>
@@ -101,6 +101,6 @@ function Footer() {
         <i className="bi bi-arrow-up-short"></i>
       </Link>
     </>
-  );
+  )
 }
-export default Footer;
+export default Footer

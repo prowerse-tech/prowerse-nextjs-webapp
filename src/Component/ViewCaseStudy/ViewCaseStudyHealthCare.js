@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React, { useEffect } from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function ViewCaseStudy() {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <section
@@ -20,14 +20,14 @@ function ViewCaseStudy() {
             <div className="col-lg-8 entries">
               <article className="entry entry-single">
                 <h4 className="entry-title">
-                  <span style={{ color: "#ff8050" }}>
+                  <span style={{ color: '#ff8050' }}>
                     FOR AN AFRICAN VENTURE IN HEALTHCARE
                   </span>
                 </h4>
 
                 <div className="entry-content">
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>CLIENT PROFILE</span>
+                    <span style={{ color: '#ff8050' }}>CLIENT PROFILE</span>
                   </h3>
                   <p>
                     <b>
@@ -43,7 +43,7 @@ function ViewCaseStudy() {
                   </p>
 
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>BUSINESS SCENARIO</span>
+                    <span style={{ color: '#ff8050' }}>BUSINESS SCENARIO</span>
                   </h3>
 
                   <p>
@@ -62,7 +62,7 @@ function ViewCaseStudy() {
                   </p>
 
                   <h3 className="sidebar-title">
-                    <span style={{ color: "#ff8050" }}>PROWERSE APPROACH</span>
+                    <span style={{ color: '#ff8050' }}>PROWERSE APPROACH</span>
                   </h3>
                   <p>
                     PROWERSE WORKED ON FOUR PARALLELS TO SPEED UP EARLY MV
@@ -70,25 +70,25 @@ function ViewCaseStudy() {
                   </p>
                   <ul>
                     <li>
-                      <span style={{ fontWeight: "bold" }}>Firstly</span>{" "}
+                      <span style={{ fontWeight: 'bold' }}>Firstly</span>{' '}
                       defined & developed ground work for diseases prediction
                       algorithm.
                     </li>
                     <li>
-                      <span style={{ fontWeight: "bold" }}>Secondly,</span>{" "}
+                      <span style={{ fontWeight: 'bold' }}>Secondly,</span>{' '}
                       finalized on PWA as choice of app stack. This allowed us
                       to combine Android, iOS, Web & Admin portals into one
                       single source offering, enabling client to roll out quick
                       weekly updates to enhance MVP's desired impact.
                     </li>
                     <li>
-                      <span style={{ fontWeight: "bold" }}>Thirdly,</span>{" "}
+                      <span style={{ fontWeight: 'bold' }}>Thirdly,</span>{' '}
                       ensured set up of cloud infra IT infrastructure, and CI-CD
                       pipelines to make release cycles shorter and more
                       effective.
                     </li>
                     <li>
-                      <span style={{ fontWeight: "bold" }}>Importantly,</span>{" "}
+                      <span style={{ fontWeight: 'bold' }}>Importantly,</span>{' '}
                       streamlined communication channels with existing
                       freelancing units and delivering towards one common
                       objective.
@@ -98,7 +98,7 @@ function ViewCaseStudy() {
 
                 <div
                   className="widgetContainer"
-                  style={{ padding: "5px", color: "white" }}
+                  style={{ padding: '5px', color: 'white' }}
                 >
                   <h3 className="sidebar-title">
                     <div className="contact-bar">
@@ -128,7 +128,7 @@ function ViewCaseStudy() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>TO KNOW MORE ABOUT OUR CLIENT</h3>
@@ -148,22 +148,22 @@ function ViewCaseStudy() {
                 {/* <!-- End sidebar search formn--> */}
 
                 <h3 className="sidebar-title">
-                  <span style={{ color: "#ff8050" }}>TOOLS & TECHNOLOGIES</span>
+                  <span style={{ color: '#ff8050' }}>TOOLS & TECHNOLOGIES</span>
                 </h3>
                 <div className="sidebar-item categories">
                   <p>
-                    <span style={{ fontWeight: "bold" }}>Tools:</span> PWA,
+                    <span style={{ fontWeight: 'bold' }}>Tools:</span> PWA,
                     Python, Django, MS Azure, Lighthouse, MySQL
                   </p>
                   <p>
-                    <span style={{ fontWeight: "bold" }}>Technologies:</span> VS
+                    <span style={{ fontWeight: 'bold' }}>Technologies:</span> VS
                     Code, Selenium for Automation Testing, Cucumber for BDD
                   </p>
                 </div>
                 {/* <!-- End sidebar categories--> */}
 
                 <h3 className="sidebar-title">
-                  <span style={{ color: "#ff8050" }}>CLIENT REVIEWS</span>
+                  <span style={{ color: '#ff8050' }}>CLIENT REVIEWS</span>
                 </h3>
                 <div className="sidebar-item recent-posts">
                   <p>
@@ -187,6 +187,6 @@ function ViewCaseStudy() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default ViewCaseStudy;
+export default ViewCaseStudy

@@ -1,6 +1,6 @@
-import React from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function JobDescription() {
   return (
@@ -48,7 +48,7 @@ function JobDescription() {
                     for APIs as well as UI, creating test plans and test
                     strategies for testing product feature. Ultimately, you’ll
                     build test suits which will inspire enough confidence for
-                    every build which is being rolled out.{" "}
+                    every build which is being rolled out.{' '}
                   </p>
                   <h3>RESPONSIBILITIES</h3>
                   <p>
@@ -58,7 +58,7 @@ function JobDescription() {
                         Web based, standalone and Web services.
                       </li>
                       <li>
-                        Maintenance of existing automation suite and execution.{" "}
+                        Maintenance of existing automation suite and execution.{' '}
                       </li>
                       <li>
                         Participate in automation executions and reporting.
@@ -68,11 +68,11 @@ function JobDescription() {
                       </li>
                       <li>
                         Working one on one with QA to understand automation
-                        requirements and implementation.{" "}
+                        requirements and implementation.{' '}
                       </li>
                       <li>
                         Well versed with testing process to apply in Agile/Scrum
-                        framework.{" "}
+                        framework.{' '}
                       </li>
                       <li>
                         Collaborate with internal & external teams with good
@@ -96,24 +96,24 @@ function JobDescription() {
                       <li>Knowledge on Performance testing with JMeter. </li>
                       <li>Experience on SDLC process and practices</li>
                       <li>
-                        Experience in Blockchain technology is great to have{" "}
+                        Experience in Blockchain technology is great to have{' '}
                       </li>
                       <li>
                         Good experience in automation of Web & Stand-alone
-                        applications.{" "}
+                        applications.{' '}
                       </li>
                       <li>
                         Good communications skills both written and verbal.
                       </li>
                       <li>
                         Experience in Rest-API test automation using Postman,
-                        Cypress.{" "}
+                        Cypress.{' '}
                       </li>
                     </ul>
                   </p>
                 </div>
                 <div class="contact-bar">
-                  {" "}
+                  {' '}
                   <div class="contact-bttn">
                     <Link to="/post-resume">Apply Now</Link>
                   </div>
@@ -128,7 +128,7 @@ function JobDescription() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>
@@ -165,6 +165,6 @@ function JobDescription() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default JobDescription;
+export default JobDescription

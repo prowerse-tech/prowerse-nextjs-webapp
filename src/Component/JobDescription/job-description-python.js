@@ -1,6 +1,6 @@
-import React from "react";
-import Footer from "../../Pages/Footer";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Footer from '../../Pages/Footer'
+import { Link } from 'react-router-dom'
 
 function JobDescription() {
   return (
@@ -51,7 +51,7 @@ function JobDescription() {
                     testing code, debugging programs and integrating
                     applications with third-party web services. To be successful
                     in this role, you should have experience using server-side
-                    logic and work well in a team.{" "}
+                    logic and work well in a team.{' '}
                   </p>
                   <p>
                     Ultimately, you’ll build highly responsive web applications
@@ -70,7 +70,7 @@ function JobDescription() {
                       <li>Test and debug programs.</li>
                       <li>Improve functionality of existing systems. </li>
                       <li>
-                        Implement security and data protection solutions.{" "}
+                        Implement security and data protection solutions.{' '}
                       </li>
                       <li>Assess and prioritize feature requests.</li>
                       <li>
@@ -86,7 +86,7 @@ function JobDescription() {
                       <li>Work experience as a Python Developer.</li>
                       <li>
                         Expertise in at least one popular Python framework (like
-                        Django, Flask or Pyramid).{" "}
+                        Django, Flask or Pyramid).{' '}
                       </li>
                       <li>Knowledge of object-relational mapping (ORM).</li>
                       <li>
@@ -102,7 +102,7 @@ function JobDescription() {
                   </p>
                 </div>
                 <div class="contact-bar">
-                  {" "}
+                  {' '}
                   <div class="contact-bttn">
                     <Link to="/post-resume">Apply Now</Link>
                   </div>
@@ -115,7 +115,7 @@ function JobDescription() {
             <div className="col-lg-4">
               <div className="sidebar">
                 <div id="text-11" class="widgetContainer widget_text">
-                  {" "}
+                  {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
                       <h3>
@@ -151,6 +151,6 @@ function JobDescription() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default JobDescription;
+export default JobDescription

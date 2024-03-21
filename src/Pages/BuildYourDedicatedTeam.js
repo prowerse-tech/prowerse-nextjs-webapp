@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import Footer from "./Footer";
+import React, { useEffect } from 'react'
+import Footer from './Footer'
 
 function BuildYourDedicatedTeam() {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <section
@@ -146,9 +146,9 @@ function BuildYourDedicatedTeam() {
                   <a href="#">Eiusmod Tempor</a>
                 </h4> */}
                 <p>
-                  {" "}
+                  {' '}
                   ACCESS TO A WIDE RANGE OF EXPERIENCED IT ENGINEERS WITH
-                  DIVERSE SKILL SETS{" "}
+                  DIVERSE SKILL SETS{' '}
                 </p>
               </div>
             </div>
@@ -281,11 +281,11 @@ function BuildYourDedicatedTeam() {
               </div>
             </div>
           </div> */}
-          <div className="row" style={{ marginTop: "20px" }}>
+          <div className="row" style={{ marginTop: '20px' }}>
             <div className="col-12 mt-5 "></div>
             <div
               className="col-12 col-md-6 col-lg-4"
-              style={{ marginTop: "20px" }}
+              style={{ marginTop: '20px' }}
             >
               <div className="core-expertise-box bg-white position-relative">
                 <div className="core-inner-box primary-bg-color">
@@ -298,7 +298,7 @@ function BuildYourDedicatedTeam() {
                 </div>
 
                 <h5 class="text-center d-block text-dark hr-text">
-                  8 hours/day{" "}
+                  8 hours/day{' '}
                 </h5>
                 <h5 className="text-center d-block text-dark hr-text">
                   5 days/weeks
@@ -307,7 +307,7 @@ function BuildYourDedicatedTeam() {
             </div>
             <div
               className="col-12 col-md-6 col-lg-4"
-              style={{ marginTop: "20px" }}
+              style={{ marginTop: '20px' }}
             >
               <div className="core-expertise-box bg-white position-relative">
                 <div className="core-inner-box yellow-bg-color">
@@ -320,7 +320,7 @@ function BuildYourDedicatedTeam() {
                 </div>
 
                 <h5 className="text-center d-block text-dark hr-text">
-                  8 hours/day{" "}
+                  8 hours/day{' '}
                 </h5>
                 <h5 className="text-center d-block text-dark hr-text">
                   5 days/weeks
@@ -329,7 +329,7 @@ function BuildYourDedicatedTeam() {
             </div>
             <div
               className="col-12 col-md-6 col-lg-4"
-              style={{ marginTop: "20px" }}
+              style={{ marginTop: '20px' }}
             >
               <div className="core-expertise-box bg-white position-relative">
                 <div className="core-inner-box lightBlue-bg-color">
@@ -359,7 +359,7 @@ function BuildYourDedicatedTeam() {
             {/* <p>Software Development Outsourcing</p> */}
           </div>
 
-          <div className="row" style={{ marginTop: "20px" }}>
+          <div className="row" style={{ marginTop: '20px' }}>
             <div className="col-md-6">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
                 <i className="bi bi-briefcase"></i>
@@ -414,6 +414,6 @@ function BuildYourDedicatedTeam() {
       {/* <!-- ======= Footer ======= --> */}
       <Footer />
     </>
-  );
+  )
 }
-export default BuildYourDedicatedTeam;
+export default BuildYourDedicatedTeam
