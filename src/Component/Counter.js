@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import './Count.css'
 
 const Counter = (props) => {
-  const { type, number, duration, text } = props.data
+  const { type, number, duration } = props.data
 
   const [minCount, setMinCount] = useState('0')
   const [maxCount, setMaxCount] = useState('0')

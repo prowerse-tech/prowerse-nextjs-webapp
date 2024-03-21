@@ -10,7 +10,7 @@ AWS.config.update({
 
 function JoinUsForm() {
   const recaptcha = useRef(null)
-  const [toEmail, setToEmail] = useState(process.env.REACT_APP_SOURCE)
+  const toEmail = process.env.REACT_APP_SOURCE
   const [name, setName] = useState('') // State for name field
   const [email, setEmail] = useState('') // State for email field
   const [phoneNumber, setPhoneNumber] = useState('') // State for phone number field

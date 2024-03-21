@@ -7,19 +7,6 @@ function ViewCaseStudy() {
     window.scrollTo(0, 0)
   }, [])
 
-  const handleDownload = () => {
-    // Replace 'your-pdf-file.pdf' with the actual path or URL of your PDF file
-    const pdfUrl =
-      '/assets/img/casestudies/Prowerse Case Study_DevOps-Infra.pdf'
-
-    // Trigger download
-    const link = document.createElement('a')
-    link.href = pdfUrl
-    link.setAttribute('download', 'Prowerse Case Study_DevOps-Infra.pdf') // You can specify the filename here
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-  }
   return (
     <>
       <section

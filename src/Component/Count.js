@@ -17,7 +17,7 @@ const Count = (props) => {
     // first three numbers from props
 
     if (number.includes('-')) {
-      const [min, max] = number.split('-')
+      const [max] = number.split('-')
       end = parseInt(max)
       typeSign = type // In case you want to display the type from the data
     } else {

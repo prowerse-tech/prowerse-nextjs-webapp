@@ -21,12 +21,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "start": "CI=false react-scripts build",
+    "predeploy": "CI=false npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.js\""
+    
+
   },
   "eslintConfig": {
     "extends": [

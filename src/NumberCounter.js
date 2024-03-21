@@ -43,7 +43,9 @@ const NumberCounter = ({ endValue }) => {
 
   return (
     <div
-      className={`text-4xl font-bold text-green-500 ${isVisible ? 'start-counting' : ''}`}
+      className={`text-4xl font-bold text-green-500 ${
+        isVisible ? 'start-counting' : ''
+      }`}
     >
       {countRef.current !== undefined
         ? countRef.current.toLocaleString()
