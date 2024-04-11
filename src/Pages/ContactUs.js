@@ -22,7 +22,6 @@ function ContactUS() {
   const handleChangeForm = (event, eventName) => {
     setContactData({ ...contactData, [eventName]: event.target.value })
   }
-  console.log(process.env.REACT_APP_SOURCE)
   const SendMail = () => {
     const captchaValue = recaptcha.current.getValue()
     if (!captchaValue) {

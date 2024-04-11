@@ -469,7 +469,7 @@ const Home = () => {
                         experience in their respective domains.
                       </li>
                       <br />
-                      <br />
+                     
                       <li>
                         <i className="ri-check-double-line"></i>{' '}
                         <b>State-of-the-art tools and techniques:</b> Our choice
@@ -478,7 +478,7 @@ const Home = () => {
                         mind.
                       </li>
                       <br />
-                      <br />
+                      
                       <li>
                         <i className="ri-check-double-line"></i> Our
                         collaborative ethos implies that we share in both wins
@@ -487,7 +487,7 @@ const Home = () => {
                         <b>"we are there whenever you need someone"</b>.
                       </li>
                       <br />
-                      <br />
+                    
                       <li>
                         <i className="ri-check-double-line"></i> With a{' '}
                         <b>vision of mutual growth</b>, our people bring a
@@ -697,7 +697,7 @@ const Home = () => {
               <h2>WHAT OUR CORE CLIENTS SAY ?</h2>
             </div>
             <div className="container" data-aos="fade-up">
-              <div className="row gy-4">
+              <div className="row gy-4 desktop-testimonial">
                 <div
                   className="col-xl-8 col-md-6 inner-box"
                   data-aos="fade-up"
@@ -725,6 +725,7 @@ const Home = () => {
                     src="assets/img/testimonials/testimonial-1.png"
                     alt="Nature"
                     classname="responsive testimonail-img"
+                    style={{height:293}}
                   />
                 </div>
 
@@ -732,11 +733,14 @@ const Home = () => {
                   className="col-xl-4 col-md-6 inner-box"
                   data-aos="fade-up"
                   data-aos-delay="100"
+                  style={{paddingLeft:40}}
+
                 >
                   <img
                     src="assets/img/testimonials/testimonial-2.jpg"
                     alt="Nature"
                     classname="responsive testimonail-img"
+                    style={{height:293}}
                   />
                 </div>
                 <div
@@ -780,6 +784,121 @@ const Home = () => {
                     alt="Nature"
                     classname="responsive testimonail-img"
                   />
+                </div>
+
+                <div
+                  className="col-xl-4 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  style={{paddingLeft:40}}
+                >
+                  <img
+                    src="assets/img/testimonials/staffaugmentation.png"
+                    alt="Nature"
+                    classname="responsive testimonail-img"
+                    style={{height:293}}
+
+                  />
+                </div>
+                <div
+                  className="col-xl-8 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p className="testimonial-text">
+                    Prowerse is best suited for an emerging brands eying quality
+                    deliveries at optimum costs. Glad we found them. Can't speak
+                    higher of any other brand.
+                  </p>
+                  <p>
+                    <h6>Diana, Event Management firm from Durban, SA</h6>
+                  </p>
+                </div>
+              </div>
+              <div className="row gy-4 mobile-testimonial" style={{marginTop:17}}>
+                <div
+                  className="col-xl-4 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="assets/img/testimonials/testimonial-1.png"
+                    alt="Nature"
+                    classname="responsive testimonail-img"
+                    style={{height:293}}
+                  />
+                </div>
+                <div
+                  className="col-sm-12 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p className="testimonial-text">
+                    Development results are great and skills of the developers
+                    are effective. Communication as an aspect is given high
+                    regard. Overall good value for money.
+                  </p>
+                  <p>
+                    <h6>
+                      {' '}
+                      Product company in Health, Fitness & Nutrition domain,
+                      Norway
+                    </h6>
+                  </p>
+                </div>
+
+                <div
+                  className="col-xs-12 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="assets/img/testimonials/testimonial-2.jpg"
+                    alt="Nature"
+                    classname="responsive testimonail-img"
+                    style={{height:293}}
+                  />
+                </div>
+                <div
+                  className="col-xs-12 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p className="testimonial-text">
+                    The core project team has remained the same since last 25
+                    months which is a great testament to Prowerse management.
+                    They are our go to partners for new requirements due to the
+                    transparent and loyal relationship maintained through
+                    various ups and downs.
+                  </p>
+                  <p>
+                    <h6>Swiss Blockchain solutions company working in Web3</h6>
+                  </p>
+                </div>
+                <div
+                  className="col-xs-4 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="assets/img/testimonials/dedicatedteam.png"
+                    alt="Nature"
+                    classname="responsive testimonail-img"
+                  />
+                </div>
+                <div
+                  className="col-xs-12 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p className="testimonial-text">
+                    DevOps is their forte. Bring what you got. AWS, Azure, GCP.
+                    Strong technical acumen. In other terms, it's like a tennis
+                    player with qualities of Fed, Rafa and Novak.
+                  </p>
+                  <p>
+                    <h6>CTO, Sports event management firm, Prague, Czechia</h6>
+                  </p>
                 </div>
 
                 <div
@@ -832,9 +951,15 @@ const Home = () => {
                 <div className="member" data-aos="fade-up" data-aos-delay="100">
                   <div className="member-img">
                     <img
-                      src="\assets/img/team/prady.png"
+                      src="\assets/img/team/newimags/prady.jpg"
                       className="img-fluid"
                       alt=""
+                      style={{
+                        minHeight: 352,
+                        objectFit: 'cover',
+                         width: 285,
+                        maxHeight: 352,
+                      }}
                     />
                     <div className="social">
                       <a
@@ -854,12 +979,16 @@ const Home = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div className="member" data-aos="fade-up" data-aos-delay="100">
                   <div className="member-img">
-                    {/* src="prowerse-website/assets/img/team/prady.jpg" */}
                     <img
-                      src="assets/img/team/mohit.png"
+                      src="/assets/img/team/newimags/mohit.jpg"
                       className="img-fluid"
                       alt=""
-                      style={{ height: 352 }}
+                      style={{
+                        minHeight: 352,
+                        objectFit: 'cover',
+                        width: 285,
+                        maxHeight: 352,
+                      }}
                     />
                     <div className="social">
                       <a
@@ -879,11 +1008,16 @@ const Home = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div className="member" data-aos="fade-up" data-aos-delay="100">
                   <div className="member-img">
-                    {/* src="prowerse-website/assets/img/team/prady.jpg" */}
                     <img
-                      src="assets/img/team/hardik.png"
+                      src="assets/img/team/newimags/hardik.jpg"
                       className="img-fluid"
                       alt=""
+                      style={{
+                        minHeight: 352,
+                        objectFit: 'cover',
+                        width: 285,
+                        maxHeight: 352,
+                      }}
                     />
                     <div className="social">
                       <a

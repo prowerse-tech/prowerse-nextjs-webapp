@@ -27,7 +27,7 @@ function ViewCaseStudyInsurance() {
                   </span>
                 </h4>
 
-                <div className="entry-content">
+                <div className="entry-content entry-content-desc">
                   <h3 className="sidebar-title">
                     <span style={{ color: '#ff8050' }}>CLIENT PROFILE</span>
                   </h3>
@@ -125,7 +125,7 @@ function ViewCaseStudyInsurance() {
                     </li>
                     <li>Simplifying multi - vendor complexities</li>
                     <li>
-                      improved accuracy through introduction of automation
+                      Improved accuracy through introduction of automation
                       testing and other key initiatives
                     </li>
                   </ul>
@@ -140,7 +140,7 @@ function ViewCaseStudyInsurance() {
                   {' '}
                   <div class="textwidget">
                     <div class="contact-bar">
-                      <h3>TO KNOW MORE ABOUT OUR CLIENT</h3>
+                      <h3>KNOW MORE ABOUT OUR CLIENT</h3>
                       <p className="text-inner">
                         To start a dialogue with our consultant, please complete
                         our contact form and we shall get in touch with you

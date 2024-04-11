@@ -629,7 +629,7 @@ Position design for career page
   color: #f5f6f8 !important;
 }
 .position {
-  top: 44px;
+  top: 36px;
   position: absolute;
 }
 .position-title {
@@ -722,7 +722,7 @@ Build your dedicated team
 }
 
 .core-expertise-box {
-  width: 400px;
+  width: 370px;
   height: 175px;
   border-radius: 10px;
   padding: 75px 30px 14px;
@@ -759,7 +759,7 @@ Build your dedicated team
   font-weight: bold;
 }
 .buid-your-team-box {
-  min-height: 166px !important;
+  min-height: 210px !important;
 }
 .value-box {
   background: none !important;
@@ -768,6 +768,9 @@ Build your dedicated team
 }
 .heading-value {
   background: none !important;
+}
+.icon-box-fix{
+  min-height: 175px;
 }
 /*--------------------------------------------------------------
 # Sections General
@@ -1395,6 +1398,9 @@ section {
 .service-fill {
   color: #fff;
 }
+.your-demand {
+  font-size: 18px;
+}
 /*--------------------------------------------------------------
 # Service Product Engg
 --------------------------------------------------------------*/
@@ -1674,7 +1680,7 @@ section {
 --------------------------------------------------------------*/
 .testimonial-section .testimonial-text {
   /* width: 75%; */
-  margin-top: 17%;
+  margin-top: 12%;
 }
 .testimonial-section .testimonail-img {
   margin-top: -43px;
@@ -1772,6 +1778,18 @@ section {
   background-image: linear-gradient(to bottom right, coral, #fa994b) !important;
   /* background: #e03a3c; */
 }
+.mobile-testimonial{
+  display: none !important;
+}
+@media (max-width: 500px) {
+  .desktop-testimonial{
+    display: none !important; 
+  }
+  .mobile-testimonial{
+    display: block !important;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -2709,7 +2727,6 @@ section {
   padding-top: 10px;
   border-top: 1px solid #e6e6e6;
 }
-
 .blog .entry .entry-footer i {
   color: #5e5e5e;
   display: inline;
@@ -3105,7 +3122,7 @@ section {
   box-sizing: border-box;
   color: #fff;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
   font-size: 33px;
   line-height: 34px;
@@ -3729,9 +3746,9 @@ ul.hire-team-process li:last-child:after {
   ul.hire-team-process li .figcaption h4 {
     font-size: 15px;
   }
-  ul.hire-team-process li {
+  /* ul.hire-team-process li {
     padding: 0 30px;
-  }
+  } */
 }
 /* -------------------------------------------------------- */
 /* techstack */
@@ -4052,21 +4069,22 @@ casestudy
   background: #ccc;
   text-align: center;
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+
 .banner1 {
-  background: url(../img/casestudies/switzerland.jpg) no-repeat center
-    center/cover;
+  background-image: url(../img/casestudies/switzerland.jpg);
 }
 .banner2 {
-  background: url(../img/casestudies/africa.jpg) no-repeat center center/cover;
+  background-image: url(../img/casestudies/africa.jpg);
 }
 .banner3 {
-  background: url(../img/casestudies/bannernorway.jpg) no-repeat center
-    center/cover;
+  background-image: url(../img/casestudies/bannernorway.jpg) ;
 }
 .banner4 {
-  background: url(../img/casestudies/casestudy-4.png) no-repeat center
-    center/cover;
+  background-image: url(../img/casestudies/casestudy-4.png);
 }
 .banner-col-content {
   position: absolute;
@@ -4175,6 +4193,9 @@ casestudy
   padding: 10px !important;
   min-width: 65%;
 }
+.entry-content-desc p, .entry-content-desc h3 {
+  text-align: justify;
+}
 /* ------------------------------------------
 post resume
 ------------------------------------------- */
@@ -4246,6 +4267,36 @@ post resume
 .next {
   right: 0;
 }
+/* Media query for tablets (portrait and landscape) */
+@media screen and (max-width: 1024px) {
+  /* Adjust slider styles for tablets */
+  .slides {
+    /* Define specific styles for tablets */
+  }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+  .slides {
+    max-width: 100%; 
+    overflow: hidden; 
+  }
+  
+  .slide {
+    width: 100%; 
+    display: none; 
+  }
+
+  .slide.active {
+    display: block;
+  }
+  
+  
+  .slide img {
+    max-width: 100%; 
+    height: auto; 
+  }
+}
 
 /* Stay connected */
 
@@ -4286,3 +4337,4 @@ post resume
   border-radius: 50px;
   text-decoration: none;
 }
+

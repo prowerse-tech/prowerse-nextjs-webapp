@@ -90,7 +90,7 @@ function Careers() {
                       }
                     >
                       {imageGroup.map((image, subIndex) => (
-                        <img
+                        <img className="img-responsive"
                           key={subIndex}
                           src={image}
                           alt={`Slide ${index + 1} Image ${subIndex + 1}`}

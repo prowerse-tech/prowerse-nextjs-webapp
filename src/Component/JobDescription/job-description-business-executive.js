@@ -8,20 +8,10 @@ function JobDescription() {
   }, [])
   return (
     <>
-      <section id="hero-blog" className="d-flex align-items-center">
-        <div className="container" data-aos="zoom-out" data-aos-delay="100">
-          <div className="row">
-            <div className="col-xl-6">
-              <h1>#CAREERS</h1>
-              <h5>
-                At Prowerse, we believe in offering much more than just a job.
-                We strive to give you a full-fledged growing career driven with
-                passion.
-              </h5>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section
+        id="hero-casestudy"
+        className="d-flex align-items-center"
+      ></section>
 
       {/* <!-- ======= Job Description Single Section ======= --> */}
       <section id="blog" class="blog">
@@ -43,7 +33,7 @@ function JobDescription() {
                   </ul>
                 </div>
 
-                <div className="entry-content">
+                <div className="entry-content entry-content-desc">
                   <h3>RESPONSIBILITIES</h3>
                   <p>
                     <ul>
