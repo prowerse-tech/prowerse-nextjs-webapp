@@ -52,7 +52,7 @@ function Service() {
 
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <div className="box" data-aos="fade-up" data-aos-delay="100">
+              <div className="box box-min-height" data-aos="fade-up" data-aos-delay="100">
                 <h3>Enterprise Applications</h3>
                 <p>
                   Enterprise Applications are large-scale software packages that
@@ -67,7 +67,7 @@ function Service() {
 
             <div className="col-lg-4 col-md-6 mt-4 mt-md-0">
               <div
-                className="box featured"
+                className="box featured box-min-height"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
@@ -85,7 +85,7 @@ function Service() {
             </div>
 
             <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <div className="box" data-aos="fade-up" data-aos-delay="300">
+              <div className="box box-min-height" data-aos="fade-up" data-aos-delay="300">
                 <h3>Web Applications</h3>
                 <p>
                   Prowerse provides flexible and seamless website development

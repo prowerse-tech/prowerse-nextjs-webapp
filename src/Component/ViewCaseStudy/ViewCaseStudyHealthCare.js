@@ -36,8 +36,8 @@ function ViewCaseStudy() {
                     </b>
                   </p>
                   <p>
-                    Our solution aims to tackle lack of availability of medical
-                    services in the region through our machine learning enabled
+                    Our solution aims to tackle the lack of availability of medical
+                    services in the region through our machine-learning enabled
                     diseases prediction services, helping users preempt serious
                     medical situation in time.
                   </p>
@@ -70,7 +70,7 @@ function ViewCaseStudy() {
                   </p>
                   <ul>
                     <li>
-                      <span style={{ fontWeight: 'bold' }}>Firstly</span>{' '}
+                      <span style={{ fontWeight: 'bold' }}>Firstly,</span>{' '}
                       defined & developed ground work for diseases prediction
                       algorithm.
                     </li>

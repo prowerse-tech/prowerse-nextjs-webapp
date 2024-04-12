@@ -161,7 +161,7 @@ function ViewCaseStudyInsurance() {
                 </h3>
                 <div className="sidebar-item categories">
                   <p>
-                    <span style={{ fontWeight: 'bold' }}>Tools:</span> Salenium
+                    <span style={{ fontWeight: 'bold' }}>Tools:</span> Selenium
                     for Automation Testing, Cucumber for BDD
                   </p>
                   <p>

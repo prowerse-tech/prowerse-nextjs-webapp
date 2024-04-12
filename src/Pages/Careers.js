@@ -90,7 +90,7 @@ function Careers() {
                       }
                     >
                       {imageGroup.map((image, subIndex) => (
-                        <img className="img-responsive"
+                        <img className="img-responsive slider-img"
                           key={subIndex}
                           src={image}
                           alt={`Slide ${index + 1} Image ${subIndex + 1}`}
@@ -190,9 +190,10 @@ function Careers() {
                       <span className="col-md-5 color--heading">
                         <i className="bi bi-server"></i>
 
-                        <span className="position position-title">
-                          Test Automation Engineer
+                        <span className="position position-title" style={{marginTop: -6}}>
+                          Test Automation <br/>Engineer
                         </span>
+                        
                       </span>
 
                       <span className="col-5 col-md-3 my-3 my-sm-0 color--text">

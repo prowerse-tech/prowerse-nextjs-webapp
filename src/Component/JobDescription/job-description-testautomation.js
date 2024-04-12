@@ -48,7 +48,7 @@ function JobDescription() {
                     <ul>
                       <li>
                         Will be involved in developing automation scripts for
-                        Web based, standalone and Web services.
+                        web based, standalone and Web services.
                       </li>
                       <li>
                         Maintenance of existing automation suite and execution.{' '}
@@ -79,17 +79,17 @@ function JobDescription() {
                   <p>
                     <ul>
                       <li>Good understanding of automation frameworks.</li>
-                      <li>3+ years of prior experience in similar role.</li>
+                      <li>4-5 years of prior experience in similar role.</li>
                       <li>Experience in UFT/QTP test automation tool.</li>
-                      <li>Experience in Test Management tools (ALM)</li>
+                      <li>Experience in Test Management tools (ALM).</li>
                       <li>
                         Experience in Selenium or any other open-source
                         automation tool.
                       </li>
                       <li>Knowledge on Performance testing with JMeter. </li>
-                      <li>Experience on SDLC process and practices</li>
+                      <li>Experience on SDLC process and practices.</li>
                       <li>
-                        Experience in Blockchain technology is great to have{' '}
+                        Experience in Blockchain technology is great to have.{' '}
                       </li>
                       <li>
                         Good experience in automation of Web & Stand-alone

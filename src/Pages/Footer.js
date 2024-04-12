@@ -21,7 +21,7 @@ function Footer() {
                   <br />
                   <strong>Phone:</strong> +91-9537485017
                   <br />
-                  <strong>Email:</strong> <Link style={{color: 'white'}} href="mailto:info@compariqo.com">inquiry@prowerse.com</Link>
+                  <strong>Email:</strong> <a style={{color: 'white'}} href="mailto:inquiry@prowerse.com">inquiry@prowerse.com</a>
                   <br />
                 </p>
               </div>

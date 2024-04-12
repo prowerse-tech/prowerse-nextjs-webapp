@@ -1401,6 +1401,9 @@ section {
 .your-demand {
   font-size: 18px;
 }
+.box-min-height{
+  min-height: 335px;
+}
 /*--------------------------------------------------------------
 # Service Product Engg
 --------------------------------------------------------------*/
@@ -3124,7 +3127,7 @@ section {
   text-transform: uppercase;
   font-family: "Ubuntu", sans-serif;
   font-weight: 800;
-  font-size: 33px;
+  font-size: 27px;
   line-height: 34px;
   border-bottom: 1px solid #fff;
 }
@@ -4267,6 +4270,9 @@ post resume
 .next {
   right: 0;
 }
+.slider-img{
+  margin-top: 10px
+}
 /* Media query for tablets (portrait and landscape) */
 @media screen and (max-width: 1024px) {
   /* Adjust slider styles for tablets */
@@ -4297,6 +4303,7 @@ post resume
     height: auto; 
   }
 }
+
 
 /* Stay connected */
 

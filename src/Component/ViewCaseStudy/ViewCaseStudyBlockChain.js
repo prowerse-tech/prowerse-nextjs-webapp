@@ -47,7 +47,7 @@ function ViewCaseStudy() {
                   </h3>
 
                   <p>
-                    After initial set of meetings with the client, we could gain
+                    After the initial set of meetings with the client, we could gain
                     an understanding on existing business scenarios at their
                     end:
                   </p>
@@ -81,25 +81,25 @@ function ViewCaseStudy() {
                     </li>
                     <li>
                       Helped to optimize infrastructure provisioning using
-                      opensource solutions for effective cost-saving.
+                      open-source solutions for effective cost-saving.
                     </li>
                     <li>Implementing web3 and crypto infra ecosystem.</li>
                     <li>Designed and provisioned their monitoring stack.</li>
                     <li>
-                      Contributed in implementation of their archival strategy.
+                      Contributed in the implementation of their archival strategy.
                     </li>
                     <li>
-                      Performed Pentest as part of DevSecOps alongwith
+                      Performed Pentest as part of DevSecOps along with
                       infrastructure automation.
                     </li>
                     <li>Prepared cloud-agnostic mining agent distribution</li>
                     <li>
                       Designed and configured CI/CD/CT pipelines with nightly
-                      build and continuous test-runs
+                      build and continuous test runs
                     </li>
                     <li>
                       Coordinating with their existing team of Rust engineers
-                      and being first point of contact for investor queries
+                      and being the first point of contact for investor queries
                       through an ITIL- certified Prowerse engineer
                     </li>
                   </ul>
@@ -121,7 +121,7 @@ function ViewCaseStudy() {
                     <li>
                       Cost reduction: facilitating disposable infrastructure for
                       individual test instances itself resulted in 40% annual
-                      cost-reduction
+                      cost reduction
                     </li>
                     <li>
                       Access to skilled resources, enabling client to fill their
@@ -185,7 +185,7 @@ function ViewCaseStudy() {
                   <p>
                     The core project team has remained the same since last 25
                     months which is a great testament to Prowerse management.
-                    They are our go to partners for new requirements due to the
+                    They are our go-to partners for new requirements due to the
                     transparent and loyal relationship maintained through
                     various ups and downs.
                   </p>
