@@ -39,7 +39,7 @@ export default function Navbar() {
                     About Us
                   </CustomLink>
                 </li>
-                <li class="dropdown has-dropdown">
+                <li className="dropdown has-dropdown">
                   <CustomLink
                     className="nav-link scrollto"
                     to="/service"
@@ -77,7 +77,7 @@ export default function Navbar() {
                   </CustomLink>
                 </li>
 
-                <li class="dropdown has-dropdown">
+                <li className="dropdown has-dropdown">
                   <CustomLink className="nav-link scrollto" to="/service">
                     Services
                   </CustomLink>

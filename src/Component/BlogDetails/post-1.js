@@ -11,7 +11,7 @@ function Post1() {
       <section className="d-flex align-items-center"></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
-      <section id="blog" class="blog">
+      <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-8 entries">
@@ -20,7 +20,7 @@ function Post1() {
                   <img
                     src="assets/img/blog/blog-1.png"
                     alt=""
-                    class="img-fluid"
+                    className="img-fluid"
                   />
                 </div>
 
@@ -159,15 +159,15 @@ function Post1() {
 
             <div className="col-lg-4">
               <div className="sidebar">
-                <div id="text-11" class="widgetContainer widget_text">
+                <div id="text-11" className="widgetContainer widget_text">
                   {' '}
-                  <div class="textwidget">
-                    <div class="contact-bar">
+                  <div className="textwidget">
+                    <div className="contact-bar">
                       <h3>
                         Looking for
                         <br /> Certified &amp; <br />
                         Experienced <br />
-                        <span class="red-text">Developers ?</span>
+                        <span className="red-text">Developers ?</span>
                       </h3>
                       <ul>
                         <li>50+ Experts</li>
@@ -175,7 +175,7 @@ function Post1() {
                         <li>NDA Protection</li>
                         <li>24X7 Support</li>
                       </ul>
-                      <div class="contact-bttn">
+                      <div className="contact-bttn">
                         <Link to="/contact">Let't Talk</Link>
                       </div>
                     </div>

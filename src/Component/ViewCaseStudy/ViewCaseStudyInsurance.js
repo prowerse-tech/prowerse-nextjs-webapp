@@ -15,7 +15,7 @@ function ViewCaseStudyInsurance() {
       ></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
-      <section id="blog" class="blog">
+      <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-8 entries">
@@ -57,7 +57,7 @@ function ViewCaseStudyInsurance() {
                     <li>Lack of test automation</li>
                     <li>
                       Less visibility with management around product and feature
-                      launches and associated timelines,
+                      launches and associated timelines
                     </li>
                     <li>
                       Unsynchronized priorities due to complex multi-vendor
@@ -136,17 +136,17 @@ function ViewCaseStudyInsurance() {
 
             <div className="col-lg-4">
               <div className="sidebar">
-                <div id="text-11" class="widgetContainer widget_text">
+                <div id="text-11" className="widgetContainer widget_text">
                   {' '}
-                  <div class="textwidget">
-                    <div class="contact-bar">
+                  <div className="textwidget">
+                    <div className="contact-bar">
                       <h3>KNOW MORE ABOUT OUR CLIENT</h3>
                       <p className="text-inner">
                         To start a dialogue with our consultant, please complete
                         our contact form and we shall get in touch with you
                         shortly.
                       </p>
-                      <div class="contact-bttn">
+                      <div className="contact-bttn">
                         <Link to="/contact">Let's Talk</Link>
                       </div>
                     </div>

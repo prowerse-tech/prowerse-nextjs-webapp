@@ -15,7 +15,7 @@ function ViewCaseStudy() {
       ></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
-      <section id="blog" class="blog">
+      <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-8 entries">
@@ -54,20 +54,20 @@ function ViewCaseStudy() {
                   <ul>
                     <li>
                       No existing infrastructure management process with limited
-                      consideration on infrastructure landscaping.
+                      consideration on infrastructure landscaping
                     </li>
                     <li>
                       Skill-gap in existing team for catering to their business
-                      objectives.
+                      objectives
                     </li>
                     <li>
                       Need to roll-out quicker feature- releases for sustaining
-                      early-mover advantage for their disruptive offering.
+                      early-mover advantage for their disruptive offering
                     </li>
-                    <li>Spilling costs.</li>
+                    <li>Spilling costs</li>
                     <li>
                       Lack of availability of skilled resources in DevOps, Test
-                      Automation and for supporting investor needs.
+                      Automation and for supporting investor needs
                     </li>
                   </ul>
 
@@ -77,20 +77,20 @@ function ViewCaseStudy() {
                   <ul>
                     <li>
                       Implemented Infrastructure as Code (IaC) for effective
-                      infrastructure landscaping.
+                      infrastructure landscaping
                     </li>
                     <li>
                       Helped to optimize infrastructure provisioning using
-                      open-source solutions for effective cost-saving.
+                      open-source solutions for effective cost-saving
                     </li>
-                    <li>Implementing web3 and crypto infra ecosystem.</li>
-                    <li>Designed and provisioned their monitoring stack.</li>
+                    <li>Implementing web3 and crypto infra ecosystem</li>
+                    <li>Designed and provisioned their monitoring stack</li>
                     <li>
-                      Contributed in the implementation of their archival strategy.
+                      Contributed in the implementation of their archival strategy
                     </li>
                     <li>
                       Performed Pentest as part of DevSecOps along with
-                      infrastructure automation.
+                      infrastructure automation
                     </li>
                     <li>Prepared cloud-agnostic mining agent distribution</li>
                     <li>
@@ -100,7 +100,7 @@ function ViewCaseStudy() {
                     <li>
                       Coordinating with their existing team of Rust engineers
                       and being the first point of contact for investor queries
-                      through an ITIL- certified Prowerse engineer
+                      through an ITIL - certified Prowerse engineer
                     </li>
                   </ul>
                 </div>

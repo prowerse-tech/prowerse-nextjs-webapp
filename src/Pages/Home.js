@@ -185,7 +185,15 @@ const Home = () => {
                       <p>
                         Stay focused on the continuous march toward achieving
                         the milestones, the successes, and the breakthroughs.
-                      </p>
+                      
+                      <br/>
+                        Continuous progress and keeping all the relevant
+                        stakeholders informed is a key element to every
+                        engagement. This key habit, more often than not,
+                        eliminates maximum communication gaps that arises in any
+                        engagement. Prowerse has time-tested methodologies and
+                        process to adhere to this.
+                        </p>
                     </div>
                     <div
                       className="col-md-6 icon-box"
@@ -282,17 +290,12 @@ const Home = () => {
                         <i className="ri-check-double-line"></i>
                         <b>Client-Centric Solutions: </b>Our listening appetite
                         and extensive experience with a diverse set of domains
-                        translate into a deeper understanding of client needs.
-                        <div>
-                          This allows us to engineer tailor-made solutions that
-                          exceed client expectations.
-                        </div>
-                        <div>
-                          The ability to anticipate domain-specific challenges
+                        translate into a deeper understanding of client needs. This allows us to engineer tailor-made solutions that
+                          exceed client expectations. The ability to anticipate domain-specific challenges
                           enables the delivery of impactful software products,
                           mitigating challenges encountered at various junctures
                           of SDLC.
-                        </div>
+                     
                       </li>
                       {/* <br /> */}
                       <li>
@@ -301,11 +304,8 @@ const Home = () => {
                         powerful tool for effective problem-solving. Our
                         versatile experience empowers us to quickly identify
                         issues that may arise during product development and
-                        implementation.
-                        <div>
-                          This allows for proactive issue resolution, minimizing
-                          downtime and ensuring customer delight.
-                        </div>
+                        implementation.This allows for proactive issue resolution, minimizing downtime and ensuring customer delight.
+                      
                       </li>
                       {/* <br /> */}
                       <li>
@@ -317,13 +317,11 @@ const Home = () => {
                         accelerating project timelines and enhancing the overall
                         delivery quality, this also boosts the
                         cost-effectiveness and reliability of the solution
-                        delivered.
-                        <div>
-                          Along with accelerating project timelines and
+                        delivered. Along with accelerating project timelines and
                           enhancing the overall delivery quality, this also
                           boosts the cost-effectiveness and reliability of the
                           solution delivered.
-                        </div>
+                        
                       </li>
                     </ul>
                   </div>
@@ -336,8 +334,9 @@ const Home = () => {
                     <img
                       src="assets/img/whychosseus/about-us.jpg"
                       alt=""
-                      className="img-fluid"
-                      style={{ marginTop: 10 }}
+                      className="img-fluid why-chosse-1"
+                      style={{ 
+                      }}
                     />
                   </div>
                 </div>
@@ -381,7 +380,7 @@ const Home = () => {
                         carry with them, even more than certain quality and
                         economical aspects.
                       </li>
-                      <li>
+                      <li className='list-desktop'>
                         <i className="ri-check-double-line"></i>
                         <b>Customer & Employee Satisfaction:</b> These are the
                         two core aspects of any business. We go the extra mile
@@ -399,6 +398,17 @@ const Home = () => {
                       className="img-fluid"
                       style={{ marginTop: 10 }}
                     />
+                    {/* <ul>
+                    <li style={{textAlign: 'justify'}}>
+                        <i className="ri-check-double-line"></i>
+                        <b>Customer & Employee Satisfaction:</b> These are the
+                        two core aspects of any business. We go the extra mile
+                        to strike perfect balance and keep our employees
+                        motivated, which reflects in successful client
+                        engagements. We would land nowhere without the two poles
+                        guarding our business.
+                      </li>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -414,23 +424,15 @@ const Home = () => {
                       </li>
 
                       <li>
-                        <i className="ri-check-double-line"></i>We go beyond{' '}
-                        <b>one-size-fits-all practices</b> and delve into the
+                        <i className="ri-check-double-line"></i>We go beyond
+                        <b> one-size-fits-all practices</b> and delve into the
                         intricacies of your requirements to meet your expected
-                        service standards.
-                        <div>
-                          Customised approach as per the nature of your business
-                          helps us address your vision.
-                        </div>
-                        <div>
-                          Working with a start-up or small business is different
-                          from working with an enterprise.{' '}
-                        </div>
-                        <div>
-                          Refining an idea into an MVP/prototype or rapid
+                        service standards. Customised approach as per the nature of your business
+                          helps us address your vision. Working with a start-up or small business is different
+                          from working with an enterprise. Refining an idea into an MVP/prototype or rapid
                           productization for early adopters are a few cases that
                           we have mastered over several executions.
-                        </div>
+                       
                       </li>
 
                       <li>
@@ -453,8 +455,8 @@ const Home = () => {
                     <img
                       src="assets/img/whychosseus/progress.jpg"
                       alt=""
-                      className="img-fluid"
-                      style={{ marginTop: 10 }}
+                      className="img-fluid why-chosse-1"
+                      // style={{ marginTop: 10 }}
                     />
                   </div>
                 </div>
@@ -469,7 +471,7 @@ const Home = () => {
                         experience in their respective domains.
                       </li>
                       <br />
-                     
+
                       <li>
                         <i className="ri-check-double-line"></i>{' '}
                         <b>State-of-the-art tools and techniques:</b> Our choice
@@ -478,7 +480,7 @@ const Home = () => {
                         mind.
                       </li>
                       <br />
-                      
+
                       <li>
                         <i className="ri-check-double-line"></i> Our
                         collaborative ethos implies that we share in both wins
@@ -487,7 +489,7 @@ const Home = () => {
                         <b>"we are there whenever you need someone"</b>.
                       </li>
                       <br />
-                    
+
                       <li>
                         <i className="ri-check-double-line"></i> With a{' '}
                         <b>vision of mutual growth</b>, our people bring a
@@ -725,7 +727,7 @@ const Home = () => {
                     src="assets/img/testimonials/testimonial-1.png"
                     alt="Nature"
                     classname="responsive testimonail-img"
-                    style={{height:293}}
+                    style={{ height: 293 }}
                   />
                 </div>
 
@@ -733,14 +735,13 @@ const Home = () => {
                   className="col-xl-4 col-md-6 inner-box"
                   data-aos="fade-up"
                   data-aos-delay="100"
-                  style={{paddingLeft:40}}
-
+                  style={{ paddingLeft: 40 }}
                 >
                   <img
                     src="assets/img/testimonials/testimonial-2.jpg"
                     alt="Nature"
                     classname="responsive testimonail-img"
-                    style={{height:293}}
+                    style={{ height: 293 }}
                   />
                 </div>
                 <div
@@ -790,14 +791,13 @@ const Home = () => {
                   className="col-xl-4 col-md-6 inner-box"
                   data-aos="fade-up"
                   data-aos-delay="100"
-                  style={{paddingLeft:40}}
+                  style={{ paddingLeft: 40 }}
                 >
                   <img
                     src="assets/img/testimonials/staffaugmentation.png"
                     alt="Nature"
                     classname="responsive testimonail-img"
-                    style={{height:293}}
-
+                    style={{ height: 293 }}
                   />
                 </div>
                 <div
@@ -815,7 +815,10 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="row gy-4 mobile-testimonial" style={{marginTop:17}}>
+              <div
+                className="row gy-4 mobile-testimonial"
+                style={{ marginTop: 17 }}
+              >
                 <div
                   className="col-xl-4 col-md-6 inner-box"
                   data-aos="fade-up"
@@ -824,8 +827,8 @@ const Home = () => {
                   <img
                     src="assets/img/testimonials/testimonial-1.png"
                     alt="Nature"
-                    classname="responsive testimonail-img"
-                    style={{height:293}}
+                    className="responsive testimonail-img"
+                    style={{ height: 293 }}
                   />
                 </div>
                 <div
@@ -856,7 +859,7 @@ const Home = () => {
                     src="assets/img/testimonials/testimonial-2.jpg"
                     alt="Nature"
                     classname="responsive testimonail-img"
-                    style={{height:293}}
+                    style={{ height: 293 }}
                   />
                 </div>
                 <div
@@ -957,7 +960,7 @@ const Home = () => {
                       style={{
                         minHeight: 352,
                         objectFit: 'cover',
-                         width: 285,
+                        width: 285,
                         maxHeight: 352,
                       }}
                     />

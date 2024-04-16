@@ -41,15 +41,15 @@ function BuildYourDedicatedTeam() {
           <div className="sub-section-title">
             <p></p>
           </div>
-          <div class="row">
+          <div className="row">
             <div
-              class="col-xl-3 col-md-6 d-flex align-items-stretch aos-init aos-animate"
+              className="col-xl-3 col-md-6 d-flex align-items-stretch aos-init aos-animate"
               data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bx bxl-dribbble"></i>
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bx bxl-dribbble"></i>
                 </div>
                 <h4>{/* <a href="">Lorem Ipsum</a> */}</h4>
                 <p className="your-demand">Hire dedicated engineers on a full-time basis.</p>
@@ -57,13 +57,13 @@ function BuildYourDedicatedTeam() {
             </div>
 
             <div
-              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate"
+              className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate"
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bx bx-file"></i>
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bx bx-file"></i>
                 </div>
                 <h4>{/* <a href="">Sed ut perspici</a> */}</h4>
                 <p className="your-demand">
@@ -74,13 +74,13 @@ function BuildYourDedicatedTeam() {
             </div>
 
             <div
-              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
+              className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
               data-aos="zoom-in"
               data-aos-delay="300"
             >
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bx bx-tachometer"></i>
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bx bx-tachometer"></i>
                 </div>
                 <h4>{/* <a href="">Magni Dolores</a> */}</h4>
                 <p className="your-demand">
@@ -92,13 +92,13 @@ function BuildYourDedicatedTeam() {
             </div>
 
             <div
-              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
+              className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
               data-aos="zoom-in"
               data-aos-delay="400"
             >
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bx bx-layer"></i>
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bx bx-layer"></i>
                 </div>
                 <h4>{/* <a href="">Nemo Enim</a> */}</h4>
                 <p className="your-demand">
@@ -253,7 +253,7 @@ function BuildYourDedicatedTeam() {
                   </div>
                 </div>
 
-                <h5 class="text-center d-block text-dark hr-text">
+                <h5 className="text-center d-block text-dark hr-text">
                   8 hours/day{' '}
                 </h5>
                 <h5 className="text-center d-block text-dark hr-text">

@@ -239,10 +239,10 @@ function ContactUS() {
                   Gujarat 380009
                 </p>
                 <p>
-                  <b className="service-fill">Phone:-</b>
+                  <b className="service-fill">Phone: </b>
                   <span className="service-fill">+91-9537485017</span>
                   <br />
-                  <b className="service-fill">Email:-</b>{' '}
+                  <b className="service-fill">Email: </b>{' '}
                   <span className="service-fill"><a style={{color: 'white'}} href="mailto:inquiry@prowerse.com">inquiry@prowerse.com</a></span>
                   <br />
                   <Link

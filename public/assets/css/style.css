@@ -916,12 +916,16 @@ section {
   transform: skewY(-3deg);
 }
 .sub-section-title p {
+  
+  text-align: center;
+  /* position: relative; */
+  /* margin-left: 19%; */
+  width: 75%;
+  font-size: 15px;
+  margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  text-align: center;
-  position: relative;
-  margin-left: 19%;
-  width: 68%;
+
 }
 .sub-section-title-text p {
   margin-top: 15px;
@@ -1256,6 +1260,7 @@ section {
 
 .tabs .tab-pane ul li {
   padding-bottom: 10px;
+  font-size: 15px;
 }
 
 .tabs .tab-pane ul i {
@@ -1402,7 +1407,8 @@ section {
   font-size: 18px;
 }
 .box-min-height{
-  min-height: 335px;
+  min-height: 356px;
+  text-align: left;
 }
 /*--------------------------------------------------------------
 # Service Product Engg
@@ -3613,7 +3619,7 @@ ul.hire-team-process li:after {
   height: 1px;
   top: 25%;
   right: -17.25%;
-  width: 35%;
+  width: 34%;
   border-bottom: 2px dotted #fa994b;
 }
 
@@ -3698,11 +3704,11 @@ ul.hire-team-process li:last-child:after {
   }
 }
 @media screen and (max-width: 1400px) {
-  .dashed-circle {
+  /* .dashed-circle {
     width: 150px;
     height: 150px;
     background-size: 65px;
-  }
+  } */
   ul.hire-team-process li {
     padding: 0 18px;
   }
@@ -4222,21 +4228,25 @@ post resume
   }
 }
 
-/* ---------carousal */
+/* ---------carousal------------- */
 .carousel {
   position: relative;
   width: 100%;
   margin: auto;
   overflow: hidden;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .slides {
   display: flex;
+
 }
 
 .slide {
   flex: 0 0 auto;
   display: none;
+  width: 100%;
 }
 
 .slide.active {
@@ -4244,10 +4254,11 @@ post resume
 }
 
 .slides img {
-  width: 400px; /* Set the width to 200px for medium size */
+  width: 32.4%; /* Set the width to 200px for medium size */
   height: auto;
-  padding-left: 21px;
-  margin-left: 19px;
+  /* padding-left: 21px;
+  margin-left: 19px; */
+  margin-right: 10px;
 }
 
 .prev,
@@ -4304,6 +4315,14 @@ post resume
   }
 }
 
+/* Media queries */
+@media (max-width: 768px) {
+  /* Styles for tablets and smaller devices */
+  .slides {
+    width: 100%; /* Display one slide at a time */
+  }
+}
+
 
 /* Stay connected */
 
@@ -4343,5 +4362,9 @@ post resume
   color: #fff;
   border-radius: 50px;
   text-decoration: none;
+}
+.why-chosse-1{
+  min-height: 90%;
+  margin-top: 10px;
 }
 

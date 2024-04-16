@@ -14,7 +14,7 @@ function JobDescription() {
       ></section>
 
       {/* <!-- ======= Job Description Single Section ======= --> */}
-      <section id="blog" class="blog">
+      <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-8 entries">
@@ -54,21 +54,21 @@ function JobDescription() {
                   <h3>RESPONSIBILITIES</h3>
                   <p>
                     <ul>
-                      <li>Write effective, scalable code.</li>
+                      <li>Write effective, scalable code</li>
                       <li>
                         Develop back-end components to improve responsiveness
                         and overall performance
                       </li>
-                      <li>Integrate user-facing elements into applications.</li>
-                      <li>Test and debug programs.</li>
-                      <li>Improve functionality of existing systems. </li>
+                      <li>Integrate user-facing elements into applications</li>
+                      <li>Test and debug programs</li>
+                      <li>Improve functionality of existing systems </li>
                       <li>
-                        Implement security and data protection solutions.{' '}
+                        Implement security and data protection solutions{' '}
                       </li>
-                      <li>Assess and prioritize feature requests.</li>
+                      <li>Assess and prioritize feature requests</li>
                       <li>
                         Coordinate with internal teams to understand user
-                        requirements and provide technical solutions.
+                        requirements and provide technical solutions
                       </li>
                     </ul>
                   </p>
@@ -76,27 +76,27 @@ function JobDescription() {
                   <h3>REQUIREMENTS</h3>
                   <p>
                     <ul>
-                      <li>Work experience as a Python Developer.</li>
+                      <li>Work experience as a Python Developer</li>
                       <li>
                         Expertise in at least one popular Python framework (like
-                        Django, Flask or Pyramid).{' '}
+                        Django, Flask or Pyramid)
                       </li>
-                      <li>Knowledge of object-relational mapping (ORM).</li>
+                      <li>Knowledge of object-relational mapping (ORM)</li>
                       <li>
                         Familiarity with front-end technologies (like JavaScript
-                        and HTML5).
+                        and HTML5)
                       </li>
-                      <li>Team spirit .</li>
-                      <li>Good problem-solving skills. </li>
+                      <li>Team spirit</li>
+                      <li>Good problem-solving skills</li>
                       <li>
-                        BSc in Computer Science, Engineering or relevant field.
+                        BSc in Computer Science, Engineering or relevant field
                       </li>
                     </ul>
                   </p>
                 </div>
-                <div class="contact-bar">
+                <div className="contact-bar">
                   {' '}
-                  <div class="contact-bttn">
+                  <div className="contact-bttn">
                     <Link to="/post-resume">Apply Now</Link>
                   </div>
                 </div>
@@ -107,15 +107,15 @@ function JobDescription() {
 
             <div className="col-lg-4">
               <div className="sidebar">
-                <div id="text-11" class="widgetContainer widget_text">
+                <div id="text-11" className="widgetContainer widget_text">
                   {' '}
-                  <div class="textwidget">
-                    <div class="contact-bar">
+                  <div className="textwidget">
+                    <div className="contact-bar">
                       <h3>
                         Looking for
                         <br /> Certified &amp; <br />
                         Experienced <br />
-                        <span class="red-text">Developers ?</span>
+                        <span className="red-text">Developers ?</span>
                       </h3>
                       <ul>
                         <li>50+ Experts</li>
@@ -123,7 +123,7 @@ function JobDescription() {
                         <li>NDA Protection</li>
                         <li>24X7 Support</li>
                       </ul>
-                      <div class="contact-bttn">
+                      <div className="contact-bttn">
                         <Link to="/contact">Let's Talk</Link>
                       </div>
                     </div>

@@ -14,7 +14,7 @@ function JobDescription() {
       ></section>
 
       {/* <!-- ======= job description Single Section ======= --> */}
-      <section id="blog" class="blog">
+      <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-8 entries">
@@ -49,64 +49,64 @@ function JobDescription() {
                     <ul>
                       <li>
                         Work with development teams to ideate software
-                        solutions.
+                        solutions
                       </li>
                       <li>
                         Building and setting up new development tools and
-                        infrastructure.{' '}
+                        infrastructure
                       </li>
                       <li>
                         Working on ways to automate and improve development and
-                        release processes.
+                        release processes
                       </li>
                       <li>
                         Ensuring that systems are safe and secure against
-                        cybersecurity threats.
+                        cybersecurity threats
                       </li>
-                      <li>Deploy updates and fixes.</li>
+                      <li>Deploy updates and fixes</li>
                       <li>
-                        Perform root cause analysis for production errors.{' '}
+                        Perform root cause analysis for production errors
                       </li>
                       <li>
-                        Develop scripts to automate infrastructure provision.
+                        Develop scripts to automate infrastructure provision
                       </li>
                       <li>
                         Working with software developers and software engineers
                         to ensure that development follows established processes
-                        and works as intended.
+                        and works as intended
                       </li>
                     </ul>
                   </p>
                   <h3>TECHNOLOGIES WE USE</h3>
                   <p>
                     <ul>
-                      <li>GitOps – GitHub, GitLab, BitBucket.</li>
+                      <li>GitOps – GitHub, GitLab, BitBucket</li>
                       <li>
                         CI/CD – Jenkins, Circle CI, Travis CI, TeamCity, Azure
-                        DevOps.{' '}
+                        DevOps
                       </li>
-                      <li>Containerization – Docker, Swarm, Kubernetes.</li>
-                      <li>Provisioning – Terraform.</li>
-                      <li>CloudOps – Azure, AWS, GCP.</li>
+                      <li>Containerization – Docker, Swarm, Kubernetes</li>
+                      <li>Provisioning – Terraform</li>
+                      <li>CloudOps – Azure, AWS, GCP</li>
                       <li>
-                        Observability – Prometheus, Grafana, GrayLog, ELK .{' '}
+                        Observability – Prometheus, Grafana, GrayLog, ELK
                       </li>
                     </ul>
                   </p>
                   <h3>QUALIFICATIONS</h3>
                   <p>
                     <ul>
-                      <li>Graduate / Postgraduate in Technology sector. </li>
+                      <li>Graduate / Postgraduate in Technology sector</li>
                       <li>
-                        Proven experience as a DevOps Engineer or similar role.{' '}
+                        Proven experience as a DevOps Engineer or similar role
                       </li>
-                      <li>Effective communication and teamwork skills.</li>
+                      <li>Effective communication and teamwork skills</li>
                     </ul>
                   </p>
                 </div>
-                <div class="contact-bar">
+                <div className="contact-bar">
                   {' '}
-                  <div class="contact-bttn">
+                  <div className="contact-bttn">
                     <Link to="/post-resume">Apply Now</Link>
                   </div>
                 </div>
@@ -117,15 +117,15 @@ function JobDescription() {
 
             <div className="col-lg-4">
               <div className="sidebar">
-                <div id="text-11" class="widgetContainer widget_text">
+                <div id="text-11" className="widgetContainer widget_text">
                   {' '}
-                  <div class="textwidget">
-                    <div class="contact-bar">
+                  <div className="textwidget">
+                    <div className="contact-bar">
                       <h3>
                         Looking for
                         <br /> Certified &amp; <br />
                         Experienced <br />
-                        <span class="red-text">Developers ?</span>
+                        <span className="red-text">Developers ?</span>
                       </h3>
                       <ul>
                         <li>50+ Experts</li>
@@ -134,7 +134,7 @@ function JobDescription() {
 
                         <li>24X7 Support</li>
                       </ul>
-                      <div class="contact-bttn">
+                      <div className="contact-bttn">
                         <Link to="/contact">Let's Talk</Link>
                       </div>
                     </div>
