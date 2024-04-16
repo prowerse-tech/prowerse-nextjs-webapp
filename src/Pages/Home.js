@@ -335,8 +335,7 @@ const Home = () => {
                       src="assets/img/whychosseus/about-us.jpg"
                       alt=""
                       className="img-fluid why-chosse-1"
-                      style={{ 
-                      }}
+                      
                     />
                   </div>
                 </div>
@@ -393,22 +392,12 @@ const Home = () => {
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 text-center">
                     <img
-                      src="assets/img/whychosseus/journey.jpg"
+                      src="assets/img/whychosseus/people.jpg"
                       alt=""
-                      className="img-fluid"
-                      style={{ marginTop: 10 }}
+                      className="img-fluid why-chosse-1"
+                      
                     />
-                    {/* <ul>
-                    <li style={{textAlign: 'justify'}}>
-                        <i className="ri-check-double-line"></i>
-                        <b>Customer & Employee Satisfaction:</b> These are the
-                        two core aspects of any business. We go the extra mile
-                        to strike perfect balance and keep our employees
-                        motivated, which reflects in successful client
-                        engagements. We would land nowhere without the two poles
-                        guarding our business.
-                      </li>
-                    </ul> */}
+                   
                   </div>
                 </div>
               </div>
@@ -500,7 +489,7 @@ const Home = () => {
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 text-center">
                     <img
-                      src="assets/img/whychosseus/people.jpg"
+                      src="assets/img/whychosseus/journey.jpg"
                       alt=""
                       className="img-fluid"
                       style={{ marginTop: 10 }}
