@@ -21,7 +21,7 @@ function Footer() {
                   <br />
                   <strong>Phone:</strong> +91-9537485017
                   <br />
-                  <strong>Email:</strong> inquiry@prowerse.com
+                  <strong>Email:</strong> <a style={{color: 'white'}} href="mailto:inquiry@prowerse.com">inquiry@prowerse.com</a>
                   <br />
                 </p>
               </div>
@@ -64,6 +64,7 @@ function Footer() {
                       to="https://www.linkedin.com/company/prowerse/mycompany/"
                       target="_blank"
                       className="linkedin"
+                      data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn"
                     >
                       <i className="bx bxl-linkedin"></i>
                     </Link>
@@ -71,6 +72,7 @@ function Footer() {
                       to="https://github.com/prowerse-tech"
                       target="_blank"
                       className="linkedin"
+                      data-bs-toggle="tooltip" data-bs-placement="top" title="Github"
                     >
                       <i className="bx bxl-github"></i>
                     </Link>

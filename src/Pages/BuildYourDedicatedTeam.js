@@ -23,6 +23,7 @@ function BuildYourDedicatedTeam() {
                 Software Engineers, Automation QAs, DevOps, service-support
                 executives, etc.
               </h5>
+              <br/>
               <h5>
                 We support various businesses in growing their IT teams with
                 fast ramp-up time, keeping costs in check.
@@ -40,32 +41,32 @@ function BuildYourDedicatedTeam() {
           <div className="sub-section-title">
             <p></p>
           </div>
-          <div class="row">
+          <div className="row">
             <div
-              class="col-xl-3 col-md-6 d-flex align-items-stretch aos-init aos-animate"
+              className="col-xl-3 col-md-6 d-flex align-items-stretch aos-init aos-animate"
               data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bx bxl-dribbble"></i>
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bx bxl-dribbble"></i>
                 </div>
                 <h4>{/* <a href="">Lorem Ipsum</a> */}</h4>
-                <p>Hire dedicated engineers on a full-time basis.</p>
+                <p className="your-demand">Hire dedicated engineers on a full-time basis.</p>
               </div>
             </div>
 
             <div
-              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate"
+              className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate"
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bx bx-file"></i>
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bx bx-file"></i>
                 </div>
                 <h4>{/* <a href="">Sed ut perspici</a> */}</h4>
-                <p>
+                <p className="your-demand">
                   You can also choose to hire on part-time or hourly basis,
                   whatever fits your need.
                 </p>
@@ -73,16 +74,16 @@ function BuildYourDedicatedTeam() {
             </div>
 
             <div
-              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
+              className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
               data-aos="zoom-in"
               data-aos-delay="300"
             >
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bx bx-tachometer"></i>
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bx bx-tachometer"></i>
                 </div>
                 <h4>{/* <a href="">Magni Dolores</a> */}</h4>
-                <p>
+                <p className="your-demand">
                   Hire single developer or build your own team of
                   cross-functional engineers or developers with similar
                   skill-set.
@@ -91,16 +92,16 @@ function BuildYourDedicatedTeam() {
             </div>
 
             <div
-              class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
+              className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0 aos-init aos-animate"
               data-aos="zoom-in"
               data-aos-delay="400"
             >
-              <div class="icon-box">
-                <div class="icon">
-                  <i class="bx bx-layer"></i>
+              <div className="icon-box">
+                <div className="icon">
+                  <i className="bx bx-layer"></i>
                 </div>
                 <h4>{/* <a href="">Nemo Enim</a> */}</h4>
-                <p>
+                <p className="your-demand">
                   Experienced to work independently or in collaboration with
                   existing client team.
                 </p>
@@ -157,6 +158,7 @@ function BuildYourDedicatedTeam() {
                 className="icon-box aos-init aos-animate buid-your-team-box"
                 data-aos="fade-up"
                 data-aos-delay="500"
+                
               >
                 <i className="bi bi-chat-left-fill"></i>
                 {/* <h4>
@@ -238,7 +240,7 @@ function BuildYourDedicatedTeam() {
           <div className="row" style={{ marginTop: '20px' }}>
             <div className="col-12 mt-5 "></div>
             <div
-              className="col-12 col-md-6 col-lg-4"
+              className="col-12 col-md-6 col-lg-4 dedicated-week-section-col"
               style={{ marginTop: '20px' }}
             >
               <div className="core-expertise-box bg-white position-relative">
@@ -251,16 +253,16 @@ function BuildYourDedicatedTeam() {
                   </div>
                 </div>
 
-                <h5 class="text-center d-block text-dark hr-text">
+                <h5 className="text-center d-block text-dark hr-text">
                   8 hours/day{' '}
                 </h5>
                 <h5 className="text-center d-block text-dark hr-text">
-                  5 days/weeks
+                  5 days/week
                 </h5>
               </div>
             </div>
             <div
-              className="col-12 col-md-6 col-lg-4"
+              className="col-12 col-md-6 col-lg-4 dedicated-week-section-col"
               style={{ marginTop: '20px' }}
             >
               <div className="core-expertise-box bg-white position-relative">
@@ -277,12 +279,12 @@ function BuildYourDedicatedTeam() {
                   4 hours/day{' '}
                 </h5>
                 <h5 className="text-center d-block text-dark hr-text">
-                  5 days/weeks
+                  5 days/week
                 </h5>
               </div>
             </div>
             <div
-              className="col-12 col-md-6 col-lg-4"
+              className="col-12 col-md-6 col-lg-4 "
               style={{ marginTop: '20px' }}
             >
               <div className="core-expertise-box bg-white position-relative">
@@ -296,7 +298,7 @@ function BuildYourDedicatedTeam() {
                   {/* <p>HOURLY BASIC</p> */}
                 </div>
                 <h5 className="text-center d-block text-dark hr-text">
-                  Starts with 40 hours
+                  Start with 40 hours
                 </h5>
                 <p></p>
               </div>
@@ -315,19 +317,19 @@ function BuildYourDedicatedTeam() {
 
           <div className="row" style={{ marginTop: '20px' }}>
             <div className="col-md-6">
-              <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div className="icon-box icon-box-fix" data-aos="fade-up" data-aos-delay="100">
                 <i className="bi bi-briefcase"></i>
                 <h4>
                   <a href="#">Share Requirements</a>
                 </h4>
-                <p className="service-fill">
+                <p className="service-fill ">
                   Our team will analyze project requirements and select the most
                   apt developers best suited for tech stack.
                 </p>
               </div>
             </div>
             <div className="col-md-6 mt-4 mt-md-0">
-              <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div className="icon-box icon-box-fix"  data-aos="fade-up" data-aos-delay="200">
                 <i className="bi bi-card-checklist"></i>
                 <h4>
                   <a href="#">Discuss Project Details</a>
@@ -339,7 +341,7 @@ function BuildYourDedicatedTeam() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div className="icon-box icon-box-fix" data-aos="fade-up" data-aos-delay="100">
                 <i className="bi bi-briefcase"></i>
                 <h4>
                   <a href="#">Review Engagement Terms</a>
@@ -351,7 +353,7 @@ function BuildYourDedicatedTeam() {
               </div>
             </div>
             <div className="col-md-6 mt-4 mt-md-0">
-              <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div className="icon-box icon-box-fix" data-aos="fade-up" data-aos-delay="200">
                 <i className="bi bi-card-checklist"></i>
                 <h4>
                   <a href="#">Let's create another success-story</a>

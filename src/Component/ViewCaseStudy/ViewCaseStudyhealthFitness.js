@@ -15,7 +15,7 @@ function ViewCaseStudy() {
       ></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
-      <section id="blog" class="blog">
+      <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-8 entries">
@@ -26,7 +26,7 @@ function ViewCaseStudy() {
                   </span>
                 </h4>
 
-                <div className="entry-content">
+                <div className="entry-content entry-content-desc">
                   <h3 className="sidebar-title">
                     <span style={{ color: '#ff8050' }}>CLIENT PROFILE</span>
                   </h3>
@@ -38,7 +38,7 @@ function ViewCaseStudy() {
                     </b>
                   </p>
                   <p>
-                    Their main customers are personal trainers, nutritionists,,
+                    Their main customers are personal trainers, nutritionists,
                     etc. Mobile apps on iOS & Android caters to users from
                     Norway, Sweden & Lithuania. Solution also offers platform
                     for health professionals to enrol & offer services.
@@ -54,14 +54,14 @@ function ViewCaseStudy() {
                     by:
                   </p>
                   <ul>
-                    <li>Setting up a product team.</li>
+                    <li>Setting up a product team</li>
                     <li>
                       Reviewing and adjusting tech stacks in line with final
-                      version of business requirement.
+                      version of business requirement
                     </li>
                     <li>
                       Setting up a product development team for native apps
-                      development and continuous delivery cycle for the same.
+                      development and continuous delivery cycle for the same
                     </li>
                   </ul>
                   <h3 className="sidebar-title">
@@ -70,31 +70,32 @@ function ViewCaseStudy() {
                   <ul>
                     <li>
                       Prowerse reviewed MVP tech stacks and analyzed whether it
-                      can continue in release- ready project as well.
+                      can continue in release- ready project as well
                     </li>
                     <li>
                       Adjusted and altered tech stacks in journey from MVP to
-                      release ready. Removing PHP based APIs with Node.JS
+                      release ready
                     </li>
+                    <li>Removing PHP based APIs with Node JS</li>
                     <li>
                       Using ReactNative to maintain correct balance between
                       availability of native features and maintaining single
-                      source for cross platform app.
+                      source for cross platform app
                     </li>
                     <li>
                       Ensured setting-up of cloud IT infrastructure, and CI/CD
                       pipelines to make release cycles shorter and more
-                      effective.
+                      effective
                     </li>
                     <li>
                       Prowerse managed, prioritized and groomed product backlog
                       to ship as many feature and fixes possible in short 1 week
-                      delivery webs.
+                      delivery webs
                     </li>
                     <li>
                       The approach for creating database backups at predefined
                       intervals making it fault-tolerant were recommended and
-                      implemented.
+                      implemented
                     </li>
                   </ul>
                 </div>
@@ -110,7 +111,7 @@ function ViewCaseStudy() {
                   </h3>
                   <ul>
                     <li>
-                      Rapid productization and reduced GO-TO-MARKET time by 20%
+                      Rapid productization and reduced go-to-market time by 20%
                     </li>
                     <li>
                       Cost Reduction: Reduced business expenses by about 30%
@@ -132,17 +133,17 @@ function ViewCaseStudy() {
 
             <div className="col-lg-4">
               <div className="sidebar">
-                <div id="text-11" class="widgetContainer widget_text">
+                <div id="text-11" className="widgetContainer widget_text">
                   {' '}
-                  <div class="textwidget">
-                    <div class="contact-bar">
-                      <h3>TO KNOW MORE ABOUT OUR CLIENT</h3>
+                  <div className="textwidget">
+                    <div className="contact-bar">
+                      <h3>KNOW MORE ABOUT OUR CLIENT</h3>
                       <p className="text-inner">
                         To start a dialogue with our consultant, please complete
                         our contact form and we shall get in touch with you
                         shortly.
                       </p>
-                      <div class="contact-bttn">
+                      <div className="contact-bttn">
                         <Link to="/contact">Let's Talk</Link>
                       </div>
                     </div>

@@ -430,6 +430,7 @@ li .active a {
   #hero {
     text-align: center;
     padding-top: 58px;
+    height: auto !important;
   }
 
   #hero h1 {
@@ -509,6 +510,7 @@ li .active a {
   #hero-about {
     text-align: center;
     padding-top: 58px;
+    height: auto !important;
   }
 
   #hero-about h1 {
@@ -591,6 +593,7 @@ li .active a {
   #hero-career {
     text-align: center;
     padding-top: 58px;
+    height: auto !important;
   }
 
   #hero-career h1 {
@@ -629,7 +632,7 @@ Position design for career page
   color: #f5f6f8 !important;
 }
 .position {
-  top: 44px;
+  top: 36px;
   position: absolute;
 }
 .position-title {
@@ -703,6 +706,7 @@ Build your dedicated team
   #service-build-your-dedicated {
     text-align: center;
     padding-top: 58px;
+    height: auto !important;
   }
 
   #service-build-your-dedicated h1 {
@@ -722,7 +726,7 @@ Build your dedicated team
 }
 
 .core-expertise-box {
-  width: 400px;
+  width: 370px;
   height: 175px;
   border-radius: 10px;
   padding: 75px 30px 14px;
@@ -759,7 +763,7 @@ Build your dedicated team
   font-weight: bold;
 }
 .buid-your-team-box {
-  min-height: 166px !important;
+  min-height: 210px !important;
 }
 .value-box {
   background: none !important;
@@ -768,6 +772,9 @@ Build your dedicated team
 }
 .heading-value {
   background: none !important;
+}
+.icon-box-fix{
+  min-height: 175px;
 }
 /*--------------------------------------------------------------
 # Sections General
@@ -913,12 +920,16 @@ section {
   transform: skewY(-3deg);
 }
 .sub-section-title p {
+  
+  text-align: center;
+  /* position: relative; */
+  /* margin-left: 19%; */
+  width: 75%;
+  font-size: 15px;
+  margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  text-align: center;
-  position: relative;
-  margin-left: 19%;
-  width: 68%;
+
 }
 .sub-section-title-text p {
   margin-top: 15px;
@@ -1253,6 +1264,7 @@ section {
 
 .tabs .tab-pane ul li {
   padding-bottom: 10px;
+  font-size: 15px;
 }
 
 .tabs .tab-pane ul i {
@@ -1394,6 +1406,13 @@ section {
 }
 .service-fill {
   color: #fff;
+}
+.your-demand {
+  font-size: 18px;
+}
+.box-min-height{
+  min-height: 356px;
+  text-align: left;
 }
 /*--------------------------------------------------------------
 # Service Product Engg
@@ -1674,10 +1693,10 @@ section {
 --------------------------------------------------------------*/
 .testimonial-section .testimonial-text {
   /* width: 75%; */
-  margin-top: 17%;
+  margin-top: 12%;
 }
 .testimonial-section .testimonail-img {
-  margin-top: -43px;
+  /* margin-top: -43px; */
 }
 /*--------------------------------------------------------------
 # Pricing
@@ -1772,6 +1791,18 @@ section {
   background-image: linear-gradient(to bottom right, coral, #fa994b) !important;
   /* background: #e03a3c; */
 }
+.mobile-testimonial{
+  display: none !important;
+}
+@media (max-width: 500px) {
+  .desktop-testimonial{
+    display: none !important; 
+  }
+  .mobile-testimonial{
+    display: block !important;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -2709,7 +2740,6 @@ section {
   padding-top: 10px;
   border-top: 1px solid #e6e6e6;
 }
-
 .blog .entry .entry-footer i {
   color: #5e5e5e;
   display: inline;
@@ -3105,9 +3135,9 @@ section {
   box-sizing: border-box;
   color: #fff;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 800;
-  font-size: 33px;
+  font-size: 27px;
   line-height: 34px;
   border-bottom: 1px solid #fff;
 }
@@ -3593,7 +3623,7 @@ ul.hire-team-process li:after {
   height: 1px;
   top: 25%;
   right: -17.25%;
-  width: 35%;
+  width: 34%;
   border-bottom: 2px dotted #fa994b;
 }
 
@@ -3678,11 +3708,11 @@ ul.hire-team-process li:last-child:after {
   }
 }
 @media screen and (max-width: 1400px) {
-  .dashed-circle {
+  /* .dashed-circle {
     width: 150px;
     height: 150px;
     background-size: 65px;
-  }
+  } */
   ul.hire-team-process li {
     padding: 0 18px;
   }
@@ -3729,9 +3759,9 @@ ul.hire-team-process li:last-child:after {
   ul.hire-team-process li .figcaption h4 {
     font-size: 15px;
   }
-  ul.hire-team-process li {
+  /* ul.hire-team-process li {
     padding: 0 30px;
-  }
+  } */
 }
 /* -------------------------------------------------------- */
 /* techstack */
@@ -4052,21 +4082,22 @@ casestudy
   background: #ccc;
   text-align: center;
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+
 .banner1 {
-  background: url(../img/casestudies/switzerland.jpg) no-repeat center
-    center/cover;
+  background-image: url(../img/casestudies/switzerland.jpg);
 }
 .banner2 {
-  background: url(../img/casestudies/africa.jpg) no-repeat center center/cover;
+  background-image: url(../img/casestudies/africa.jpg);
 }
 .banner3 {
-  background: url(../img/casestudies/bannernorway.jpg) no-repeat center
-    center/cover;
+  background-image: url(../img/casestudies/bannernorway.jpg) ;
 }
 .banner4 {
-  background: url(../img/casestudies/casestudy-4.png) no-repeat center
-    center/cover;
+  background-image: url(../img/casestudies/casestudy-4.png);
 }
 .banner-col-content {
   position: absolute;
@@ -4175,6 +4206,9 @@ casestudy
   padding: 10px !important;
   min-width: 65%;
 }
+.entry-content-desc p, .entry-content-desc h3 {
+  text-align: justify;
+}
 /* ------------------------------------------
 post resume
 ------------------------------------------- */
@@ -4198,21 +4232,25 @@ post resume
   }
 }
 
-/* ---------carousal */
+/* ---------carousal------------- */
 .carousel {
   position: relative;
   width: 100%;
   margin: auto;
   overflow: hidden;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .slides {
   display: flex;
+
 }
 
 .slide {
   flex: 0 0 auto;
   display: none;
+  width: 100%;
 }
 
 .slide.active {
@@ -4220,10 +4258,11 @@ post resume
 }
 
 .slides img {
-  width: 400px; /* Set the width to 200px for medium size */
+  width: 32.4%; /* Set the width to 200px for medium size */
   height: auto;
-  padding-left: 21px;
-  margin-left: 19px;
+  /* padding-left: 21px;
+  margin-left: 19px; */
+  margin-right: 10px;
 }
 
 .prev,
@@ -4245,6 +4284,53 @@ post resume
 
 .next {
   right: 0;
+}
+.slider-img{
+  margin-top: 10px
+}
+
+
+
+/* Add media queries for different screen sizes */
+@media (max-width: 768px) {
+  .slides {
+    height: 300px; /* Adjust the height as needed */
+   
+    /* width: 100%;  */
+    /* max-width: 100%; 
+    overflow: hidden;  */
+  }
+  .slides img {
+    width: 32%;
+    height: auto;
+    min-height: 150px;
+    margin-right: 3px;
+}
+  .prev, .next {
+    font-size: 20px;
+  }
+  .right-contact-form{
+    margin-top: 25px !important;
+  }
+  .button-wrap-1 .clicker {
+    left: 2px;
+}
+.dedicated-week-section-col{
+  margin-bottom: 17%;
+}
+.mobile-position-title{
+  margin-top: -13px !important;
+}
+}
+
+@media (max-width: 576px) {
+  .slides {
+    height: 200px; /* Adjust the height as needed */
+  }
+
+  .prev, .next {
+    font-size: 16px;
+  }
 }
 
 /* Stay connected */
@@ -4286,3 +4372,8 @@ post resume
   border-radius: 50px;
   text-decoration: none;
 }
+.why-chosse-1{
+  min-height: 90%;
+  margin-top: 10px;
+}
+

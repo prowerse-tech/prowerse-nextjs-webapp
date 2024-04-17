@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef,useEffect } from 'react'
 import Footer from './Footer'
 import ReCAPTCHA from 'react-google-recaptcha'
 import AWS from 'aws-sdk'
@@ -17,7 +17,9 @@ function PostResume() {
   const [phoneNumber, setPhoneNumber] = useState('') // State for phone number field
   const [experience, setExperience] = useState('') // State for experience field
   const ses = new AWS.SES({ apiVersion: process.env.REACT_APP_API_VERSION })
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const SubmitResume = (event) => {
     event.preventDefault()
     const captchaValue = recaptcha.current.getValue()
@@ -151,7 +153,7 @@ function PostResume() {
                       className="form-control"
                       name="subject"
                       id="subject"
-                      placeholder="Experiencer"
+                      placeholder="Experience"
                       required
                       value={experience} // Set value to the state variable
                       onChange={(e) => setExperience(e.target.value)} // Update state variable on change

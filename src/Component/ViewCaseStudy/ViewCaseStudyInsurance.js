@@ -15,7 +15,7 @@ function ViewCaseStudyInsurance() {
       ></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
-      <section id="blog" class="blog">
+      <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-8 entries">
@@ -27,7 +27,7 @@ function ViewCaseStudyInsurance() {
                   </span>
                 </h4>
 
-                <div className="entry-content">
+                <div className="entry-content entry-content-desc">
                   <h3 className="sidebar-title">
                     <span style={{ color: '#ff8050' }}>CLIENT PROFILE</span>
                   </h3>
@@ -57,7 +57,7 @@ function ViewCaseStudyInsurance() {
                     <li>Lack of test automation</li>
                     <li>
                       Less visibility with management around product and feature
-                      launches and associated timelines,
+                      launches and associated timelines
                     </li>
                     <li>
                       Unsynchronized priorities due to complex multi-vendor
@@ -123,9 +123,9 @@ function ViewCaseStudyInsurance() {
                       Enhanced delivery visibility: Around key business
                       performance indicators for the management
                     </li>
-                    <li>Simplifying multi - vendor complexities</li>
+                    <li>Simplifying multi-vendor complexities</li>
                     <li>
-                      improved accuracy through introduction of automation
+                      Improved accuracy through introduction of automation
                       testing and other key initiatives
                     </li>
                   </ul>
@@ -136,17 +136,17 @@ function ViewCaseStudyInsurance() {
 
             <div className="col-lg-4">
               <div className="sidebar">
-                <div id="text-11" class="widgetContainer widget_text">
+                <div id="text-11" className="widgetContainer widget_text">
                   {' '}
-                  <div class="textwidget">
-                    <div class="contact-bar">
-                      <h3>TO KNOW MORE ABOUT OUR CLIENT</h3>
+                  <div className="textwidget">
+                    <div className="contact-bar">
+                      <h3>KNOW MORE ABOUT OUR CLIENT</h3>
                       <p className="text-inner">
                         To start a dialogue with our consultant, please complete
                         our contact form and we shall get in touch with you
                         shortly.
                       </p>
-                      <div class="contact-bttn">
+                      <div className="contact-bttn">
                         <Link to="/contact">Let's Talk</Link>
                       </div>
                     </div>
@@ -161,7 +161,7 @@ function ViewCaseStudyInsurance() {
                 </h3>
                 <div className="sidebar-item categories">
                   <p>
-                    <span style={{ fontWeight: 'bold' }}>Tools:</span> Salenium
+                    <span style={{ fontWeight: 'bold' }}>Tools:</span> Selenium
                     for Automation Testing, Cucumber for BDD
                   </p>
                   <p>

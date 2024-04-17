@@ -15,7 +15,7 @@ function ViewCaseStudy() {
       ></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
-      <section id="blog" class="blog">
+      <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-8 entries">
@@ -27,7 +27,7 @@ function ViewCaseStudy() {
                   </span>
                 </h4>
 
-                <div className="entry-content">
+                <div className="entry-content entry-content-desc">
                   <h3 className="sidebar-title">
                     <span style={{ color: '#ff8050' }}>CLIENT PROFILE</span>
                   </h3>
@@ -47,27 +47,27 @@ function ViewCaseStudy() {
                   </h3>
 
                   <p>
-                    After initial set of meetings with the client, we could gain
+                    After the initial set of meetings with the client, we could gain
                     an understanding on existing business scenarios at their
                     end:
                   </p>
                   <ul>
                     <li>
                       No existing infrastructure management process with limited
-                      consideration on infrastructure landscaping.
+                      consideration on infrastructure landscaping
                     </li>
                     <li>
                       Skill-gap in existing team for catering to their business
-                      objectives.
+                      objectives
                     </li>
                     <li>
                       Need to roll-out quicker feature- releases for sustaining
-                      early-mover advantage for their disruptive offering.
+                      early-mover advantage for their disruptive offering
                     </li>
-                    <li>Spilling costs.</li>
+                    <li>Spilling costs</li>
                     <li>
                       Lack of availability of skilled resources in DevOps, Test
-                      Automation and for supporting investor needs.
+                      Automation and for supporting investor needs
                     </li>
                   </ul>
 
@@ -77,30 +77,30 @@ function ViewCaseStudy() {
                   <ul>
                     <li>
                       Implemented Infrastructure as Code (IaC) for effective
-                      infrastructure landscaping.
+                      infrastructure landscaping
                     </li>
                     <li>
                       Helped to optimize infrastructure provisioning using
-                      opensource solutions for effective cost-saving.
+                      open-source solutions for effective cost-saving
                     </li>
-                    <li>Implementing web3 and crypto infra ecosystem.</li>
-                    <li>Designed and provisioned their monitoring stack.</li>
+                    <li>Implementing web3 and crypto infra ecosystem</li>
+                    <li>Designed and provisioned their monitoring stack</li>
                     <li>
-                      Contributed in implementation of their archival strategy.
+                      Contributed in the implementation of their archival strategy
                     </li>
                     <li>
-                      Performed Pentest as part of DevSecOps alongwith
-                      infrastructure automation.
+                      Performed Pentest as part of DevSecOps along with
+                      infrastructure automation
                     </li>
                     <li>Prepared cloud-agnostic mining agent distribution</li>
                     <li>
                       Designed and configured CI/CD/CT pipelines with nightly
-                      build and continuous test-runs
+                      build and continuous test runs
                     </li>
                     <li>
                       Coordinating with their existing team of Rust engineers
-                      and being first point of contact for investor queries
-                      through an ITIL- certified Prowerse engineer
+                      and being the first point of contact for investor queries
+                      through an ITIL-certified Prowerse engineer
                     </li>
                   </ul>
                 </div>
@@ -119,9 +119,9 @@ function ViewCaseStudy() {
                       helped client retain their early-mover advantage
                     </li>
                     <li>
-                      Cost reduction: facilitating disposable infrastructure for
+                      Cost reduction: Facilitating disposable infrastructure for
                       individual test instances itself resulted in 40% annual
-                      cost-reduction
+                      cost reduction
                     </li>
                     <li>
                       Access to skilled resources, enabling client to fill their
@@ -146,7 +146,7 @@ function ViewCaseStudy() {
                   {' '}
                   <div className="textwidget">
                     <div className="contact-bar">
-                      <h3>TO KNOW MORE ABOUT OUR CLIENT</h3>
+                      <h3>KNOW MORE ABOUT OUR CLIENT</h3>
                       <p className="text-inner">
                         To start a dialogue with our consultant, please complete
                         our contact form and we shall get in touch with you
@@ -185,7 +185,7 @@ function ViewCaseStudy() {
                   <p>
                     The core project team has remained the same since last 25
                     months which is a great testament to Prowerse management.
-                    They are our go to partners for new requirements due to the
+                    They are our go-to partners for new requirements due to the
                     transparent and loyal relationship maintained through
                     various ups and downs.
                   </p>

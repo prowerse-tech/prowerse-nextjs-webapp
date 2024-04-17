@@ -10,14 +10,19 @@ function Careers() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const images = [
     [
-      'assets/img/portfolio/portfolio-1.jpg',
-      'assets/img/portfolio/portfolio-2.jpg',
-      'assets/img/portfolio/portfolio-3.jpg',
+      'assets/img/portfolio/slider-1.jpeg',
+      'assets/img/portfolio/slider-2.jpg',
+      'assets/img/portfolio/slider-3.jpeg',
     ],
     [
-      'assets/img/portfolio/portfolio-4.jpg',
-      'assets/img/portfolio/portfolio-5.jpg',
-      'assets/img/portfolio/portfolio-6.jpeg',
+      'assets/img/portfolio/slider-4.jpeg',
+      'assets/img/portfolio/slider-5.jpeg',
+      'assets/img/portfolio/slider-6.jpg'
+    ],
+    [
+      'assets/img/portfolio/slider-9.jpeg',
+      'assets/img/portfolio/slider-10.jpeg',
+      'assets/img/portfolio/slider-12.jpg'
     ],
   ]
 
@@ -62,7 +67,7 @@ function Careers() {
         </div>
       </section>
       <main id="main">
-        <section id="portfolio" class="portfolio">
+        <section id="portfolio" className="portfolio">
           <div className="container" data-aos="fade-up">
             <div className="section-title text-center position-relative pb-3 mx-auto">
               <h2>Life at Prowerse</h2>
@@ -81,7 +86,7 @@ function Careers() {
                 <button className="next" onClick={nextSlide}>
                   &#10095;
                 </button>
-                <div className="slides col-lg-4 col-md-6 portfolio-item">
+                <div className="slides col-lg-4 col-md-6 portfolio-item" style={{width:'100%'}}>
                   {images.map((imageGroup, index) => (
                     <div
                       key={index}
@@ -90,7 +95,7 @@ function Careers() {
                       }
                     >
                       {imageGroup.map((image, subIndex) => (
-                        <img
+                        <img className="img-responsive slider-img"
                           key={subIndex}
                           src={image}
                           alt={`Slide ${index + 1} Image ${subIndex + 1}`}
@@ -190,9 +195,10 @@ function Careers() {
                       <span className="col-md-5 color--heading">
                         <i className="bi bi-server"></i>
 
-                        <span className="position position-title">
-                          Test Automation Engineer
+                        <span className="position position-title mobile-position-title" style={{marginTop: -6}}>
+                          Test Automation <br/>Engineer
                         </span>
+                        
                       </span>
 
                       <span className="col-5 col-md-3 my-3 my-sm-0 color--text">
@@ -248,17 +254,17 @@ function Careers() {
 
       <JoinUsForm />
 
-      <section class="follow-us_new">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
+      <section className="follow-us_new">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
               <h3>Follow us and stay connected for more updates on LinkedIn</h3>
               <a
                 href="https://www.linkedin.com/company/prowerse/mycompany/"
                 target="_blank"
-                class="btn btn-lg btn-linkedin_new"
+                className="btn btn-lg btn-linkedin_new"
               >
-                <i class="bx bxl-linkedin"></i> Follow on LinkedIn
+                <i className="bx bxl-linkedin"></i> Follow on LinkedIn
               </a>
             </div>
           </div>

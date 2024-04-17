@@ -22,7 +22,6 @@ function ContactUS() {
   const handleChangeForm = (event, eventName) => {
     setContactData({ ...contactData, [eventName]: event.target.value })
   }
-  console.log(process.env.REACT_APP_SOURCE)
   const SendMail = () => {
     const captchaValue = recaptcha.current.getValue()
     if (!captchaValue) {
@@ -97,7 +96,7 @@ function ContactUS() {
               <br />
               <h5>
                 Whether you're seeking collaboration, have burning questions, or
-                just fancy a digital chat, we're here—ready to engage, inspire,
+                just fancy a digital chat, we're here — ready to engage, inspire,
                 and make meaningful connections in the vast landscape of
                 possibilities.
               </h5>
@@ -137,7 +136,7 @@ function ContactUS() {
                   <div className="info-box mt-4">
                     <i className="bx bx-envelope"></i>
                     <h3>Email Us</h3>
-                    <p>inquiry@prowerse.com</p>
+                    <p><a style={{color: '#444444'}} href="mailto:inquiry@prowerse.com">inquiry@prowerse.com</a></p>
                     <br />
                     <br />
                   </div>
@@ -154,7 +153,7 @@ function ContactUS() {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-6 right-contact-form">
               <div className="php-email-form">
                 <div className="row">
                   <div className="col form-group">
@@ -240,11 +239,11 @@ function ContactUS() {
                   Gujarat 380009
                 </p>
                 <p>
-                  <b className="service-fill">Phone:-</b>
+                  <b className="service-fill">Phone: </b>
                   <span className="service-fill">+91-9537485017</span>
                   <br />
-                  <b className="service-fill">Email:-</b>{' '}
-                  <span className="service-fill">inquiry@prowerse.com</span>
+                  <b className="service-fill">Email: </b>{' '}
+                  <span className="service-fill"><a style={{color: 'white'}} href="mailto:inquiry@prowerse.com">inquiry@prowerse.com</a></span>
                   <br />
                   <Link
                     to="https://www.google.co.in/maps/place/Prowerse/@23.0419532,72.5453409,14z/data=!4m6!3m5!1s0x395c2985ee155555:0x7f4b353f9d5a755a!8m2!3d23.0389321!4d72.563301!16s%2Fg%2F11ngmktn3p?entry=ttu"

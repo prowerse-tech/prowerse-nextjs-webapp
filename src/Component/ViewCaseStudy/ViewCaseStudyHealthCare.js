@@ -14,7 +14,7 @@ function ViewCaseStudy() {
       ></section>
 
       {/* <!-- ======= Blog Single Section ======= --> */}
-      <section id="blog" class="blog">
+      <section id="blog" className="blog">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-8 entries">
@@ -25,7 +25,7 @@ function ViewCaseStudy() {
                   </span>
                 </h4>
 
-                <div className="entry-content">
+                <div className="entry-content entry-content-desc">
                   <h3 className="sidebar-title">
                     <span style={{ color: '#ff8050' }}>CLIENT PROFILE</span>
                   </h3>
@@ -36,8 +36,8 @@ function ViewCaseStudy() {
                     </b>
                   </p>
                   <p>
-                    Our solution aims to tackle lack of availability of medical
-                    services in the region through our machine learning enabled
+                    Our solution aims to tackle the lack of availability of medical
+                    services in the region through our machine-learning enabled
                     diseases prediction services, helping users preempt serious
                     medical situation in time.
                   </p>
@@ -70,28 +70,28 @@ function ViewCaseStudy() {
                   </p>
                   <ul>
                     <li>
-                      <span style={{ fontWeight: 'bold' }}>Firstly</span>{' '}
+                      <span style={{ fontWeight: 'bold' }}>Firstly,</span>{' '}
                       defined & developed ground work for diseases prediction
-                      algorithm.
+                      algorithm
                     </li>
                     <li>
                       <span style={{ fontWeight: 'bold' }}>Secondly,</span>{' '}
                       finalized on PWA as choice of app stack. This allowed us
                       to combine Android, iOS, Web & Admin portals into one
                       single source offering, enabling client to roll out quick
-                      weekly updates to enhance MVP's desired impact.
+                      weekly updates to enhance MVP's desired impact
                     </li>
                     <li>
                       <span style={{ fontWeight: 'bold' }}>Thirdly,</span>{' '}
                       ensured set up of cloud infra IT infrastructure, and CI-CD
                       pipelines to make release cycles shorter and more
-                      effective.
+                      effective
                     </li>
                     <li>
                       <span style={{ fontWeight: 'bold' }}>Importantly,</span>{' '}
                       streamlined communication channels with existing
                       freelancing units and delivering towards one common
-                      objective.
+                      objective
                     </li>
                   </ul>
                 </div>
@@ -127,17 +127,17 @@ function ViewCaseStudy() {
 
             <div className="col-lg-4">
               <div className="sidebar">
-                <div id="text-11" class="widgetContainer widget_text">
+                <div id="text-11" className="widgetContainer widget_text">
                   {' '}
-                  <div class="textwidget">
-                    <div class="contact-bar">
-                      <h3>TO KNOW MORE ABOUT OUR CLIENT</h3>
+                  <div className="textwidget">
+                    <div className="contact-bar">
+                      <h3>KNOW MORE ABOUT OUR CLIENT</h3>
                       <p className="text-inner">
                         To start a dialogue with our consultant, please complete
                         our contact form and we shall get in touch with you
                         shortly.
                       </p>
-                      <div class="contact-bttn">
+                      <div className="contact-bttn">
                         <Link to="/contact">Let's Talk</Link>
                       </div>
                     </div>

@@ -52,7 +52,7 @@ function Service() {
 
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <div className="box" data-aos="fade-up" data-aos-delay="100">
+              <div className="box box-min-height" data-aos="fade-up" data-aos-delay="100">
                 <h3>Enterprise Applications</h3>
                 <p>
                   Enterprise Applications are large-scale software packages that
@@ -67,7 +67,7 @@ function Service() {
 
             <div className="col-lg-4 col-md-6 mt-4 mt-md-0">
               <div
-                className="box featured"
+                className="box featured box-min-height"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
@@ -85,7 +85,7 @@ function Service() {
             </div>
 
             <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <div className="box" data-aos="fade-up" data-aos-delay="300">
+              <div className="box box-min-height" data-aos="fade-up" data-aos-delay="300">
                 <h3>Web Applications</h3>
                 <p>
                   Prowerse provides flexible and seamless website development
@@ -149,12 +149,12 @@ function Service() {
           <div className="row">
             <div className="col-md-4">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker text-style">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker text-style">
                       Backends
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 
@@ -167,12 +167,12 @@ function Service() {
 
             <div className="col-md-4 mt-4 mt-md-0">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker text-style">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker text-style">
                       AI/ML
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 
@@ -183,12 +183,12 @@ function Service() {
             </div>
             <div className="col-md-4">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker text-style">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker text-style">
                       CloudOps
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 
@@ -199,12 +199,12 @@ function Service() {
             </div>
             <div className="col-md-4">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker text-style">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker text-style">
                       DevOps
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 
@@ -215,12 +215,12 @@ function Service() {
             </div>
             <div className="col-md-4">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker text-style">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker text-style">
                       Mobility
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 
@@ -231,12 +231,12 @@ function Service() {
             </div>
             <div className="col-md-4">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker text-style">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker text-style">
                       Frontends
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 
@@ -247,12 +247,12 @@ function Service() {
             </div>
             <div className="col-md-4">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker">
                       UI Bundles
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 
@@ -263,12 +263,12 @@ function Service() {
             </div>
             <div className="col-md-4">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker text-style">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker text-style">
                       UX
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 
@@ -279,12 +279,12 @@ function Service() {
             </div>
             <div className="col-md-4">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker text-style">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker text-style">
                       Validation
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 
@@ -314,12 +314,12 @@ function Service() {
 
             <div className="col-md-4">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="example-wrap">
-                  <div class="button-wrap-1 example">
-                    <a href class="clicker">
+                <div className="example-wrap">
+                  <div className="button-wrap-1 example">
+                    <a href className="clicker">
                       (RPA + GenAI)
                     </a>
-                    <div class="circle"></div>
+                    <div className="circle"></div>
                   </div>
                 </div>
 

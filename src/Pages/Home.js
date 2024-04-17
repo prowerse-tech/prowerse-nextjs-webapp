@@ -185,7 +185,15 @@ const Home = () => {
                       <p>
                         Stay focused on the continuous march toward achieving
                         the milestones, the successes, and the breakthroughs.
-                      </p>
+                      
+                      <br/>
+                        Continuous progress and keeping all the relevant
+                        stakeholders informed is a key element to every
+                        engagement. This key habit, more often than not,
+                        eliminates maximum communication gaps that arises in any
+                        engagement. Prowerse has time-tested methodologies and
+                        process to adhere to this.
+                        </p>
                     </div>
                     <div
                       className="col-md-6 icon-box"
@@ -282,17 +290,12 @@ const Home = () => {
                         <i className="ri-check-double-line"></i>
                         <b>Client-Centric Solutions: </b>Our listening appetite
                         and extensive experience with a diverse set of domains
-                        translate into a deeper understanding of client needs.
-                        <div>
-                          This allows us to engineer tailor-made solutions that
-                          exceed client expectations.
-                        </div>
-                        <div>
-                          The ability to anticipate domain-specific challenges
+                        translate into a deeper understanding of client needs. This allows us to engineer tailor-made solutions that
+                          exceed client expectations. The ability to anticipate domain-specific challenges
                           enables the delivery of impactful software products,
                           mitigating challenges encountered at various junctures
                           of SDLC.
-                        </div>
+                     
                       </li>
                       {/* <br /> */}
                       <li>
@@ -301,11 +304,8 @@ const Home = () => {
                         powerful tool for effective problem-solving. Our
                         versatile experience empowers us to quickly identify
                         issues that may arise during product development and
-                        implementation.
-                        <div>
-                          This allows for proactive issue resolution, minimizing
-                          downtime and ensuring customer delight.
-                        </div>
+                        implementation. This allows for proactive issue resolution, minimizing downtime and ensuring customer delight.
+                      
                       </li>
                       {/* <br /> */}
                       <li>
@@ -317,13 +317,11 @@ const Home = () => {
                         accelerating project timelines and enhancing the overall
                         delivery quality, this also boosts the
                         cost-effectiveness and reliability of the solution
-                        delivered.
-                        <div>
-                          Along with accelerating project timelines and
+                        delivered. Along with accelerating project timelines and
                           enhancing the overall delivery quality, this also
                           boosts the cost-effectiveness and reliability of the
                           solution delivered.
-                        </div>
+                        
                       </li>
                     </ul>
                   </div>
@@ -336,8 +334,8 @@ const Home = () => {
                     <img
                       src="assets/img/whychosseus/about-us.jpg"
                       alt=""
-                      className="img-fluid"
-                      style={{ marginTop: 10 }}
+                      className="img-fluid why-chosse-1"
+                      
                     />
                   </div>
                 </div>
@@ -381,7 +379,7 @@ const Home = () => {
                         carry with them, even more than certain quality and
                         economical aspects.
                       </li>
-                      <li>
+                      <li className='list-desktop'>
                         <i className="ri-check-double-line"></i>
                         <b>Customer & Employee Satisfaction:</b> These are the
                         two core aspects of any business. We go the extra mile
@@ -394,11 +392,12 @@ const Home = () => {
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 text-center">
                     <img
-                      src="assets/img/whychosseus/journey.jpg"
+                      src="assets/img/whychosseus/people.jpg"
                       alt=""
-                      className="img-fluid"
-                      style={{ marginTop: 10 }}
+                      className="img-fluid why-chosse-1"
+                      
                     />
+                   
                   </div>
                 </div>
               </div>
@@ -414,23 +413,15 @@ const Home = () => {
                       </li>
 
                       <li>
-                        <i className="ri-check-double-line"></i>We go beyond{' '}
-                        <b>one-size-fits-all practices</b> and delve into the
+                        <i className="ri-check-double-line"></i>We go beyond
+                        <b> one-size-fits-all practices</b> and delve into the
                         intricacies of your requirements to meet your expected
-                        service standards.
-                        <div>
-                          Customised approach as per the nature of your business
-                          helps us address your vision.
-                        </div>
-                        <div>
-                          Working with a start-up or small business is different
-                          from working with an enterprise.{' '}
-                        </div>
-                        <div>
-                          Refining an idea into an MVP/prototype or rapid
+                        service standards. Customised approach as per the nature of your business
+                          helps us address your vision. Working with a start-up or small business is different
+                          from working with an enterprise. Refining an idea into an MVP/prototype or rapid
                           productization for early adopters are a few cases that
                           we have mastered over several executions.
-                        </div>
+                       
                       </li>
 
                       <li>
@@ -453,8 +444,8 @@ const Home = () => {
                     <img
                       src="assets/img/whychosseus/progress.jpg"
                       alt=""
-                      className="img-fluid"
-                      style={{ marginTop: 10 }}
+                      className="img-fluid why-chosse-1"
+                      // style={{ marginTop: 10 }}
                     />
                   </div>
                 </div>
@@ -469,7 +460,7 @@ const Home = () => {
                         experience in their respective domains.
                       </li>
                       <br />
-                      <br />
+
                       <li>
                         <i className="ri-check-double-line"></i>{' '}
                         <b>State-of-the-art tools and techniques:</b> Our choice
@@ -478,7 +469,7 @@ const Home = () => {
                         mind.
                       </li>
                       <br />
-                      <br />
+
                       <li>
                         <i className="ri-check-double-line"></i> Our
                         collaborative ethos implies that we share in both wins
@@ -487,7 +478,7 @@ const Home = () => {
                         <b>"we are there whenever you need someone"</b>.
                       </li>
                       <br />
-                      <br />
+
                       <li>
                         <i className="ri-check-double-line"></i> With a{' '}
                         <b>vision of mutual growth</b>, our people bring a
@@ -498,7 +489,7 @@ const Home = () => {
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 text-center">
                     <img
-                      src="assets/img/whychosseus/people.jpg"
+                      src="assets/img/whychosseus/journey.jpg"
                       alt=""
                       className="img-fluid"
                       style={{ marginTop: 10 }}
@@ -599,7 +590,7 @@ const Home = () => {
                 className="case-studies-banner row mr0 aos-init aos-animate"
                 data-aos="fade-up"
               >
-                <div className="item col-lg-6 col-sm-6 aos-init aos-animat">
+                <div className="item col-lg-6 col-sm-6 aos-init aos-animat" style={{ marginTop: 26 }}>
                   <div className="inner-cols banner1">
                     <div className="banner-col-content">
                       <div className="col-logo"></div>
@@ -616,7 +607,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="item col-lg-6 col-sm-6 aos-init aos-animat">
+                <div className="item col-lg-6 col-sm-6 aos-init aos-animat" style={{ marginTop: 26 }}>
                   <div className="inner-cols banner2">
                     <div className="banner-col-content">
                       <div className="col-logo"></div>
@@ -643,7 +634,7 @@ const Home = () => {
                     <div className="banner-col-content">
                       <div className="col-logo"></div>
                       <p className="para">
-                        Scaling MVP to market- ready product offering by keeping
+                        Scaling MVP to market-ready product offering by keeping
                         product north star in sight and increasing marketable
                         feature releases with 50% more agility
                       </p>
@@ -670,7 +661,7 @@ const Home = () => {
                       <div className="col-logo"></div>
                       <p className="para">
                         Enhancement In Client's Transnational strategy with
-                        annual cost - saving of about 40%
+                        annual cost-saving of about 40%
                       </p>
                       <p className="para domainPara">
                         DOMAIN - <span>Insurance </span>
@@ -697,7 +688,7 @@ const Home = () => {
               <h2>WHAT OUR CORE CLIENTS SAY ?</h2>
             </div>
             <div className="container" data-aos="fade-up">
-              <div className="row gy-4">
+              <div className="row gy-4 desktop-testimonial">
                 <div
                   className="col-xl-8 col-md-6 inner-box"
                   data-aos="fade-up"
@@ -725,6 +716,7 @@ const Home = () => {
                     src="assets/img/testimonials/testimonial-1.png"
                     alt="Nature"
                     classname="responsive testimonail-img"
+                    style={{ height: 293 }}
                   />
                 </div>
 
@@ -732,11 +724,13 @@ const Home = () => {
                   className="col-xl-4 col-md-6 inner-box"
                   data-aos="fade-up"
                   data-aos-delay="100"
+                  style={{ paddingLeft: 40 }}
                 >
                   <img
                     src="assets/img/testimonials/testimonial-2.jpg"
                     alt="Nature"
                     classname="responsive testimonail-img"
+                    style={{ height: 293 }}
                   />
                 </div>
                 <div
@@ -780,6 +774,123 @@ const Home = () => {
                     alt="Nature"
                     classname="responsive testimonail-img"
                   />
+                </div>
+
+                <div
+                  className="col-xl-4 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  style={{ paddingLeft: 40 }}
+                >
+                  <img
+                    src="assets/img/testimonials/staffaugmentation.png"
+                    alt="Nature"
+                    classname="responsive testimonail-img"
+                    style={{ height: 293 }}
+                  />
+                </div>
+                <div
+                  className="col-xl-8 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p className="testimonial-text">
+                    Prowerse is best suited for an emerging brands eying quality
+                    deliveries at optimum costs. Glad we found them. Can't speak
+                    higher of any other brand.
+                  </p>
+                  <p>
+                    <h6>Diana, Event Management firm from Durban, SA</h6>
+                  </p>
+                </div>
+              </div>
+              <div
+                className="row gy-4 mobile-testimonial"
+                style={{ marginTop: 17 }}
+              >
+                <div
+                  className="col-xl-4 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="assets/img/testimonials/testimonial-1.png"
+                    alt="Nature"
+                    className="responsive testimonail-img"
+                    style={{ height: 293 }}
+                  />
+                </div>
+                <div
+                  className="col-sm-12 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p className="testimonial-text">
+                    Development results are great and skills of the developers
+                    are effective. Communication as an aspect is given high
+                    regard. Overall good value for money.
+                  </p>
+                  <p>
+                    <h6>
+                      {' '}
+                      Product company in Health, Fitness & Nutrition domain,
+                      Norway
+                    </h6>
+                  </p>
+                </div>
+
+                <div
+                  className="col-xs-12 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="assets/img/testimonials/testimonial-2.jpg"
+                    alt="Nature"
+                    classname="responsive testimonail-img"
+                    style={{ height: 293 }}
+                  />
+                </div>
+                <div
+                  className="col-xs-12 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p className="testimonial-text">
+                    The core project team has remained the same since last 25
+                    months which is a great testament to Prowerse management.
+                    They are our go to partners for new requirements due to the
+                    transparent and loyal relationship maintained through
+                    various ups and downs.
+                  </p>
+                  <p>
+                    <h6>Swiss Blockchain solutions company working in Web3</h6>
+                  </p>
+                </div>
+                <div
+                  className="col-xs-4 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src="assets/img/testimonials/dedicatedteam.png"
+                    alt="Nature"
+                    classname="responsive testimonail-img"
+                  />
+                </div>
+                <div
+                  className="col-xs-12 col-md-6 inner-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p className="testimonial-text">
+                    DevOps is their forte. Bring what you got. AWS, Azure, GCP.
+                    Strong technical acumen. In other terms, it's like a tennis
+                    player with qualities of Fed, Rafa and Novak.
+                  </p>
+                  <p>
+                    <h6>CTO, Sports event management firm, Prague, Czechia</h6>
+                  </p>
                 </div>
 
                 <div
@@ -832,9 +943,15 @@ const Home = () => {
                 <div className="member" data-aos="fade-up" data-aos-delay="100">
                   <div className="member-img">
                     <img
-                      src="\assets/img/team/prady.png"
+                      src="\assets/img/team/newimags/prady.jpg"
                       className="img-fluid"
                       alt=""
+                      style={{
+                        minHeight: 352,
+                        objectFit: 'cover',
+                        width: 285,
+                        maxHeight: 352,
+                      }}
                     />
                     <div className="social">
                       <a
@@ -854,12 +971,16 @@ const Home = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div className="member" data-aos="fade-up" data-aos-delay="100">
                   <div className="member-img">
-                    {/* src="prowerse-website/assets/img/team/prady.jpg" */}
                     <img
-                      src="assets/img/team/mohit.png"
+                      src="/assets/img/team/newimags/mohit.jpg"
                       className="img-fluid"
                       alt=""
-                      style={{ height: 352 }}
+                      style={{
+                        minHeight: 352,
+                        objectFit: 'cover',
+                        width: 285,
+                        maxHeight: 352,
+                      }}
                     />
                     <div className="social">
                       <a
@@ -879,11 +1000,16 @@ const Home = () => {
               <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div className="member" data-aos="fade-up" data-aos-delay="100">
                   <div className="member-img">
-                    {/* src="prowerse-website/assets/img/team/prady.jpg" */}
                     <img
-                      src="assets/img/team/hardik.png"
+                      src="assets/img/team/newimags/hardik.jpg"
                       className="img-fluid"
                       alt=""
+                      style={{
+                        minHeight: 352,
+                        objectFit: 'cover',
+                        width: 285,
+                        maxHeight: 352,
+                      }}
                     />
                     <div className="social">
                       <a
