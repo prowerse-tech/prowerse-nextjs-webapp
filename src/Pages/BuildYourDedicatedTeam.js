@@ -240,7 +240,7 @@ function BuildYourDedicatedTeam() {
           <div className="row" style={{ marginTop: '20px' }}>
             <div className="col-12 mt-5 "></div>
             <div
-              className="col-12 col-md-6 col-lg-4"
+              className="col-12 col-md-6 col-lg-4 dedicated-week-section-col"
               style={{ marginTop: '20px' }}
             >
               <div className="core-expertise-box bg-white position-relative">
@@ -262,7 +262,7 @@ function BuildYourDedicatedTeam() {
               </div>
             </div>
             <div
-              className="col-12 col-md-6 col-lg-4"
+              className="col-12 col-md-6 col-lg-4 dedicated-week-section-col"
               style={{ marginTop: '20px' }}
             >
               <div className="core-expertise-box bg-white position-relative">
@@ -284,7 +284,7 @@ function BuildYourDedicatedTeam() {
               </div>
             </div>
             <div
-              className="col-12 col-md-6 col-lg-4"
+              className="col-12 col-md-6 col-lg-4 "
               style={{ marginTop: '20px' }}
             >
               <div className="core-expertise-box bg-white position-relative">

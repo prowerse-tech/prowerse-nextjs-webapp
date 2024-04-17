@@ -590,7 +590,7 @@ const Home = () => {
                 className="case-studies-banner row mr0 aos-init aos-animate"
                 data-aos="fade-up"
               >
-                <div className="item col-lg-6 col-sm-6 aos-init aos-animat">
+                <div className="item col-lg-6 col-sm-6 aos-init aos-animat" style={{ marginTop: 26 }}>
                   <div className="inner-cols banner1">
                     <div className="banner-col-content">
                       <div className="col-logo"></div>
@@ -607,7 +607,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="item col-lg-6 col-sm-6 aos-init aos-animat">
+                <div className="item col-lg-6 col-sm-6 aos-init aos-animat" style={{ marginTop: 26 }}>
                   <div className="inner-cols banner2">
                     <div className="banner-col-content">
                       <div className="col-logo"></div>

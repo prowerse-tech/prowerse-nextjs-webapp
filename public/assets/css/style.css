@@ -430,6 +430,7 @@ li .active a {
   #hero {
     text-align: center;
     padding-top: 58px;
+    height: auto !important;
   }
 
   #hero h1 {
@@ -509,6 +510,7 @@ li .active a {
   #hero-about {
     text-align: center;
     padding-top: 58px;
+    height: auto !important;
   }
 
   #hero-about h1 {
@@ -591,6 +593,7 @@ li .active a {
   #hero-career {
     text-align: center;
     padding-top: 58px;
+    height: auto !important;
   }
 
   #hero-career h1 {
@@ -703,6 +706,7 @@ Build your dedicated team
   #service-build-your-dedicated {
     text-align: center;
     padding-top: 58px;
+    height: auto !important;
   }
 
   #service-build-your-dedicated h1 {
@@ -1692,7 +1696,7 @@ section {
   margin-top: 12%;
 }
 .testimonial-section .testimonail-img {
-  margin-top: -43px;
+  /* margin-top: -43px; */
 }
 /*--------------------------------------------------------------
 # Pricing
@@ -4284,45 +4288,50 @@ post resume
 .slider-img{
   margin-top: 10px
 }
-/* Media query for tablets (portrait and landscape) */
-@media screen and (max-width: 1024px) {
-  /* Adjust slider styles for tablets */
-  .slides {
-    /* Define specific styles for tablets */
-  }
-}
 
-/* Media query for mobile devices */
-@media screen and (max-width: 767px) {
-  .slides {
-    max-width: 100%; 
-    overflow: hidden; 
-  }
-  
-  .slide {
-    width: 100%; 
-    display: none; 
-  }
 
-  .slide.active {
-    display: block;
-  }
-  
-  
-  .slide img {
-    max-width: 100%; 
-    height: auto; 
-  }
-}
 
-/* Media queries */
+/* Add media queries for different screen sizes */
 @media (max-width: 768px) {
-  /* Styles for tablets and smaller devices */
   .slides {
-    width: 100%; /* Display one slide at a time */
+    height: 300px; /* Adjust the height as needed */
+   
+    /* width: 100%;  */
+    /* max-width: 100%; 
+    overflow: hidden;  */
   }
+  .slides img {
+    width: 32%;
+    height: auto;
+    min-height: 150px;
+    margin-right: 3px;
+}
+  .prev, .next {
+    font-size: 20px;
+  }
+  .right-contact-form{
+    margin-top: 25px !important;
+  }
+  .button-wrap-1 .clicker {
+    left: 2px;
+}
+.dedicated-week-section-col{
+  margin-bottom: 17%;
+}
+.mobile-position-title{
+  margin-top: -13px !important;
+}
 }
 
+@media (max-width: 576px) {
+  .slides {
+    height: 200px; /* Adjust the height as needed */
+  }
+
+  .prev, .next {
+    font-size: 16px;
+  }
+}
 
 /* Stay connected */
 

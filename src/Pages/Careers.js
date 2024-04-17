@@ -9,16 +9,6 @@ function Careers() {
   }, [])
   const [currentSlide, setCurrentSlide] = useState(0)
   const images = [
-    // [
-    //   'assets/img/portfolio/portfolio-1.jpg',
-    //   'assets/img/portfolio/portfolio-2.jpg',
-    //   'assets/img/portfolio/portfolio-3.jpg',
-    // ],
-    // [
-    //   'assets/img/portfolio/portfolio-4.jpg',
-    //   'assets/img/portfolio/portfolio-5.jpg',
-    //   'assets/img/portfolio/portfolio-6.jpeg',
-    // ],
     [
       'assets/img/portfolio/slider-1.jpeg',
       'assets/img/portfolio/slider-2.jpg',
@@ -205,7 +195,7 @@ function Careers() {
                       <span className="col-md-5 color--heading">
                         <i className="bi bi-server"></i>
 
-                        <span className="position position-title" style={{marginTop: -6}}>
+                        <span className="position position-title mobile-position-title" style={{marginTop: -6}}>
                           Test Automation <br/>Engineer
                         </span>
                         

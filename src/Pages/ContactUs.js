@@ -153,7 +153,7 @@ function ContactUS() {
               </div>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-6 right-contact-form">
               <div className="php-email-form">
                 <div className="row">
                   <div className="col form-group">
