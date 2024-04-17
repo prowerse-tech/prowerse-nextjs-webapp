@@ -153,7 +153,7 @@ function PostResume() {
                       className="form-control"
                       name="subject"
                       id="subject"
-                      placeholder="Experiencer"
+                      placeholder="Experience"
                       required
                       value={experience} // Set value to the state variable
                       onChange={(e) => setExperience(e.target.value)} // Update state variable on change
