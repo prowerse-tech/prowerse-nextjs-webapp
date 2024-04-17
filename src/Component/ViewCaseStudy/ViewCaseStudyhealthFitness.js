@@ -38,7 +38,7 @@ function ViewCaseStudy() {
                     </b>
                   </p>
                   <p>
-                    Their main customers are personal trainers, nutritionists,,
+                    Their main customers are personal trainers, nutritionists,
                     etc. Mobile apps on iOS & Android caters to users from
                     Norway, Sweden & Lithuania. Solution also offers platform
                     for health professionals to enrol & offer services.
@@ -111,7 +111,7 @@ function ViewCaseStudy() {
                   </h3>
                   <ul>
                     <li>
-                      Rapid productization and reduced GO-TO-MARKET time by 20%
+                      Rapid productization and reduced go-to-market time by 20%
                     </li>
                     <li>
                       Cost Reduction: Reduced business expenses by about 30%

@@ -100,7 +100,7 @@ function ViewCaseStudy() {
                     <li>
                       Coordinating with their existing team of Rust engineers
                       and being the first point of contact for investor queries
-                      through an ITIL - certified Prowerse engineer
+                      through an ITIL-certified Prowerse engineer
                     </li>
                   </ul>
                 </div>
@@ -119,7 +119,7 @@ function ViewCaseStudy() {
                       helped client retain their early-mover advantage
                     </li>
                     <li>
-                      Cost reduction: facilitating disposable infrastructure for
+                      Cost reduction: Facilitating disposable infrastructure for
                       individual test instances itself resulted in 40% annual
                       cost reduction
                     </li>

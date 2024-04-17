@@ -123,7 +123,7 @@ function ViewCaseStudyInsurance() {
                       Enhanced delivery visibility: Around key business
                       performance indicators for the management
                     </li>
-                    <li>Simplifying multi - vendor complexities</li>
+                    <li>Simplifying multi-vendor complexities</li>
                     <li>
                       Improved accuracy through introduction of automation
                       testing and other key initiatives

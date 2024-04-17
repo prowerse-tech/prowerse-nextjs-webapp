@@ -304,7 +304,7 @@ const Home = () => {
                         powerful tool for effective problem-solving. Our
                         versatile experience empowers us to quickly identify
                         issues that may arise during product development and
-                        implementation.This allows for proactive issue resolution, minimizing downtime and ensuring customer delight.
+                        implementation. This allows for proactive issue resolution, minimizing downtime and ensuring customer delight.
                       
                       </li>
                       {/* <br /> */}
@@ -634,7 +634,7 @@ const Home = () => {
                     <div className="banner-col-content">
                       <div className="col-logo"></div>
                       <p className="para">
-                        Scaling MVP to market- ready product offering by keeping
+                        Scaling MVP to market-ready product offering by keeping
                         product north star in sight and increasing marketable
                         feature releases with 50% more agility
                       </p>
@@ -661,7 +661,7 @@ const Home = () => {
                       <div className="col-logo"></div>
                       <p className="para">
                         Enhancement In Client's Transnational strategy with
-                        annual cost - saving of about 40%
+                        annual cost-saving of about 40%
                       </p>
                       <p className="para domainPara">
                         DOMAIN - <span>Insurance </span>
