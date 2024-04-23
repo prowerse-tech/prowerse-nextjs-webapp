@@ -642,7 +642,7 @@ const Home = () => {
                         DOMAIN - <span>Health, Wellness & Fitness</span>
                       </p>
                       <Link
-                        to="/health-wealth-fitness"
+                        to="/health-wellness-fitness"
                         className="red-btn circle-btn"
                       >
                         {' '}
