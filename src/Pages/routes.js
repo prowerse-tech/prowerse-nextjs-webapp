@@ -95,7 +95,7 @@ const routes = [
     type: "collapse",
     name: "ViewCaseStudyhealthFitness",
     key: "ViewCaseStudyhealthFitness",
-    route: "/health-wealth-fitness",
+    route: "/health-wellness-fitness",
     component: <ViewCaseStudyhealthFitness />,
   },  {
     type: "collapse",

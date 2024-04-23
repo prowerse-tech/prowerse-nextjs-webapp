@@ -11,7 +11,7 @@ AWS.config.update({
 
 function PostResume() {
   const recaptcha = useRef(null)
-  const toEmail = useState(process.env.REACT_APP_SOURCE)
+  const toEmail = useState(process.env.REACT_APP_CAREER)
   const [name, setName] = useState('') // State for name field
   const [email, setEmail] = useState('') // State for email field
   const [phoneNumber, setPhoneNumber] = useState('') // State for phone number field
@@ -35,7 +35,7 @@ function PostResume() {
       Experience: ${experience}
       `
       const params = {
-        Source: process.env.REACT_APP_SOURCE, // Replace with your verified email address in AWS SES
+        Source: process.env.REACT_APP_CAREER, // Replace with your verified email address in AWS SES
         Destination: {
           ToAddresses: [toEmail],
         },
