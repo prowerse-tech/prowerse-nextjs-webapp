@@ -2,7 +2,7 @@
 import './App.css'
 import React, { useEffect, useState } from 'react'
 import Navbar from './Pages/NavBar'
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate,RouterProvider } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import routes from "./Pages/routes";
 
@@ -59,6 +59,7 @@ function App() {
 
     <>      
       <Navbar />
+      
       <Routes>
           {getRoutes(routes)}
           <Route path="*" element={<Navigate to="/" />} />
