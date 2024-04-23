@@ -10,7 +10,7 @@ AWS.config.update({
 
 function JoinUsForm() {
   const recaptcha = useRef(null)
-  const toEmail = process.env.REACT_APP_SOURCE
+  const toEmail = process.env.REACT_APP_CAREER
   const [name, setName] = useState('') // State for name field
   const [email, setEmail] = useState('') // State for email field
   const [phoneNumber, setPhoneNumber] = useState('') // State for phone number field
@@ -33,7 +33,7 @@ function JoinUsForm() {
       Experience: ${experience}
       `
       const params = {
-        Source: process.env.REACT_APP_SOURCE, // Replace with your verified email address in AWS SES
+        Source: process.env.REACT_APP_CAREER, // Replace with your verified email address in AWS SES
         Destination: {
           ToAddresses: [toEmail],
         },

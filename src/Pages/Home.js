@@ -642,7 +642,7 @@ const Home = () => {
                         DOMAIN - <span>Health, Wellness & Fitness</span>
                       </p>
                       <Link
-                        to="/health-wealth-fitness"
+                        to="/health-wellness-fitness"
                         className="red-btn circle-btn"
                       >
                         {' '}
@@ -957,6 +957,7 @@ const Home = () => {
                       <a
                         href="https://www.linkedin.com/in/zalaps/"
                         target="_blank"
+                        aria-label="Visit Zalap's LinkedIn profile"
                       >
                         <i className="bi bi-linkedin"></i>
                       </a>
@@ -986,6 +987,7 @@ const Home = () => {
                       <a
                         href="https://www.linkedin.com/in/mohit-p-jain/"
                         target="_blank"
+                        aria-label="Visit Mohit LinkedIn profile"
                       >
                         <i className="bi bi-linkedin"></i>
                       </a>
@@ -1015,6 +1017,7 @@ const Home = () => {
                       <a
                         href="https://www.linkedin.com/in/hardik-pathak-01000597/"
                         target="_blank"
+                        aria-label="Visit Hardik LinkedIn profile"
                       >
                         <i className="bi bi-linkedin"></i>
                       </a>
