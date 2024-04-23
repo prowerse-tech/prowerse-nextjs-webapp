@@ -38,7 +38,7 @@ function ContactUS() {
             },
           },
           Subject: {
-            Data: 'Contact From',
+            Data: 'Contact Form',
           },
         },
         Source: process.env.REACT_APP_SOURCE, // Replace with your verified email address in AWS SES
